@@ -1,5 +1,45 @@
 <!-- footer section -->
 <footer>
+  <div style="position: relative;">
+   <section class="price_index">
+      <div class="container">
+         <div class="row f_ipad">
+            <div class="col-md-4">
+               <div class="money_icon"> <i class="fa fa-money f_money"></i></div>
+               <h3 class="f_price">Best Price Guarantee</h3>
+               <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
+            </div>
+            <div class="col-md-4">
+               <div class="money_icon"> <i class="fa fa-plane f_money"></i></div>
+               <h3 class="f_price">Travel Insurance</h3>
+               <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
+            </div>
+            <div class="col-md-4">
+               <div class="money_icon"> <i class="fa fa-question f_money"></i></div>
+               <h3 class="f_price">Need Help?</h3>
+               <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="triplite_form">
+      <div class="container f_formborder">
+         <div class="row">
+            <div class="col-md-3">
+               <h3 class="sign_f">Sign Up for New <br>Updates & Newsletter</h3>
+            </div>
+            <div class="col-md-9">
+               <div class="input-group">
+                  <input type="text" class="form-control f_control">
+                  <div class="input-group-btn f_inputbtn">
+                     <button type="submit" class="btn btn-default f_search">SUBMIT</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+</div>
    <section class="main_footer">
       <div class="container">
          <div class="row">

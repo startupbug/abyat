@@ -812,7 +812,7 @@
       </div>
    </div>
 </section>
-<div style="position: relative;">
+<!--<div style="position: relative;">
    <section class="price_index">
       <div class="container">
          <div class="row f_ipad">
@@ -851,6 +851,6 @@
          </div>
       </div>
    </section>
-</div>
+</div>-->
 <div class="clearfix"></div>
 <?php include('footer.php'); ?>

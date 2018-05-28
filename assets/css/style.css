@@ -130,6 +130,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     z-index:999;
     width:100%;
     top:0;
+    
 }
  .navbar-inverse{
     background-color:transparent;
@@ -283,7 +284,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     font-family:'Montserrat-Regular';
     color:#fff;
 }
- .s_silder_tab .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+.s_silder_tab .nav-tabs>li.active>a, .s_silder_tab .nav-tabs>li.active>a:focus, .s_silder_tab .nav-tabs>li.active>a:hover{
     background-color:transparent;
     color:#fff;
     border-radius:0px;
@@ -1148,4 +1149,217 @@ p.f_fontsize {
    
     color: #333 !important;
     
+}
+
+h3.about_text {
+    font-size: 34px;
+    color: #262626;
+    font-family: 'Montserrat-Bold';
+    padding-top: 10px;
+}
+
+p.f_content {
+    font-size: 15px;
+    color: #6b6b6b;
+    font-family: 'Montserrat-Light';
+}
+
+h4.f_special {
+    font-size: 18px;
+    color: #26245c;
+    font-family: 'Montserrat-Medium';
+}
+
+p.f_lorem {
+    font-size: 16px;
+    color: #6b6b6b;
+    font-family: 'Montserrat-Light';
+}
+
+section.activities {
+    padding-top: 50px;
+}
+
+section.about_us {
+    border-top: 1px solid #eaeaea;
+}
+
+.f_about_media {
+    overflow: visible;
+    padding-top: 25px;
+}
+
+h4.f_name {
+    color: #26245c;
+    font-size: 20px;
+    font-family: 'Montserrat-Medium';
+}
+
+.f_name span {
+    font-size: 18px;
+    color: #6b6b6b;
+    font-family: 'Montserrat-Medium';
+}
+
+p.f_ipsum {
+    font-size: 16px;
+    color: #6b6b6b;
+    font-family: 'Montserrat-Medium';
+    padding-top: 15px;
+}
+
+.f_padding_media {
+    padding-top: 44px;
+    padding-left: 20px;
+}
+
+section.about_team {
+    padding-bottom: 50px;
+}
+.f_responsive {
+    display: table-cell;
+}
+
+section.contact {
+    border-top: 1px solid #eaeaea;
+        padding-top: 15px;
+        padding-bottom: 40px;
+}
+
+.f_contact_group label {
+    font-size: 14px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+}
+
+.f_control_contact {
+    border-radius: 0px;
+    border: 1px solid #bbbbbb;
+    background-color: #ebebeb;
+    height: 38px;
+}
+form.main_form {
+    padding-top: 30px;
+}
+
+p.f_contact {
+    font-size: 18px;
+    color: #262626;
+   font-family: 'Montserrat-Regular';
+    font-weight: 600;
+}
+
+.f_submit_contact {
+    border-radius: 0px;
+    background-color: #26245c;
+    border: 1px solid #26245c;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.f_panel_contact {
+    margin-top: 30px;
+}
+
+.f_panel_head {
+    font-size: 48px;
+    color: #26245c !important;
+    font-family: 'Montserrat-Bold';
+    text-align: center;
+    background-color: #d5d5df !important;
+    border-radius: 0px !important;
+}
+.f_panel_head span {
+    font-size: 18px;
+    font-family: 'Montserrat-Bold';
+}
+
+p.f_detail {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+    padding-left: 26px;
+}
+
+.f_num {
+    font-size: 17px;
+    color: #6b6b6b;
+    font-family: 'Montserrat-Regular';
+    /* text-align: center; */
+}
+
+.f_phone_icon {
+    padding-left: 27px;
+    padding-right: 8px;
+}
+
+a.f_more {
+    padding-left: 27px;
+    font-size: 18px;
+    color: #e03544;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+}
+
+a.f_more:hover {
+    
+    text-decoration: none;
+}
+
+.f_contact_body {
+    padding: 26px;
+    background-color: #e9e9ee;
+}
+textarea.f_control_contact {
+    /* height: auto; */
+    height: 157px;
+}
+
+.f_forgot {
+    padding: 0;
+    background-color: transparent !important;
+}
+
+.f_primary {
+    border: #cfcfcf;
+   
+}
+.f_forgot {
+    border-color: transparent !important;
+}
+
+a.tab_forgot {
+    color: black;
+}
+.f_panel_body {
+    background: #f3f3f3;
+    border: 1px solid #d6d6d6;
+}
+
+.sign_nav li {
+    width: 50%;
+    margin-bottom: -2px;
+    border-bottom: 0px solid transparent;
+}
+.sign_nav>li>a{
+     text-align: center;
+     border: 1px solid #ddd;
+     background: #fff;
+     border-radius: 0 0 0 0;
+     border-bottom: 0px solid transparent;
+}
+.sign_nav>li.active>a, .sign_nav>li.active>a:focus, .sign_nav>li.active>a:hover{
+     background-color: #f3f3f3;
+     text-align: center;
+}
+.sign_nav>li>a:hover {
+    border-color: #ddd #ddd #ddd;
+}
+.sign_nav>li>a{
+    padding: 18px 15px;
 }

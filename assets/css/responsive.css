@@ -15,6 +15,7 @@
      .navbar-toggle{
         margin-top:29px;
     }
+    
 }
  @media (min-width:768px) and (max-width:1024px){
     img.f_bookimage{
@@ -121,6 +122,7 @@ ul.right_top {
     
     margin-top: 1px !important;
 }
+
 }
  @media (min-width:320px) and (max-width:767px) and (orientation:landscape){
     .header-text h1{
@@ -272,6 +274,24 @@ ul.right_top {
 }
 h3.f_benjamin {
     font-size: 15px !important;
+   
+}
+.f_responsive {
+    display: initial;
+}
+img.media-object {
+    text-align: center;
+    margin: 0 auto;
+}
+.f_padding_media {
+    padding-top: 0px !important;
+}
+.f_about_media {
+   
+    padding-top: 0px !important;
+}
+.f_num {
+    font-size: 14px !important;
    
 }
 }
