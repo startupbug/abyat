@@ -13,18 +13,28 @@
                <div class="panel-body f_panel_body">
                   <div class="tab-content">
                      <div class="tab-pane fade in active" id="tab1primary">
-                        <p class="panel_content">Please enter the email address you signed up<br>with and we'll send you a password reset link.</p>
                         <form>
+                           <a class="btn btn-block btn-social btn-facebook email_forgot">
+                           <i class="fa fa-facebook"></i> Sign In with facebook
+                           </a>
+                           <a class="btn btn-block btn-social btn-twitter email_forgot">
+                           <i class="fa fa-twitter f_twitter"></i> Sign in with Twitter
+                           </a>
+                            <h1 class="line-title">or</h1> 
                            <div class="form-group email_forgot">
-                              <label for="email">Email</label>
-                              <input type="email" class="form-control f_control_forgot" id="email">
-                             
+                              <label for="username">Username</label>
+                              <input type="uname" class="form-control f_control_forgot" id="uname" placeholder="(required)">
                            </div>
-                              <div class="btn_send">
-                              <button type="button" class="btn f_sendrequest">SEND REQUEST</button>
+                           <div class="form-group email_forgot">
+                              <label for="pwd">Password:</label>
+                              <input type="password" class="form-control f_control_forgot" id="pwd">
                            </div>
-                           
-                           <div class="f_goback"><a href="#" class="go_back">Go Back</a></div>
+                           <div class="btn_send"><button type="button" class="btn f_login">LOG IN NOW</button></div>
+                           <div class="f_goback"><a href="#" class="go_back">Forgot my password</a></div>
+                            <h1 class="line-title">or</h1> 
+                           <div class="btn_signup_f">
+                              <button type="button" class="btn f_signup">SIGN UP NOW <br><span>Don't have an account? Join Now</span></button>
+                           </div>
                         </form>
                      </div>
                      <div class="tab-pane fade" id="tab2primary">

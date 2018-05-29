@@ -294,6 +294,15 @@ img.media-object {
     font-size: 14px !important;
    
 }
+p.panel_content {
+    font-size: 11px!important;
+    
+}
+button.btn.f_signup {
+    
+    width: auto !important;
+    
+}
 }
  @media (max-width:1200px){
     .navbar-header{

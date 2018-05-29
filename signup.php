@@ -13,18 +13,38 @@
                <div class="panel-body f_panel_body">
                   <div class="tab-content">
                      <div class="tab-pane fade in active" id="tab1primary">
-                        <p class="panel_content">Please enter the email address you signed up<br>with and we'll send you a password reset link.</p>
                         <form>
+                           <a class="btn btn-block btn-social btn-facebook email_forgot">
+                           <i class="fa fa-facebook"></i> Sign In with facebook
+                           </a>
+                           <a class="btn btn-block btn-social btn-twitter email_forgot">
+                           <i class="fa fa-twitter f_twitter"></i> Sign in with Twitter
+                           </a>
+
+                           <h1 class="line-title">or</h1> 
                            <div class="form-group email_forgot">
-                              <label for="email">Email</label>
-                              <input type="email" class="form-control f_control_forgot" id="email">
-                             
+                              <label for="fullname">Full Name</label>
+                              <input type="fullname" class="form-control f_control_forgot" id="fullname" placeholder="(required)">
                            </div>
-                              <div class="btn_send">
-                              <button type="button" class="btn f_sendrequest">SEND REQUEST</button>
+                           <div class="form-group email_forgot">
+                              <label for="username">Email</label>
+                              <input type="email" class="form-control f_control_forgot" id="email" placeholder="(required)">
                            </div>
+                           <div class="form-group email_forgot">
+                              <label for="pwd">Password (required)</label>
+                              <input type="password" class="form-control f_control_forgot" id="pwd" placeholder="(required)">
+                           </div>
+
+                           <div class="form-group email_forgot">
+                              <label for="pwd">Confirm Password (required)</label>
+                              <input type="c_password" class="form-control f_control_forgot" id="c_pwd" placeholder="(required)">
+                           </div>
+                           <div class="btn_send"><button type="button" class="btn f_login">CREATE AN ACCOUNT</button></div>
+                           <h1 class="line-title">or</h1> 
                            
-                           <div class="f_goback"><a href="#" class="go_back">Go Back</a></div>
+                           <div class="btn_signup_f">
+                              <button type="button" class="btn f_signup">LOGIN NOW <br><span>Already have an account? Login Now</span></button>
+                           </div>
                         </form>
                      </div>
                      <div class="tab-pane fade" id="tab2primary">
