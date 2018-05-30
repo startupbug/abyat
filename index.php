@@ -435,7 +435,7 @@
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
                                        <div class="row margin-custom">
-                                          <div class="col-md-6 text-left">
+                                          <div class="col-md-4 text-left">
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
@@ -444,7 +444,9 @@
                                           </div>
                                           <h3 class="f_reviews">7 Reviews</h3>
                                        </div>
-                                       <h3 class="f_benjamin"><i class="fa fa-map-marker f_location"></i>2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       <div class="row s_row_">
+                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -458,7 +460,7 @@
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
                                        <div class="row margin-custom">
-                                          <div class="col-md-6 text-left">
+                                          <div class="col-md-4 text-left">
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
@@ -467,7 +469,9 @@
                                           </div>
                                           <h3 class="f_reviews">7 Reviews</h3>
                                        </div>
-                                       <h3 class="f_benjamin"><i class="fa fa-map-marker f_location"></i>2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       <div class="row s_row_">
+                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -481,7 +485,7 @@
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
                                        <div class="row margin-custom">
-                                          <div class="col-md-6 text-left">
+                                          <div class="col-md-4 text-left">
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
@@ -490,7 +494,9 @@
                                           </div>
                                           <h3 class="f_reviews">7 Reviews</h3>
                                        </div>
-                                       <h3 class="f_benjamin"><i class="fa fa-map-marker f_location"></i>2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       <div class="row s_row_">
+                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -508,7 +514,7 @@
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
                                        <div class="row margin-custom">
-                                          <div class="col-md-6 text-left">
+                                          <div class="col-md-4 text-left">
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
@@ -517,7 +523,9 @@
                                           </div>
                                           <h3 class="f_reviews">7 Reviews</h3>
                                        </div>
-                                       <h3 class="f_benjamin"><i class="fa fa-map-marker f_location"></i>2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       <div class="row s_row_">
+                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -531,7 +539,7 @@
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
                                        <div class="row margin-custom">
-                                          <div class="col-md-6 text-left">
+                                          <div class="col-md-4 text-left">
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
@@ -540,7 +548,9 @@
                                           </div>
                                           <h3 class="f_reviews">7 Reviews</h3>
                                        </div>
-                                       <h3 class="f_benjamin"><i class="fa fa-map-marker f_location"></i>2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       <div class="row s_row_">
+                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -554,7 +564,7 @@
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
                                        <div class="row margin-custom">
-                                          <div class="col-md-6 text-left">
+                                          <div class="col-md-4 text-left">
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
                                              <i class="fa fa-star f_star" aria-hidden="true"></i>
@@ -563,7 +573,9 @@
                                           </div>
                                           <h3 class="f_reviews">7 Reviews</h3>
                                        </div>
-                                       <h3 class="f_benjamin"><i class="fa fa-map-marker f_location"></i>2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       <div class="row s_row_">
+                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
+                                       </div>
                                     </div>
                                  </div>
                               </div>

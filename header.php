@@ -89,13 +89,13 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="navbar-collapse collapse" id="navbar-collapse-1" aria-expanded="false" style="height: 1px;">
                            <ul class="nav navbar-nav navbar-right f_nav">
-                              <li><a href="#">HOME</a></li>
+                              <li><a href="index.php">HOME</a></li>
                               <li><a href="#">HOTELS</a></li>
                               <li><a href="#">FLIGHTS</a></li>
-                              <li><a href="#">ABOUT US</a></li>
+                              <li><a href="aboutus.php">ABOUT US</a></li>
                               <li><a href="#">FAQ</a></li>
-                              <li><a href="#">CONTACT US</a></li>
-                              <li><a href="#" class="btn btn-default f_signin">SIGN IN</a></li>
+                              <li><a href="contact.php">CONTACT US</a></li>
+                              <li><a href="signup.php" class="btn btn-default f_signin">SIGN IN</a></li>
                            </ul>
                         </div>
                         <!-- /.navbar-collapse -->

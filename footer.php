@@ -26,13 +26,13 @@
       <div class="container f_formborder">
          <div class="row">
             <div class="col-md-3">
-               <h3 class="sign_f">Sign Up for New <br>Updates & Newsletter</h3>
+               <h3 class="sign_f f_abyat">Sign Up for New <br>Updates & Newsletter</h3>
             </div>
             <div class="col-md-9">
                <div class="input-group">
                   <input type="text" class="form-control f_control">
                   <div class="input-group-btn f_inputbtn">
-                     <button type="submit" class="btn btn-default f_search">SUBMIT</button>
+                     <button type="submit" class="btn btn-default f_search f_btnabyat">SUBMIT</button>
                   </div>
                </div>
             </div>
@@ -44,7 +44,7 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12">
-               <img src="assets/images/triprite_logo.png" class="img-responsive f_responsive">
+               <img src="assets/images/logo_abyaat_footer.png" class="img-responsive f_responsive">
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
                <p class="f_question">You have questions regarding our services? <br>Contact us, we will be happy to help you out!</p>
@@ -55,19 +55,19 @@
             <div class="col-md-2 col-sm-6 col-xs-6">
                <h3 class="list_content">Useful Links</h3>
                <ul class="list_footer">
-                  <li><a href="#">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li><a href="#">Hotels</a></li>
                   <li><a href="#">Flights</a></li>
-                  <li><a href="#">About Us</a></li>
+                  <li><a href="aboutus.php">About Us</a></li>
                </ul>
             </div>
             <div class="col-md-2 col-sm-6 col-xs-6">
                <h3 class="list_content"></h3>
                <ul class="list_footer f_paddingtop">
-                  <li><a href="#">Contact us</a></li>
+                  <li><a href="contact.php">Contact us</a></li>
                   <li><a href="#">FAQ's</a></li>
                   <li><a href="#">Terms & Conditions</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="privacy.php">Privacy Policy</a></li>
                </ul>
             </div>
             <div class="col-md-4 col-sm-6 col-xs-6">
@@ -95,7 +95,7 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12">
-               <p class="f_copyright">2018 Triprite. All rights reserved.</p>
+               <p class="f_copyright f_textcenter">2018 AbyatTravela&Tours. All rights reserved.</p>
             </div>
          </div>
       </div>

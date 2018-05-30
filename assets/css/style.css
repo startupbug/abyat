@@ -177,7 +177,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
 }
  .banner_content{
     position:absolute;
-    top:60%;
+    top:50%;
     left:0;
     right:0;
     color:#fff;
@@ -188,6 +188,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
      font-family: 'Mission-Script';
      text-align: left;
      line-height: 20px;
+     text-shadow: 1px 2px 0px #fff;
 }
  .f_panel{
     border-color:transparent;
@@ -270,11 +271,11 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
  .s_silder_tab .nav-tabs>li:last-child{
     min-width:60%;
     margin-left:40%;
-    border:0.5px solid #769eb7;
+    border:0.5px solid #86839d;
 }
  .s_silder_tab .nav-tabs>li:first-child{
     min-width:10%;
-    border:0.5px solid #769eb7;
+    border:0.5px solid #86839d;
     top:64px;
 }
  .s_silder_tab .nav-tabs>li:nth-child(2){
@@ -285,7 +286,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     text-align:center;
 }
  .s_silder_tab .nav>li>a{
-    border:1px solid #769eb7;
+    border:1px solid #86839d;
     border-radius:0px;
     font-size:16px !important;
     font-family:'Montserrat-Regular';
@@ -488,9 +489,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
  ul.list_footer a:hover{
     text-decoration:none;
 }
- .f_paddingtop{
-    padding-top:15px;
-}
+ 
  ul.socail_icons{
     display:inline-flex;
 }
@@ -924,7 +923,7 @@ section.triplite_form{
  .multi-city-value{
     position:absolute;
     z-index:9;
-    top:82%;
+    top:102%;
     width:84%;
 }
  .multi-city-value .flights_multi:first-child{
@@ -1149,7 +1148,7 @@ ul.right_top a:focus {
 }
 
 p.f_fontsize {
-    font-size: 10px !important;
+    font-size: 16px !important;
 }
 
 .dropdown-menu>li>a {
@@ -1223,9 +1222,7 @@ p.f_ipsum {
 section.about_team {
     padding-bottom: 50px;
 }
-.f_responsive {
-    display: table-cell;
-}
+
 
 section.contact {
     border-top: 1px solid #eaeaea;
@@ -1589,4 +1586,127 @@ i.fa.fa-twitter.f_twitter {
 .line-title:after {
   right: -0.5em;
   margin-right: -50%;
+}
+
+.f_benjamin:before {
+    content: "\f041";
+    font: normal normal normal 14px/1 FontAwesome;
+    left: 25px;
+    position: absolute;
+    font-size: 18px;
+}
+.s_row_ {
+    padding-left: 30px;
+}
+
+h3.f_abyat {
+    color: #fff;
+}
+
+.f_btnabyat {
+    background-color: #26245c;
+    border: 1px solid #26245c;
+}
+
+.f_btnabyat:hover {
+    background-color: #26245c;
+    border: 1px solid #26245c;
+}
+.f_btnabyat:active {
+    background-color: #26245c;
+    border: 1px solid #26245c;
+}
+
+.f_btnabyat:focus {
+    background-color: #26245c;
+    border: 1px solid #26245c;
+}
+
+p.f_textcenter {
+    text-align: center;
+}
+.f_paddingtop {
+    margin-top: -16px !important;
+}
+
+div#tab1default {
+    padding-top: 45px;
+    height: 175px;
+}
+div#tab2default {
+    height: 175px;
+}
+section.privacy {
+    border-top: 1px solid #eaeaea;
+    padding-bottom: 50px;
+}
+
+.f_well {
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: transparent !important;
+    box-shadow: none;
+}
+
+.f_defualt {
+    color: #262626 !important;
+    background-color: #fff;
+    border-color: #ccc;
+    /*font-size: 20px !important;*/
+    font-family: 'Montserrat-Regular';
+    border: 1px solid #cfcfcf;
+    font-weight: 600;
+}
+
+.f_defualt:hover {
+    
+    background-color: #f3f3f3;
+    
+}
+
+
+  label.btn.active-btn {
+    background-color: #f3f3f3;
+}
+a.ing {
+    color: #26245c;
+    font-size: 18px;
+    font-family: 'Montserrat-Medium';
+}
+
+a.ing:hover {
+   
+    text-decoration: none;
+}
+
+li.f_info {
+    list-style-type: initial;
+}
+
+li.f_info {
+    list-style-type: initial;
+    color: #26245c;
+    font-size: 18px;
+    font-family: 'Montserrat-Medium';
+}
+.f_paneldefualt {
+    border: none;
+    margin-bottom: 15px !important;
+    border-radius: 0px !important;
+}
+
+.f_panelheading {
+    background-color: #f3f3f3 !important;
+    padding: 12px 39px;
+}
+
+p.f_take {
+    color: #6b6b6b;
+    font-size: 16px;
+    font-family: 'Montserrat-Light';
+}
+
+.f_privacy_panel {
+    background-color: #f7f7f7;
+    margin-top: 15px;
 }

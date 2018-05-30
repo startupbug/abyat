@@ -15,7 +15,13 @@
      .navbar-toggle{
         margin-top:29px;
     }
-    
+    .f_paddingtop {
+    margin-top: -33px !important;
+}
+    p.f_lorem {
+    font-size: 13px !important;
+   
+}
 }
  @media (min-width:768px) and (max-width:1024px){
     img.f_bookimage{
@@ -121,6 +127,11 @@ p.f_mediatext {
 ul.right_top {
     
     margin-top: 1px !important;
+}
+a.f_signin {
+    
+    width: 91%;
+    margin-left: 13px;
 }
 
 }
@@ -276,9 +287,7 @@ h3.f_benjamin {
     font-size: 15px !important;
    
 }
-.f_responsive {
-    display: initial;
-}
+
 img.media-object {
     text-align: center;
     margin: 0 auto;
@@ -303,6 +312,20 @@ button.btn.f_signup {
     width: auto !important;
     
 }
+.f_paddingtop {
+     padding-top: 0px !important; 
+}
+.f_defualt {
+    font-size: 7px !important;
+}
+.btn-group-justified {
+    
+    width: auto !important;
+    
+}
+.media-body, .media-left, .media-right{
+            display: block;
+    }
 }
  @media (max-width:1200px){
     .navbar-header{
@@ -339,4 +362,14 @@ button.btn.f_signup {
      .collapse.in{
         display:block !important;
     }
+}
+
+@media (min-width:375px) and (max-width:812px){
+    p.f_mail {
+   
+    margin-top: 28px !important;
+}
+.f_paddingtop {
+    padding-top: 0px !important;
+}
 }
