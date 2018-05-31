@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <title>Abyaat</title>
+      <title>Abyat</title>
       <!-- Bootstrap -->
       <link href="assets/css/bootstrap.min.css" rel="stylesheet">
       <!-- FontAwesome -->
@@ -16,61 +16,54 @@
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
       <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+      <!-- Date Picker -->
+      <link rel="stylesheet" type="text/css" href="assets/css/daterangepicker.css" />
       <!-- style.css -->
-      <!-- custom Css Lins -->
-      <link href="assets/css/custom.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
       <!-- Responsive -->
       <link href="assets/css/responsive.css" rel="stylesheet">
-      <link href="assets/css/style.css" rel="stylesheet">
-      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
    </head>
    <body>
       <header>
          <section class="main_top">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="top-header">
-                  <ul class="top-header-nav">
-                     <li><i class="fa fa-phone f_phone" aria-hidden="true"></i>: +1 2535 56854 </li>
-                     <li><i class="fa fa-envelope f_phone" aria-hidden="true"></i>: hello@domain.com</li>
-                     <li><i class="fa fa-location-arrow f_phone"></i></i>: Birmingham, England, B3 2EW</li>
-                     <!--<li><i class="fa fa-user f_phone"></i><a href="login.php">: Login</a>/<a href="signup_faq.php">Register</a></li>-->
-                  </ul>
-
-                  <ul class="right_top">
-                     
-                     <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">:  ENG
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu f_dropmenu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
-        </ul>
-      </li>
-
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-money fa_icon"></i>:  USD
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
-        </ul>
-      </li>
-
-                  </ul>
-               </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="top-header">
+                        <ul class="top-header-nav">
+                           <li><i class="fa fa-phone f_phone" aria-hidden="true"></i>: +1 2535 56854 </li>
+                           <li><i class="fa fa-envelope f_phone" aria-hidden="true"></i>: hello@domain.com</li>
+                           <li><i class="fa fa-location-arrow f_phone"></i></i>: Birmingham, England, B3 2EW</li>
+                           <!--<li><i class="fa fa-user f_phone"></i><a href="login.php">: Login</a>/<a href="signup_faq.php">Register</a></li>-->
+                        </ul>
+                        <ul class="right_top">
+                           <li class="dropdown">
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                : ENG <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu f_dropmenu">
+                                 <li><a href="#">Page 1-1</a></li>
+                                 <li><a href="#">Page 1-2</a></li>
+                                 <li><a href="#">Page 1-3</a></li>
+                              </ul>
+                           </li>
+                           <li class="dropdown">
+                              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <i class="fa fa-money fa_icon"></i>: USD
+                                <span class="caret"></span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li><a href="#">Page 1-1</a></li>
+                                 <li><a href="#">Page 1-2</a></li>
+                                 <li><a href="#">Page 1-3</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
                </div>
             </div>
-          </div>
-       </section>
+         </section>
          <div class="container">
             <div class="row">
                <div class="col-md-12 col-sm-12 col-xs-12">

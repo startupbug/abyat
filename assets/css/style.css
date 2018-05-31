@@ -137,7 +137,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     z-index:999;
     width:100%;
     top:0;
-    
+
 }
  .navbar-inverse{
     background-color:transparent;
@@ -489,7 +489,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
  ul.list_footer a:hover{
     text-decoration:none;
 }
- 
+
  ul.socail_icons{
     display:inline-flex;
 }
@@ -759,7 +759,7 @@ section.triplite_form{
 }
  .custom_checkmark{
     position:absolute;
-    top:3px;
+    top:0;
     right:0;
     height:26px;
     width:26px;
@@ -1086,7 +1086,7 @@ ul.top-header-nav {
 .f_phone {
     font-size: 15px;
     padding-right: 4px;
-    
+
 }
 
 .top-header li {
@@ -1116,21 +1116,21 @@ ul.right_top a {
 }
 
 ul.right_top:hover {
-    
+
     text-decoration: none !important;
 }
 
 .top-header li:hover {
-   
+
     text-decoration: none !important;
 }
 ul.right_top a:hover {
-    
+
     text-decoration: none;
 }
 
 ul.right_top a:focus {
-    
+
     text-decoration: none;
 }
 
@@ -1152,9 +1152,9 @@ p.f_fontsize {
 }
 
 .dropdown-menu>li>a {
-   
+
     color: #333 !important;
-    
+
 }
 
 h3.about_text {
@@ -1311,7 +1311,7 @@ a.f_more {
 }
 
 a.f_more:hover {
-    
+
     text-decoration: none;
 }
 
@@ -1331,7 +1331,7 @@ textarea.f_control_contact {
 
 .f_primary {
     border: #cfcfcf;
-   
+
 }
 .f_forgot {
     border-color: transparent !important;
@@ -1441,7 +1441,7 @@ a.go_back {
 }
 
 a.go_back:hover {
-    
+
     text-decoration: none;
 }
 
@@ -1531,7 +1531,7 @@ button.btn.f_signup {
     line-height: 34px;
     font-size: 20px;
     text-align: center;
-    
+
     background-color: #223661;
 }
 
@@ -1563,7 +1563,7 @@ i.fa.fa-twitter.f_twitter {
 }
 
 .line-title {
- 
+
   font-size: 1.5em;
   text-align: center;
   display: block;
@@ -1659,9 +1659,9 @@ section.privacy {
 }
 
 .f_defualt:hover {
-    
+
     background-color: #f3f3f3;
-    
+
 }
 
 
@@ -1675,7 +1675,7 @@ a.ing {
 }
 
 a.ing:hover {
-   
+
     text-decoration: none;
 }
 
