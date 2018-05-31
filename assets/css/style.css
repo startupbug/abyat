@@ -389,6 +389,9 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
  section.price_index{
     background-image:url(../images/image_index.jpg);
     height:414px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
  .f_money{
     font-size:65px;
@@ -1174,12 +1177,14 @@ h4.f_special {
     font-size: 18px;
     color: #26245c;
     font-family: 'Montserrat-Medium';
+    padding-left: 12px;
 }
 
 p.f_lorem {
     font-size: 16px;
     color: #6b6b6b;
     font-family: 'Montserrat-Light';
+    padding-left: 12px;
 }
 
 section.activities {
