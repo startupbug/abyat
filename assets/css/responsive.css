@@ -3,243 +3,246 @@
         margin-top:11px !important;
         padding-top:33px;
     }
-     span.num_f{
+    span.num_f{
         padding-right:56px !important;
     }
-     .banner_content{
+    .banner_content{
         top:36% !important;
     }
-     .f_ipad{
+    .f_ipad{
         padding-top:125px !important;
     }
-     .navbar-toggle{
+    .navbar-toggle{
         margin-top:29px;
     }
     .f_paddingtop {
-    margin-top: -33px !important;
-}
+        margin-top: -33px !important;
+    }
     p.f_lorem {
-    font-size: 13px !important;
-   
+        font-size: 13px !important;
+
+    }
 }
-}
- @media (min-width:768px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px){
     img.f_bookimage{
         height:507px !important;
     }
-     span.num_f{
+    span.num_f{
         margin-top:10px !important;
     }
-     .f_group span{
+    .f_group span{
         font-size:10px !important;
     }
-     .f_panel{
+    .f_panel{
         display:none;
     }
-     h3.f_reviews{
+    h3.f_reviews{
         margin-left:17px;
     }
-     .header-text h1{
+    .header-text h1{
         font-size:48px;
     }
-     h3.f_benjamin{
+    h3.f_benjamin{
         font-size:11px !important;
     }
-     h3.f_price{
+    h3.f_price{
         margin-top:0px !important;
     }
-     .f_money{
+    .f_money{
         font-size:50px !important;
         margin-top:0px !important;
     }
-     .f_responsive{
+    .f_responsive{
         padding-top:50px !important;
     }
-     section.triplite_form{
+    section.triplite_form{
         bottom:-30% !important;
     }
-     .f_left{
+    .f_left{
         left:-1% !important;
         font-size:32px !important;
         display:none;
     }
-     .f_carousalright{
+    .f_carousalright{
         right:-2% !important;
         font-size:32px !important;
         display:none;
     }
-     .header-text h1{
+    .header-text h1{
         font-size:50px !important;
     }
-     h3.f_from{
+    h3.f_from{
         margin-top:-19px !important;
     }
-     h5.course-detail-front{
+    h5.course-detail-front{
         font-size:15px !important;
     }
-     span.num_f{
+    span.num_f{
         margin-right:-52px !important;
     }
-     .w3-display-left{
+    .w3-display-left{
         top:42% !important;
         left:4% !important;
         font-size:40px !important;
     }
-     .w3-display-right{
+    .w3-display-right{
         top:42% !important;
         right:4% !important;
         font-size:40px !important;
     }
-     .banner_content{
+    .banner_content{
         top:32% !important;
     }
-     .navbar-toggle {
+    .navbar-toggle {
         margin-top: 29px !important;
     }
     section.main_top {
-    background-size: cover !important;
-}
-.top-header li {
-   
-    font-size: 13px !important;
-    color: #fff !important;
-    
-}
-.logo_f {
-    width: 70% !important;
-}
-.header-text h1 {
-    
-    text-align: center !important;
-    
-}
+        background-size: cover !important;
+    }
+    .top-header li {
 
-.header-text p {
-    
-    text-align: center !important;
-}
-p.f_mediatext {
-    font-size: 13px !important;
-   
-   
-    text-align: left !important;
-}
-ul.right_top {
-    
-    margin-top: 1px !important;
-}
-a.f_signin {
-    
-    width: 91%;
-    margin-left: 13px;
-}
+        font-size: 13px !important;
+        color: #fff !important;
+
+    }
+    .logo_f {
+        width: 70% !important;
+    }
+    .header-text h1 {
+
+        text-align: center !important;
+
+    }
+
+    .header-text p {
+
+        text-align: center !important;
+    }
+    p.f_mediatext {
+        font-size: 13px !important;
+
+
+        text-align: left !important;
+    }
+    ul.right_top {
+
+        margin-top: 1px !important;
+    }
+    a.f_signin {
+
+        width: 91%;
+        margin-left: 13px;
+    }
 
 }
- @media (min-width:320px) and (max-width:767px) and (orientation:landscape){
+@media (min-width:320px) and (max-width:767px) and (orientation:landscape){
     .header-text h1{
         font-size:34px !important;
         margin-top:28px !important;
     }
 }
- @media (min-width:320px) and (max-width:767px){
+@media (min-width:320px) and (max-width:767px){
+    .f_responsive{
+        display: block;
+    }
     .f_left{
         display:none !important;
     }
-     .f_carousalright{
+    .f_carousalright{
         display:none !important;
     }
-     section.price_index{
+    section.price_index{
         height:auto !important;
     }
-     .f_money{
+    .f_money{
         font-size:32px !important;
         color:white;
         margin-top:0px !important;
     }
-     h3.f_price{
+    h3.f_price{
         margin-top:0px !important;
     }
-     h3.f_reviews{
+    h3.f_reviews{
         margin-left:17px !important;
     }
-     h3.f_from{
+    h3.f_from{
         margin-top:-50px !important;
     }
-     span.num_f{
+    span.num_f{
         margin-top:-28px !important;
     }
-     .f_english{
+    .f_english{
         margin-bottom:12px !important;
     }
-     .header-text h1{
+    .header-text h1{
         font-size:25px !important;
         text-align:center !important;
     }
-     .f_panel{
+    .f_panel{
         display:none !important;
     }
-     .w3-display-right{
+    .w3-display-right{
         top:45% !important;
         right:0px !important;
     }
-     button.w3-button.w3-black.w3-display-left{
+    button.w3-button.w3-black.w3-display-left{
         top:45% !important;
         left:0px !important;
     }
-     .course-detail-front h5{
+    .course-detail-front h5{
         font-size:18px !important;
     }
-     section.price_index{
+    section.price_index{
         padding-top:10px !important;
         padding-bottom:50px !important;
     }
-     p.f_tripcontent{
+    p.f_tripcontent{
         font-size:13px !important;
     }
-     section.triplite_form{
+    section.triplite_form{
         bottom:-26% !important;
     }
-     .f_search{
+    .f_search{
         padding:10px 10px;
     }
-     img.f_bookimage{
+    img.f_bookimage{
         height:463px !important;
     }
-     p.f_mediatext{
+    p.f_mediatext{
         font-size:10px !important;
     }
-     h4.f_mediacontent{
+    h4.f_mediacontent{
         font-size:16px !important;
     }
-     .border_box{
+    .border_box{
         margin-left:12px !important;
     }
-     section.book_image{
+    section.book_image{
         padding-top:0px !important;
     }
-     .f_us{
+    .f_us{
         height:38px !important;
     }
-     .btn_display{
+    .btn_display{
         display:inline-flex !important;
     }
-     .f_search{
+    .f_search{
         padding:10px 12px !important;
     }
-     .navbar-toggle{
+    .navbar-toggle{
         margin-top:28px;
     }
-     .navbar-brand {
-         float: none !important;
-    }
-     .frontend-box-inner {
-        margin-top: 12px;
-    }
-     .frontend-box-last {
-        margin-top: 12px;
-    }
-    section.main_top {
-   
+    .navbar-brand {
+       float: none !important;
+   }
+   .frontend-box-inner {
+    margin-top: 12px;
+}
+.frontend-box-last {
+    margin-top: 12px;
+}
+section.main_top {
+
     background-size: cover !important;
 }
 
@@ -250,14 +253,14 @@ a.f_signin {
     padding-right: 17px !important;
     font-size: 6px !important;
     color: #ffff !important;
-   
+
 }
 .f_phone {
     font-size: 10px !important;
-   
+
 }
 .header-text h1 {
-    
+
     line-height: 0px;
 }
 .header-text p {
@@ -265,27 +268,27 @@ a.f_signin {
     text-align: center !important;
 }
 .banner_content {
-   
+
     top: 43% !important;
-   
+
 }
 .fa_icon {
-   
+
     font-size: 14px !important;
 }
 ul.right_top a {
-   
+
     font-size: 10px !important;
     
 }
 
 ul.right_top {
-   
+
     margin-top: 5px !important;
 }
 h3.f_benjamin {
     font-size: 15px !important;
-   
+
 }
 
 img.media-object {
@@ -296,80 +299,86 @@ img.media-object {
     padding-top: 0px !important;
 }
 .f_about_media {
-   
+
     padding-top: 0px !important;
 }
 .f_num {
     font-size: 14px !important;
-   
+
 }
 p.panel_content {
     font-size: 11px!important;
     
 }
 button.btn.f_signup {
-    
+
     width: auto !important;
     
 }
 .f_paddingtop {
-     padding-top: 0px !important; 
+   padding-top: 0px !important; 
 }
 .f_defualt {
     font-size: 7px !important;
 }
 .btn-group-justified {
-    
+
     width: auto !important;
     
 }
 .media-body, .media-left, .media-right{
-            display: block;
-    }
+    display: block;
 }
- @media (max-width:1200px){
+}
+@media (max-width:1200px){
     .navbar-header{
         float:none;
     }
-     .navbar-left,.navbar-right{
+    .navbar-left,.navbar-right{
         float:none !important;
     }
-     .navbar-toggle{
+    .navbar-toggle{
         display:block;
     }
-     .navbar-collapse{
+    .navbar-collapse{
         border-top:1px solid transparent;
         box-shadow:inset 0 1px 0 rgba(255,255,255,0.1);
     }
-     .navbar-fixed-top{
+    .navbar-fixed-top{
         top:0;
         border-width:0 0 1px;
     }
-     .navbar-collapse.collapse{
+    .navbar-collapse.collapse{
         display:none!important;
     }
-     .navbar-nav{
+    .navbar-nav{
         float:none!important;
         margin-top:7.5px;
     }
-     .navbar-nav>li{
+    .navbar-nav>li{
         float:none;
     }
-     .navbar-nav>li>a{
+    .navbar-nav>li>a{
         padding-top:10px;
         padding-bottom:10px;
     }
-     .collapse.in{
+    .collapse.in{
         display:block !important;
     }
 }
 
 @media (min-width:375px) and (max-width:812px){
     p.f_mail {
-   
-    margin-top: 28px !important;
+
+        margin-top: 28px !important;
+    }
+    .f_paddingtop {
+        padding-top: 0px !important;
+    }
 }
-.f_paddingtop {
-    padding-top: 0px !important;
-}
+
+@media (min-width:768px){
+    .f_responsive{
+        display: table-cell;
+    }
 }
