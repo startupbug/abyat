@@ -392,11 +392,12 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 50px;
 }
  .f_money{
     font-size:65px;
     color:white;
-    margin-top:50px;
+    
 }
  .money_icon{
     text-align:center;
@@ -444,8 +445,8 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
  .f_formborder{
     border:2px solid #403e7c;
     background-color:#5d5b8b;
-    padding-top:25px;
-    padding-bottom:10px;
+    padding-top:30px;
+    padding-bottom:30px;
     width:85%;
 }
  section.main_footer{
@@ -510,7 +511,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     font-size:16px;
     color:#ffff;
     font-family:'Montserrat-Regular';
-    margin-right:12px;
+    margin-right:5px;
     border-radius:0px;
 }
  .f_us{
@@ -1632,7 +1633,7 @@ p.f_textcenter {
     text-align: center;
 }
 .f_paddingtop {
-    margin-top: -16px !important;
+    margin-top: 28px !important;
 }
 
 div#tab1default {
@@ -1744,3 +1745,265 @@ ul.list_right {
     padding-top: 4px;
 }
 
+.f_hotel_border {
+    border-bottom: 1px solid #eaeaea;
+}
+
+.f_mainborder {
+    border: 1px solid #e0e0e0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 12px;
+    background-color: #f3f3f3;
+}
+
+h3.search_name {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+}
+
+ul.f_icon_star {
+    display: inline-flex;
+}
+
+p.f_findcontent {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+    padding-top: 10px;
+}
+.box_purple {
+    border: 1px solid #26245c;
+    background-color: #26245c;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Montserrat-Regular';
+}
+
+p.f_ex {
+    font-size: 18px;
+    color: #26245c;
+    font-family: 'Montserrat-Regular';
+}
+
+p.f_total {
+    font-size: 16px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+span.f_usd {
+    font-size: 16px;
+    color: #575757;
+    font-family: 'Montserrat-SemiBold';
+}
+h3.f_num1 {
+    font-size: 26px;
+    color: #575757;
+    font-family: 'Montserrat-SemiBold';
+}
+p.f_green {
+    font-size: 13px;
+    color: #217a10;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 12px;
+}
+.f_padding_top {
+    padding-top: 20px;
+}
+
+a.f_selecthotel {
+    border: 1px solid #26245c;
+    background-color: #26245c;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat-Regular';
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.f_border_right {
+    
+    border-right: 1px solid #ffffff;
+}
+.f_us:hover {
+    border: 1px solid #ffff;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 16px;
+    color: #ffff;
+    font-family: 'Montserrat-Regular';
+    border-radius: 0px;
+}
+.f_btn_group {
+    padding-top: 27px;
+}
+
+.f_btn_default {
+    background-color: #26245c;
+    color: #fff;
+}
+
+.f_label_search label {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+}
+
+.form_border {
+    /* border: 1px solid; */
+    background-color: #e9e9ee;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+.f_btn_default:hover {
+    background-color: #26245c;
+    color: #fff;
+}
+
+
+.star-rating{
+    font-size: 0;
+    padding-bottom: 13px;
+}
+.star-rating__wrap{
+    display: inline-block;
+    font-size: 1rem;
+}
+.star-rating__wrap:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.star-rating__ico{
+    float: right;
+    padding-left: 2px;
+    cursor: pointer;
+    color: #26245c;
+}
+.star-rating__ico:last-child{
+    padding-left: 0;
+}
+.star-rating__input{
+    display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+    content: "\f005";
+}
+p.f_star_rating {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+        padding-left: 15px;
+}
+
+.main_star {
+    background-color: #e9e9ee;
+}
+.main_rating {
+    background-color: #e9e9ee;
+    padding-top: 10px;
+}
+
+.checkbox, .radio {
+  
+    padding-left: 32px;
+}
+.checkbox label, .radio label {
+   
+    padding-left: 3px !important;
+   
+}
+
+.f_main_district {
+    background-color: #e9e9ee;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.f_check_box label {
+    font-size: 16px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+.f_hotel_main {
+    padding-top: 15px;
+}
+.f_navform {
+    margin-top: 0px;
+}
+
+h3.f_friendly {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+}
+p.f_san {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+.f_box {
+    border: 1px solid #e0e0e0;
+    background-color: #f3f3f3;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+a.f_room {
+    border: 1px solid;
+    background-color: #26245c;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-family: 'Montserrat-Medium';
+    float: right;
+}
+
+a.f_room:hover {
+    
+    text-decoration: none;
+}
+
+
+
+
+.product-slider #carousel { border: 4px solid #1089c0; margin: 0; }
+
+.product-slider #thumbcarousel { margin: 12px 0 0; padding: 0 45px; }
+
+.product-slider #thumbcarousel .item { text-align: center; }
+
+.product-slider #thumbcarousel .item .thumb { border: 4px solid #cecece; width: 20%; margin: 0 2%; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 98px; }
+
+.product-slider #thumbcarousel .item .thumb:hover { border-color: #1089c0; }
+
+.product-slider .item img { width: 100%; height: auto; }
+
+.carousel-control { color: #0284b8; text-align: center; text-shadow: none; font-size: 30px; width: 30px; height: 30px; line-height: 20px; top: 23%; }
+
+.carousel-control:hover, .carousel-control:focus, .carousel-control:active { color: #333; }
+
+.carousel-caption, .carousel-control .fa { font: normal normal normal 30px/26px FontAwesome; }
+.carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }
+
+.carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }

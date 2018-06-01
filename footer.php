@@ -4,12 +4,12 @@
           <section class="price_index">
              <div class="container">
                 <div class="row f_ipad">
-                   <div class="col-md-4">
+                   <div class="col-md-4 f_border_right">
                       <div class="money_icon"> <i class="fa fa-money f_money"></i></div>
                       <h3 class="f_price">Best Price Guarantee</h3>
                       <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
                    </div>
-                   <div class="col-md-4">
+                   <div class="col-md-4 f_border_right">
                       <div class="money_icon"> <i class="fa fa-plane f_money"></i></div>
                       <h3 class="f_price">Travel Insurance</h3>
                       <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
