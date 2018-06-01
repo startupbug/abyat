@@ -1,0 +1,134 @@
+section.booking, section.account , section.setting {
+    padding-top: 30px;
+}
+.s_user_name{
+    font-family: 'Mission-Script' !important;
+    font-size: 38px;
+}
+.s_border {
+    border: 1px solid #c1c1c1;
+}
+.s_nav_bar_header {
+    background-color: #eaeaea;
+    padding: 18px 15px;
+    font-family: 'Montserrat-SemiBold';
+    color: #282828;
+    font-size: 16px;
+}
+.s_nav_bar_header i{
+    width: 25px;
+}
+.s_ul_list li{
+    border-bottom: 1px solid #c1c1c1;
+}
+.s_ul_list li i:first-child{
+    width: 25px;
+}
+.s_ul_list li:last-child{
+    border-bottom: 0px solid #c1c1c1;
+}
+.s_ul_list li a{
+    padding: 18px 15px;
+    display: block;
+    font-family: 'Montserrat-SemiBold';
+    color: #282828;
+    font-size: 16px;
+}
+.s_float_right{
+    float: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+.s_ul_list li.active{
+    background: #d1d1d1f2;
+}
+.s_ul_list li:hover{
+    background: #d1d1d1f2;
+}
+.s_ul_list li:hover a, .s_ul_list a:focus{
+    text-decoration: none;
+}
+.s_button_logout_form {
+    width:  100%;
+    padding: 20px 0px;
+}
+.s_button_logout {
+    width: 100%;
+    padding: 18px;
+    border-radius: 0;
+    background: #26245c;
+    color: #fff !important;
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+}
+.s_sub_heading_button{
+    padding:  10px;
+    border-top:  1px solid #c1c1c1;
+    border-bottom:  1px solid #c1c1c1;
+}
+.s_sub_button {
+    padding: 8px 20px;
+    border-radius: 0;
+    background: #eaeaea;
+    border: 1px solid #c1c1c1;
+    color: #282828 !important;
+    font-family: 'Montserrat-Medium';
+    font-size: 14px;
+}
+.s_sub_button.active {
+  color: #fff !important;
+  background: #26245c;
+  border: 1px solid #26245c;
+}
+.s_sub_button:hover {
+  color: #fff !important;
+  background: #26245c;
+  border: 1px solid #26245c;
+}
+.s_tab_body {
+    /* height: 500px; */
+    /* overflow: auto; */
+    padding: 20px;
+    /* padding-top: 20px; */
+}
+.s_margin_20 {
+    margin-bottom: 50px;
+}
+.s_nobooking {
+    text-align: center;
+    height: 480px;
+    padding-top: 200px;
+    vertical-align: middle;
+}
+.s_nobooking h3 {
+    font-size: 30px;
+    color: #7e7e7e;
+    font-family: 'Montserrat-Medium';
+}
+.s_dashboard_form label {
+    font-family: 'Montserrat-SemiBold';
+    font-size: 15px;
+}
+.s_dashboard_form span{
+    font-family: 'Montserrat-SemiBold';
+    color: #dc0808;
+}
+.s_form_field {
+    border-radius: 0px;
+    background: #eaeaea;
+    font-family: 'Montserrat-SemiBold';
+    height: 45px;
+    color: #636060 !important;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+.s_form_field::placeholder {
+    color: #636060;
+}
+.s_sub_end_button {
+    padding: 20px 10px;
+    border-top: 1px solid #c1c1c1;
+}
+.s_sub_end_button .s_sub_button{
+    padding: 10px 50px;
+}

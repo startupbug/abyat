@@ -44,7 +44,7 @@
           <div class="container">
              <div class="row">
                 <div class="col-md-12">
-                   <img src="assets/images/logo_abyaat_footer.png" class="img-responsive f_responsive">
+                   <img src="<?php echo $base_url;?>assets/images/logo_abyaat_footer.png" class="img-responsive f_responsive">
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-6">
                    <p class="f_question">You have questions regarding our services? <br>Contact us, we will be happy to help you out!</p>
@@ -102,19 +102,21 @@
        </section>
     </footer>
     <!-- jQuery -->
-    <script src="assets/js/jquery-3.1.1.min.js"></script>
+    <script src="<?php echo $base_url;?>assets/js/jquery-3.1.1.min.js"></script>
     <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo $base_url;?>assets/js/bootstrap.min.js"></script>
     <!-- Wow-min-js -->
-    <script src="assets/js/wow.min.js"></script>
+    <script src="<?php echo $base_url;?>assets/js/wow.min.js"></script>
     <!-- alertify-js -->
-    <script src="assets/js/alertify.min.js"></script>
+    <script src="<?php echo $base_url;?>assets/js/alertify.min.js"></script>
     <!-- daterangepicker js -->
-    <script type="text/javascript" src="assets/js/moment.min.js"></script>
-    <script type="text/javascript" src="assets/js/daterangepicker.min.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="<?php echo $base_url;?>assets/js/moment.min.js"></script>
+    <script src="<?php echo $base_url;?>assets/js/daterangepicker.min.js"></script>
     <!-- script-js -->
-    <script src="assets/js/script.js"></script>
+    <script src="<?php echo $base_url;?>assets/js/script.js"></script>
+    <!-- Custom JS -->
+    <script src="<?php echo $base_url;?>assets/js/custom.js"></script>
+
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script> -->
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script> -->
     <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->

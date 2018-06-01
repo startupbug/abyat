@@ -1,3 +1,4 @@
+<?php $base_url = 'http://localhost/abyat/'; ?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -7,21 +8,24 @@
       <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
       <title>Abyat</title>
       <!-- Bootstrap -->
-      <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+      <link href="<?php echo $base_url;?>assets/css/bootstrap.min.css" rel="stylesheet">
       <!-- FontAwesome -->
-      <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+      <link href="<?php echo $base_url;?>assets/css/font-awesome.min.css" rel="stylesheet">
       <!-- Animate -->
-      <link href="assets/css/animate.css" rel="stylesheet">
+      <link href="<?php echo $base_url;?>assets/css/animate.css" rel="stylesheet">
       <!-- Animation CSS -->
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-      <link rel="stylesheet" type="text/css" href="assets/css/default.css" />
-      <link rel="stylesheet" type="text/css" href="assets/css/component.css" />
+      <link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>assets/css/default.css" />
+      <link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>assets/css/component.css" />
       <!-- Date Picker -->
-      <link rel="stylesheet" type="text/css" href="assets/css/daterangepicker.css" />
+      <link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>assets/css/daterangepicker.css" />
       <!-- style.css -->
-      <link href="assets/css/style.css" rel="stylesheet">
+      <link href="<?php echo $base_url;?>assets/css/style.css" rel="stylesheet">
       <!-- Responsive -->
-      <link href="assets/css/responsive.css" rel="stylesheet">
+      <link href="<?php echo $base_url;?>assets/css/responsive.css" rel="stylesheet">
+
+      <!-- Dashboard Css -->
+      <link href="<?php echo $base_url;?>assets/css/dashboard_style.css" rel="stylesheet">
    </head>
    <body>
       <header>
@@ -67,7 +71,8 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12 col-sm-12 col-xs-12">
-                  <nav class="navbar navbar-default">
+                 <div class="row">
+                   <nav class="navbar navbar-default">
                      <div class="container">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
@@ -77,7 +82,9 @@
                            <span class="icon-bar"></span>
                            <span class="icon-bar"></span>
                            </button>
-                           <a class="navbar-brand" href="index.php"><img src="assets/images/logo_img.png" class="img-responsive logo_f"></a>
+                           <a class="navbar-brand" href="index.php">
+                             <img src="<?php echo $base_url;?>assets/images/logo_img.png" class="img-responsive logo_f">
+                           </a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="navbar-collapse collapse" id="navbar-collapse-1" aria-expanded="false" style="height: 1px;">
@@ -95,6 +102,7 @@
                      </div>
                      <!-- /.container -->
                   </nav>
+                 </div>
                </div>
             </div>
          </div>
