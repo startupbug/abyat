@@ -1,9 +1,16 @@
 <?php include('header.php'); ?>
 <section class="hotel">
+<<<<<<< HEAD
    <div class="container">
       <div class="row">
          <div class="col-md-12">
             <h3 class="about_text f_confrm_content">Trip total SAR 6,195.47</h3>
+=======
+   <div class="container f_hotel_border">
+      <div class="row">
+         <div class="col-md-12">
+            <h3 class="about_text">Trip total SAR 6,195.47</h3>
+>>>>>>> 877b04134e1cf10f9d5ba2cdef641fa24f348e9c
             <ul class="list_right">
                <li>
                  <a href="#">Search</a>
@@ -14,6 +21,7 @@
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li class="li_active">
+<<<<<<< HEAD
                  <a href="traveller_details.php">Traveller details</a>
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
@@ -22,6 +30,16 @@
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li><a href="confirm_flight.php">Confirmation</a></li>
+=======
+                 <a href="#">Traveller details</a>
+                 <i class="fa fa-angle-right f_iconright"></i>
+               </li>
+               <li>
+                 <a href="#">Payment</a>
+                 <i class="fa fa-angle-right f_iconright"></i>
+               </li>
+               <li><a href="#">Confirmation</a></li>
+>>>>>>> 877b04134e1cf10f9d5ba2cdef641fa24f348e9c
             </ul>
          </div>
       </div>

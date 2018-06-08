@@ -4,6 +4,7 @@
       <div class="row">
          <div class="col-md-12">
             <h3 class="about_text f_confrm_content">Traveller details</h3>
+
             <ul class="list_right">
                <li>
                  <a href="#">Search</a>
@@ -27,25 +28,6 @@
       </div>
    </div>
 
-   <!--<div class="container">
-      <div class="row">
-         <div class="col-md-12">
-            <h3 class="about_text">Select Hotels</h3>
-            <ul class="list_right">
-               <li><a href="#">Search</a></li>
-               <i class="fa fa-angle-right f_iconright"></i>
-               <li><a href="#">Select Hotels</a></li>
-               <i class="fa fa-angle-right f_iconright"></i>
-               <li><a href="#">Select Rooms</a></li>
-               <i class="fa fa-angle-right f_iconright"></i>
-               <li><a href="#">Payment</a></li>
-               <i class="fa fa-angle-right f_iconright"></i>
-               <li><a href="#">Confirmation</a></li>
-            </ul>
-            <div class="f_hotel_border"></div>
-         </div>
-      </div>
-   </div>-->
    <div class="container f_hotel_main">
       <div class="row">
          <div class="col-md-8 s_row_mainborder">
