@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     border:0;
     font-family:inherit;
     font-size:16px;
-    font-family:'Conv_ProximaNova-Regular';
+    font-family:'Montserrat-Regular';
     font-style:inherit;
     font-weight:inherit;
     margin:0;
@@ -11,8 +11,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     padding:0;
     vertical-align:baseline;
 }
-
- *{
+*{
     outline:none
 }
  :focus{
@@ -22,13 +21,17 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     outline:0px auto -webkit-focus-ring-color;
     outline-offset:0px;
 }
- a{
-    text-decoration:none;
+a{
+    text-decoration:none !important;
 }
- a:active{
+a:active{
     outline:0;
 }
- ol, ul{
+
+a:hover{
+  text-decoration : none !important;
+}
+ol, ul{
     list-style:none;
 }
  table{
@@ -397,7 +400,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
  .f_money{
     font-size:65px;
     color:white;
-    
+
 }
  .money_icon{
     text-align:center;
@@ -1735,15 +1738,16 @@ ul.list_right {
 }
 
 .list_right a {
-    font-size: 18px;
+    font-size: 16px;
     color: #262626;
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-SemiBold';
 }
 
 .f_iconright {
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 4px;
+    color: #ababab !important;
+    font-weight: 600;
 }
 
 .f_hotel_border {
@@ -1832,7 +1836,7 @@ a.f_selecthotel {
 }
 
 .f_border_right {
-    
+
     border-right: 1px solid #ffffff;
 }
 .f_us:hover {
@@ -1922,13 +1926,13 @@ p.f_star_rating {
 }
 
 .checkbox, .radio {
-  
+
     padding-left: 32px;
 }
 .checkbox label, .radio label {
-   
+
     padding-left: 3px !important;
-   
+
 }
 
 .f_main_district {
@@ -1986,7 +1990,7 @@ a.f_room {
 }
 
 a.f_room:hover {
-    
+
     text-decoration: none;
 }
 

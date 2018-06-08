@@ -21,6 +21,7 @@
       <link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>assets/css/daterangepicker.css" />
       <!-- style.css -->
       <link href="<?php echo $base_url;?>assets/css/style.css" rel="stylesheet">
+      <link href="<?php echo $base_url;?>assets/css/s_css.css" rel="stylesheet">
       <!-- Responsive -->
       <link href="<?php echo $base_url;?>assets/css/responsive.css" rel="stylesheet">
 
@@ -96,7 +97,7 @@
                            <ul class="nav navbar-nav navbar-right f_nav">
                               <li><a href="index.php">HOME</a></li>
                               <li><a href="hotels.php">HOTELS</a></li>
-                              <li><a href="#">FLIGHTS</a></li>
+                              <li><a href="traveller_details.php">FLIGHTS</a></li>
                               <li><a href="aboutus.php">ABOUT US</a></li>
                               <li><a href="#">FAQ</a></li>
                               <li><a href="contact.php">CONTACT US</a></li>

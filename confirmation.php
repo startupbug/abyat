@@ -7,13 +7,13 @@
             <ul class="list_right">
                <li><a href="#">Search</a> <i class="fa fa-angle-right f_iconright"></i></li>
                <!--<i class="fa fa-angle-right f_iconright"></i>-->
-               <li><a href="#">Select Hotels</a> <i class="fa fa-angle-right f_iconright"></i></li>
+               <li><a href="hotels.php">Select Hotels</a> <i class="fa fa-angle-right f_iconright"></i></li>
                <!--<i class="fa fa-angle-right f_iconright"></i>-->
-               <li><a href="#">Select Rooms</a><i class="fa fa-angle-right f_iconright"></i></li>
+               <li><a href="selectroom.php">Select Rooms</a><i class="fa fa-angle-right f_iconright"></i></li>
                <!--<i class="fa fa-angle-right f_iconright"></i>-->
                <li><a href="#">Payment</a><i class="fa fa-angle-right f_iconright"></i></li>
                <!--<i class="fa fa-angle-right f_iconright"></i>-->
-               <li><a href="#">Confirmation</a></li>
+               <li><a href="confirmation.php">Confirmation</a></li>
             </ul>
             <div class="f_hotel_border"></div>
          </div>

@@ -7,7 +7,7 @@
             <ul class="list_right">
                <li><a href="#">Search</a></li>
                <i class="fa fa-angle-right f_iconright"></i>
-               <li><a href="#">Select Hotels</a></li>
+               <li><a href="hotels.php">Select Hotels</a></li>
                <i class="fa fa-angle-right f_iconright"></i>
                <li><a href="selectroom.php">Select Rooms</a></li>
                <i class="fa fa-angle-right f_iconright"></i>
