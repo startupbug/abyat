@@ -24,6 +24,11 @@
       <!-- Responsive -->
       <link href="<?php echo $base_url;?>assets/css/responsive.css" rel="stylesheet">
 
+<!--datepicker-->
+      <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />-->
+<!--datepicker-->
+
       <!-- Dashboard Css -->
       <link href="<?php echo $base_url;?>assets/css/dashboard_style.css" rel="stylesheet">
    </head>
