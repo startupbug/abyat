@@ -21,6 +21,7 @@
       <link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>assets/css/daterangepicker.css" />
       <!-- style.css -->
       <link href="<?php echo $base_url;?>assets/css/style.css" rel="stylesheet">
+      <link href="<?php echo $base_url;?>assets/css/s_css.css" rel="stylesheet">
       <!-- Responsive -->
       <link href="<?php echo $base_url;?>assets/css/responsive.css" rel="stylesheet">
 
