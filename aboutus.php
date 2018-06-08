@@ -66,7 +66,8 @@
                <img src="assets/images/team_image1.jpg" class="">
             </div>
             <div class="col-md-9 col-sm-12 col-xs-12 f_padding_media">
-               <h4 class="f_name">John Doe <span>Founder and Chief Executive Officer</span></h4>
+               <h4 class="f_name">John Doe</h4>
+               <span class="f_founder">Founder and Chief Executive Officer</span>
                <p class="f_ipsum">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum  deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,  similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum  quidem rerum facilis est et expedita distinction.</p>
             </div>
          </div>
@@ -75,7 +76,8 @@
                <img src="assets/images/team_image2.jpg" class="">
             </div>
             <div class="col-md-9 col-sm-12 col-xs-12 f_padding_media">
-               <h4 class="f_name">Joseph Mark <span>Co-founder & Chief Commercial Officer</span></h4>
+               <h4 class="f_name">Joseph Mark</h4>
+               <span class="f_founder">Co-founder & Chief Commercial Officer</span>
                <p class="f_ipsum">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum  deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,  similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum  quidem rerum facilis est et expedita distinction.</p>
             </div>
          </div>
@@ -84,7 +86,8 @@
                <img src="assets/images/team_image3.jpg" class="">
             </div>
             <div class="col-md-9 col-sm-12 col-xs-12 f_padding_media">
-               <h4 class="f_name">Maria Dose <span>Chief Marketing Officer</span></h4>
+               <h4 class="f_name">Maria Dose</h4>
+               <span class="f_founder">Chief Marketing Officer</span>
                <p class="f_ipsum">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum  deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,  similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum  quidem rerum facilis est et expedita distinction.</p>
             </div>
          </div>
@@ -93,7 +96,8 @@
                <img src="assets/images/team_image4.jpg" class="">
             </div>
             <div class="col-md-9 col-sm-12 col-xs-12 f_padding_media">
-               <h4 class="f_name">John Doe <span>Chief Operations Officer</span></h4>
+               <h4 class="f_name">John Doe</h4>
+               <span class="f_founder">Chief Operations Officer</span>
                <p class="f_ipsum">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum  deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,  similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum  quidem rerum facilis est et expedita distinction.</p>
             </div>
          </div>

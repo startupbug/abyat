@@ -136,12 +136,21 @@
 
 }
 @media (min-width:320px) and (max-width:767px) and (orientation:landscape){
+
     .header-text h1{
         font-size:34px !important;
         margin-top:28px !important;
     }
 }
 @media (min-width:320px) and (max-width:767px){
+    .s_form_margin_top{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .width_50 {
+        width: 100% !important;
+        display: block;
+    }
     .f_responsive{
         display: block;
     }
@@ -280,7 +289,7 @@ section.main_top {
 ul.right_top a {
 
     font-size: 10px !important;
-    
+
 }
 
 ul.right_top {
@@ -309,15 +318,15 @@ img.media-object {
 }
 p.panel_content {
     font-size: 11px!important;
-    
+
 }
 button.btn.f_signup {
 
     width: auto !important;
-    
+
 }
 .f_paddingtop {
-   padding-top: 0px !important; 
+   padding-top: 0px !important;
 }
 .f_defualt {
     font-size: 7px !important;
@@ -325,10 +334,48 @@ button.btn.f_signup {
 .btn-group-justified {
 
     width: auto !important;
-    
+
 }
 .media-body, .media-left, .media-right{
     display: block;
+}
+ul.list_right {
+    float: none;
+  
+    display: inherit;
+}
+li.float_right {
+    float: left;
+    
+}
+p.f-sup {
+    
+    float: left;
+}
+h3.f_fits {
+   
+    text-align: right;
+}
+.f_check_email {
+    
+    margin-bottom: 22px;
+}
+.f_main_content {
+    float: left;
+}
+.f_main_content {
+    float: none;
+}
+.f_confirm_dropdown {
+    text-align: left;
+}
+.f_iconright {
+    
+    display: none;
+}
+.main_flight_img {
+    text-align: center;
+    margin: 0 auto;
 }
 }
 @media (max-width:1200px){

@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     border:0;
     font-family:inherit;
     font-size:16px;
-    font-family:'Conv_ProximaNova-Regular';
+    font-family:'Montserrat-Regular';
     font-style:inherit;
     font-weight:inherit;
     margin:0;
@@ -11,8 +11,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     padding:0;
     vertical-align:baseline;
 }
-
- *{
+*{
     outline:none
 }
  :focus{
@@ -22,13 +21,17 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     outline:0px auto -webkit-focus-ring-color;
     outline-offset:0px;
 }
- a{
-    text-decoration:none;
+a{
+    text-decoration:none !important;
 }
- a:active{
+a:active{
     outline:0;
 }
- ol, ul{
+
+a:hover{
+  text-decoration : none !important;
+}
+ol, ul{
     list-style:none;
 }
  table{
@@ -397,7 +400,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
  .f_money{
     font-size:65px;
     color:white;
-    
+
 }
  .money_icon{
     text-align:center;
@@ -1166,7 +1169,7 @@ h3.about_text {
     color: #262626;
     font-family: 'Montserrat-Bold';
     padding-top: 10px;
-    float: left;
+   
 }
 
 p.f_content {
@@ -1206,6 +1209,7 @@ h4.f_name {
     color: #26245c;
     font-size: 20px;
     font-family: 'Montserrat-Medium';
+    line-height: 3px;
 }
 
 .f_name span {
@@ -1649,8 +1653,8 @@ section.privacy {
 }
 
 .f_well {
-    background-color: transparent;
-    border: none;
+    background-color: transparent !important;
+    border: none !important;
     -webkit-box-shadow: transparent !important;
     box-shadow: none;
 }
@@ -1734,19 +1738,23 @@ ul.list_right {
 }
 
 .list_right a {
-    font-size: 18px;
+    font-size: 16px;
     color: #262626;
-    font-family: 'Montserrat-Regular';
+    font-family: 'Montserrat-SemiBold';
 }
 
 .f_iconright {
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 4px;
+    color: #ababab !important;
+    font-weight: 600;
 }
 
 .f_hotel_border {
     border-bottom: 1px solid #eaeaea;
+    position: absolute;
+    bottom: 0;
+    width: 97%;
 }
 
 .f_mainborder {
@@ -1828,7 +1836,7 @@ a.f_selecthotel {
 }
 
 .f_border_right {
-    
+
     border-right: 1px solid #ffffff;
 }
 .f_us:hover {
@@ -1918,13 +1926,13 @@ p.f_star_rating {
 }
 
 .checkbox, .radio {
-  
+
     padding-left: 32px;
 }
 .checkbox label, .radio label {
-   
+
     padding-left: 3px !important;
-   
+
 }
 
 .f_main_district {
@@ -1962,8 +1970,10 @@ p.f_san {
     border: 1px solid #e0e0e0;
     background-color: #f3f3f3;
     padding-top: 10px;
+    padding-left: 15px;
     margin-top: 20px;
     padding-bottom: 20px;
+    padding-right: 15px;
 }
 
 a.f_room {
@@ -1980,14 +1990,14 @@ a.f_room {
 }
 
 a.f_room:hover {
-    
+
     text-decoration: none;
 }
 
 
 
 
-.product-slider #carousel { border: 4px solid #1089c0; margin: 0; }
+.product-slider #carousel { /*border: 4px solid #1089c0*/; margin: 0; }
 
 .product-slider #thumbcarousel { margin: 12px 0 0; padding: 0 45px; }
 
@@ -1995,7 +2005,7 @@ a.f_room:hover {
 
 .product-slider #thumbcarousel .item .thumb { border: 4px solid #cecece; width: 20%; margin: 0 2%; display: inline-block; vertical-align: middle; cursor: pointer; max-width: 98px; }
 
-.product-slider #thumbcarousel .item .thumb:hover { border-color: #1089c0; }
+.product-slider #thumbcarousel .item .thumb:hover { /*border-color: #1089c0;*/ }
 
 .product-slider .item img { width: 100%; height: auto; }
 
@@ -2007,3 +2017,362 @@ a.f_room:hover {
 .carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }
 
 .carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }
+
+
+.f_available {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+    padding-left: 14px;
+}
+
+.f_value {
+    font-size: 15px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+p.f-sup {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+h3.f_sar {
+    font-size: 16px;
+    color: #575757;
+    font-family: 'Montserrat-SemiBold';
+    margin-top: 0px;
+}
+
+.f_main_content {
+    float: right;
+}
+
+h3.f_numlast {
+    font-size: 26px;
+    color: #575757;
+    font-family: 'Montserrat-SemiBold';
+    margin-top: 0px;
+}
+
+p.f_view {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+a.f_show {
+    border: 1px solid #26245c;
+    background-color: #26245c;
+    font-size: 16px;
+    color: #ffff;
+    font-family: 'Montserrat-Medium';
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.f_panelbody {
+    padding-bottom: 55px !important;
+    background-color: #f3f3f3;
+    padding-top: 25px !important;
+}
+
+.f_panel_footer {
+    padding-bottom: 177px !important;
+}
+
+.f_icon_bed {
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+p.f_continental {
+    color: #217a10;
+    font-size: 14px;
+    font-family: 'Montserrat-Regular';
+}
+
+.f_icon_check {
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+h3.panel_content {
+    font-size: 14px;
+    color: #262626;
+    font-family: 'Montserrat-Bold';
+    margin-top: 0px;
+}
+p.f_splendid {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+p.check_in {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+p.check_out {
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+.list_f li {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+    position: relative;
+    padding-left: 13px;
+}
+
+.list_f li:before {
+    content: '.';
+    position: absolute;
+    left: -6px;
+    top: -70px;
+    font-size: 80px;
+    color: #575757;
+
+}
+.navbar-default {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+
+.middle {
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 5px; background-color: #26245c;}
+.bar-4 {width: 30%; height: 5px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 5px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 5px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 5px; background-color: #f44336;}
+
+.user_reviews {
+    padding: 15px;
+    border: 1px solid #e9e9ee;
+    background-color: #e9e9ee;
+    margin-top: 8px;
+}
+
+.f_rooms_available {
+    margin-top: 20px;
+}
+
+ul.rating_star {
+    display: inline-flex;
+}
+
+h3.f_thanku {
+    border: 1px solid #d4d3de;
+    background-color: #d4d3de;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    color: #26245c;
+    font-size: 32px;
+    font-family: 'Montserrat-Bold';
+}
+
+ul.star_confirmation_f {
+    display: inline-flex;
+}
+
+.star_confirmation_f li {
+    color: #26245c;
+}
+p.f_marco {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+a.f_check {
+    border: 1px solid #26245c;
+    background-color: #26245c;
+    color: #ffff;
+    font-size: 16px;
+    font-family: 'Montserrat-Medium';
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.f_good {
+    font-size: 11px;
+    color: #26245c;
+    font-family: 'ProximaNova-Regular';
+}
+
+.padding_top_f {
+    padding-bottom: 1px;
+}
+
+.f_check_email {
+    margin-top: 15px;
+}
+h3.f_review {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-SemiBold';
+    float: left;
+}
+
+.f_confirm_dropdown {
+    text-align: right;
+}
+li.float_left {
+    float: left;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+li.float_right {
+    float: right;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+ul.inline_f {
+    display: inline-block;
+}
+
+.right_content {
+    padding-bottom: 8px;
+}
+
+.color_bg_f {
+    background-color: #f3f3f3;
+}
+
+hr.f_b_line {
+    margin: 5px;
+}
+
+h3.f_fits {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+.f_panel_last {
+    margin-top: 30px;
+    border-radius: 0px;
+}
+p.f_num_sar1 {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+}
+h3.f_num_sar {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+}
+.f_num_sar strong {
+    font-size: 22px;
+    color: #262626;
+    font-family: 'Montserrat-Bold';
+}
+.f_panel_bg_color {
+    background-color: #f3f3f3;
+}
+
+.f_footer_panel {
+    background-color: #e0e0e0;
+}
+.f_confrm_padding {
+    padding-top: 30px;
+}
+.f_confrm_padding_top {
+    padding-top: 30px;
+}
+
+h3.f_confrm_content {
+    float: left;
+}
+
+a.f_check:hover {
+   
+    text-decoration: none;
+}
+section.confirmation {
+    padding-bottom: 60px;
+}
+
+h3.f_france {
+    font-size: 23px;
+    color: #262626;
+    font-family: 'Montserrat-SemiBold';
+    text-align: center;
+    line-height: 16px;
+}
+img.img_flight {
+    padding-bottom: 20px;
+}
+
+p.f_flight {
+    font-size: 18px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+p.f_travel {
+    font-size: 14px;
+    color: #262626;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 3px;
+}
+
+.f_angleup {
+    font-size: 18px;
+    color: #262626;
+}
+span.f_founder {
+    font-size: 18px;
+    color: #6b6b6b;
+    font-family: 'Montserrat-Medium';
+}
+.f_signup a {
+    font-size: 26px;
+    font-family: 'Montserrat-Medium';
+    background-color: #26245c;
+    color: #ffff;
+    width: 70%;
+    border-radius: 0px;
+    line-height: 24px;
+}
+
+.f_signup a:hover {
+    
+    text-decoration: none;
+}
+
+.f_booking {
+    padding-left: 14px;
+}

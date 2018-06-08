@@ -21,8 +21,14 @@
       <link rel="stylesheet" type="text/css" href="<?php echo $base_url;?>assets/css/daterangepicker.css" />
       <!-- style.css -->
       <link href="<?php echo $base_url;?>assets/css/style.css" rel="stylesheet">
+      <link href="<?php echo $base_url;?>assets/css/s_css.css" rel="stylesheet">
       <!-- Responsive -->
       <link href="<?php echo $base_url;?>assets/css/responsive.css" rel="stylesheet">
+
+<!--datepicker-->
+      <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css" rel="stylesheet" type="text/css" />-->
+<!--datepicker-->
 
       <!-- Dashboard Css -->
       <link href="<?php echo $base_url;?>assets/css/dashboard_style.css" rel="stylesheet">
@@ -90,8 +96,8 @@
                         <div class="navbar-collapse collapse" id="navbar-collapse-1" aria-expanded="false" style="height: 1px;">
                            <ul class="nav navbar-nav navbar-right f_nav">
                               <li><a href="index.php">HOME</a></li>
-                              <li><a href="#">HOTELS</a></li>
-                              <li><a href="#">FLIGHTS</a></li>
+                              <li><a href="hotels.php">HOTELS</a></li>
+                              <li><a href="traveller_details.php">FLIGHTS</a></li>
                               <li><a href="aboutus.php">ABOUT US</a></li>
                               <li><a href="#">FAQ</a></li>
                               <li><a href="contact.php">CONTACT US</a></li>

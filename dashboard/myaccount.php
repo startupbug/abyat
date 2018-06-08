@@ -155,13 +155,13 @@
                   </div>
                 </div>
                 <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <label for="zipcode">Zip Code <span>*</span></label>
-                    <input type="number" id="zipcode" class="form-control s_form_field" name="zipcode">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label for="zipcode">Zip Code <span>*</span></label>
+                      <input type="number" id="zipcode" class="form-control s_form_field" name="zipcode">
+                    </div>
                   </div>
                 </div>
-              </div>
                </div>
                <div class="s_sub_end_button">
                  <div class="row">
