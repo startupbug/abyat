@@ -72,7 +72,7 @@
                      <div class="col-md-12">
                         <div class="user_reviews">
                            <h3 class="f_available">User Reviews</h3>
-                           <div class="row">
+                           <div class="row padding_top_f">
                               <div class="col-md-3">
                                  <div class="f_good">Excellent</div>
                               </div>
@@ -93,13 +93,112 @@
                                  </div>
                               </div>
                               <div class="col-md-1">
-                                 150
+                                 88%
+                              </div>
+                           </div>
+
+                             <div class="row padding_top_f">
+                              <div class="col-md-3">
+                                 <div class="f_good">Good</div>
+                              </div>
+                              <div class="col-md-3">
+                                 <ul class="rating_star">
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                 </ul>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="middle">
+                                    <div class="bar-container">
+                                       <div class="bar-5"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-1">
+                                 64%
+                              </div>
+                           </div>
+                            <div class="row padding_top_f">
+                              <div class="col-md-3">
+                                 <div class="f_good">Average</div>
+                              </div>
+                              <div class="col-md-3">
+                                 <ul class="rating_star">
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                 </ul>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="middle">
+                                    <div class="bar-container">
+                                       <div class="bar-5"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-1">
+                                 35%
+                              </div>
+                           </div>
+
+                            <div class="row padding_top_f">
+                              <div class="col-md-3">
+                                 <div class="f_good">Rather Poor</div>
+                              </div>
+                              <div class="col-md-3">
+                                 <ul class="rating_star">
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                 </ul>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="middle">
+                                    <div class="bar-container">
+                                       <div class="bar-5"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-1">
+                                 20%
+                              </div>
+                           </div>
+
+                            <div class="row padding_top_f">
+                              <div class="col-md-3">
+                                 <div class="f_good">Bad</div>
+                              </div>
+                              <div class="col-md-3">
+                                 <ul class="rating_star">
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                    <li><i class="fa fa-star f_star"></i></li>
+                                 </ul>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="middle">
+                                    <div class="bar-container">
+                                       <div class="bar-5"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-1">
+                                 3%
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="user_reviews">
+                  <!--<div class="user_reviews">
                      <div class="row">
 
                         <div class="side">
@@ -147,7 +246,7 @@
                            <div>20</div>
                         </div>
                      </div>
-                  </div>
+                  </div>-->
                </div>
                <div class="col-md-8">
                   <div class="product-slider">

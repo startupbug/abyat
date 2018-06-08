@@ -43,7 +43,7 @@
                            <h1 class="line-title">or</h1> 
                            
                            <div class="btn_signup_f">
-                              <button type="button" class="btn f_signup">LOGIN NOW <br><span>Already have an account? Login Now</span></button>
+                              <button type="button" class="btn f_signup"><a href="login.php">LOGIN NOW </a><br><span>Already have an account? Login Now</span></button>
                            </div>
                         </form>
                      </div>

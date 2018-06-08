@@ -604,7 +604,7 @@
                      <div class="media-left">
                         <div class="border_box">01</div>
                      </div>
-                     <div class="media-body">
+                     <div class="media-body f_booking">
                         <h4 class="media-heading f_mediacontent">No booking charges</h4>
                         <p class="f_mediatext f_fontsize">We don't charge you an extra fee for booking a hotel room with us.</p>
                      </div>
@@ -613,7 +613,7 @@
                      <div class="media-left">
                         <div class="border_box">02</div>
                      </div>
-                     <div class="media-body">
+                     <div class="media-body f_booking">
                         <h4 class="media-heading f_mediacontent">No cancellation fees</h4>
                         <p class="f_mediatext f_fontsize">We don't charge you a cancellation or modification fee in case plans change</p>
                      </div>
@@ -622,7 +622,7 @@
                      <div class="media-left">
                         <div class="border_box">03</div>
                      </div>
-                     <div class="media-body">
+                     <div class="media-body f_booking">
                         <h4 class="media-heading f_mediacontent">Instant confirmation</h4>
                         <p class="f_mediatext f_fontsize">Instant booking confirmation whether booking online or via the telephone</p>
                      </div>
@@ -631,7 +631,7 @@
                      <div class="media-left">
                         <div class="border_box">04</div>
                      </div>
-                     <div class="media-body">
+                     <div class="media-body f_booking">
                         <h4 class="media-heading f_mediacontent">Flexible booking</h4>
                         <p class="f_mediatext f_fontsize">You can book up to a whole year in advance until the moment of your stay</p>
                      </div>

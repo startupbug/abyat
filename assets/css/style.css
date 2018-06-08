@@ -1166,7 +1166,7 @@ h3.about_text {
     color: #262626;
     font-family: 'Montserrat-Bold';
     padding-top: 10px;
-    float: left;
+   
 }
 
 p.f_content {
@@ -1206,6 +1206,7 @@ h4.f_name {
     color: #26245c;
     font-size: 20px;
     font-family: 'Montserrat-Medium';
+    line-height: 3px;
 }
 
 .f_name span {
@@ -2164,7 +2165,7 @@ p.check_out {
 }
 
 /* Individual bars */
-.bar-5 {width: 60%; height: 5px; background-color: #4CAF50;}
+.bar-5 {width: 60%; height: 5px; background-color: #26245c;}
 .bar-4 {width: 30%; height: 5px; background-color: #2196F3;}
 .bar-3 {width: 10%; height: 5px; background-color: #00bcd4;}
 .bar-2 {width: 4%; height: 5px; background-color: #ff9800;}
@@ -2174,6 +2175,7 @@ p.check_out {
     padding: 15px;
     border: 1px solid #e9e9ee;
     background-color: #e9e9ee;
+    margin-top: 8px;
 }
 
 .f_rooms_available {
@@ -2185,8 +2187,8 @@ ul.rating_star {
 }
 
 h3.f_thanku {
-    border: 1px solid #d6e0ec;
-    background-color: #d6e0ec;
+    border: 1px solid #d4d3de;
+    background-color: #d4d3de;
     padding-top: 18px;
     padding-bottom: 18px;
     text-align: center;
@@ -2218,4 +2220,155 @@ a.f_check {
     padding-bottom: 5px;
     padding-left: 35px;
     padding-right: 35px;
+}
+.f_good {
+    font-size: 11px;
+    color: #26245c;
+    font-family: 'ProximaNova-Regular';
+}
+
+.padding_top_f {
+    padding-bottom: 1px;
+}
+
+.f_check_email {
+    margin-top: 15px;
+}
+h3.f_review {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-SemiBold';
+    float: left;
+}
+
+.f_confirm_dropdown {
+    text-align: right;
+}
+li.float_left {
+    float: left;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+li.float_right {
+    float: right;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+ul.inline_f {
+    display: inline-block;
+}
+
+.right_content {
+    padding-bottom: 8px;
+}
+
+.color_bg_f {
+    background-color: #f3f3f3;
+}
+
+hr.f_b_line {
+    margin: 5px;
+}
+
+h3.f_fits {
+    font-size: 14px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+
+.f_panel_last {
+    margin-top: 30px;
+    border-radius: 0px;
+}
+p.f_num_sar1 {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+}
+h3.f_num_sar {
+    font-size: 18px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+}
+.f_num_sar strong {
+    font-size: 22px;
+    color: #262626;
+    font-family: 'Montserrat-Bold';
+}
+.f_panel_bg_color {
+    background-color: #f3f3f3;
+}
+
+.f_footer_panel {
+    background-color: #e0e0e0;
+}
+.f_confrm_padding {
+    padding-top: 30px;
+}
+.f_confrm_padding_top {
+    padding-top: 30px;
+}
+
+h3.f_confrm_content {
+    float: left;
+}
+
+a.f_check:hover {
+   
+    text-decoration: none;
+}
+section.confirmation {
+    padding-bottom: 60px;
+}
+
+h3.f_france {
+    font-size: 23px;
+    color: #262626;
+    font-family: 'Montserrat-SemiBold';
+    text-align: center;
+    line-height: 16px;
+}
+img.img_flight {
+    padding-bottom: 20px;
+}
+
+p.f_flight {
+    font-size: 18px;
+    color: #575757;
+    font-family: 'Montserrat-Regular';
+}
+p.f_travel {
+    font-size: 14px;
+    color: #262626;
+    font-family: 'Montserrat-SemiBold';
+    padding-bottom: 3px;
+}
+
+.f_angleup {
+    font-size: 18px;
+    color: #262626;
+}
+span.f_founder {
+    font-size: 18px;
+    color: #6b6b6b;
+    font-family: 'Montserrat-Medium';
+}
+.f_signup a {
+    font-size: 26px;
+    font-family: 'Montserrat-Medium';
+    background-color: #26245c;
+    color: #ffff;
+    width: 70%;
+    border-radius: 0px;
+    line-height: 24px;
+}
+
+.f_signup a:hover {
+    
+    text-decoration: none;
+}
+
+.f_booking {
+    padding-left: 14px;
 }

@@ -330,6 +330,44 @@ button.btn.f_signup {
 .media-body, .media-left, .media-right{
     display: block;
 }
+ul.list_right {
+    float: none;
+  
+    display: inherit;
+}
+li.float_right {
+    float: left;
+    
+}
+p.f-sup {
+    
+    float: left;
+}
+h3.f_fits {
+   
+    text-align: right;
+}
+.f_check_email {
+    
+    margin-bottom: 22px;
+}
+.f_main_content {
+    float: left;
+}
+.f_main_content {
+    float: none;
+}
+.f_confirm_dropdown {
+    text-align: left;
+}
+.f_iconright {
+    
+    display: none;
+}
+.main_flight_img {
+    text-align: center;
+    margin: 0 auto;
+}
 }
 @media (max-width:1200px){
     .navbar-header{

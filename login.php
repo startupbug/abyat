@@ -29,6 +29,9 @@
                               <label for="pwd">Password:</label>
                               <input type="password" class="form-control f_control_forgot" id="pwd">
                            </div>
+                           <div class="checkbox email_forgot">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
                            <div class="btn_send"><button type="button" class="btn f_login">LOG IN NOW</button></div>
                            <div class="f_goback"><a href="#" class="go_back">Forgot my password</a></div>
                             <h1 class="line-title">or</h1> 

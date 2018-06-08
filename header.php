@@ -95,7 +95,7 @@
                         <div class="navbar-collapse collapse" id="navbar-collapse-1" aria-expanded="false" style="height: 1px;">
                            <ul class="nav navbar-nav navbar-right f_nav">
                               <li><a href="index.php">HOME</a></li>
-                              <li><a href="#">HOTELS</a></li>
+                              <li><a href="hotels.php">HOTELS</a></li>
                               <li><a href="#">FLIGHTS</a></li>
                               <li><a href="aboutus.php">ABOUT US</a></li>
                               <li><a href="#">FAQ</a></li>
