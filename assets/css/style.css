@@ -12,6 +12,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
     vertical-align:baseline;
 }
 *{
+
     outline:none
 }
  :focus{
@@ -554,6 +555,17 @@ ol, ul{
     border-radius:0px;
 }
  .f_us:hover{
+    border:1px solid #ffff;
+    padding-left:52px;
+    padding-right:52px;
+    padding-top:6px;
+    padding-bottom:6px;
+    font-size:16px;
+    color:#ffff;
+    font-family:'Montserrat-Regular';
+    border-radius:0px;
+}
+.f_us:focus{
     border:1px solid #ffff;
     padding-left:52px;
     padding-right:52px;
@@ -1297,6 +1309,10 @@ p.f_contact {
     margin-top: 20px;
 }
 
+.f_need_signup {
+    margin-top: auto;
+}
+
 .f_panel_head {
     font-size: 48px;
     color: #26245c !important;
@@ -1491,6 +1507,10 @@ section.forgot_password {
     border-top: 1px solid #eaeaea;
     padding-top: 15px;
     padding-bottom: 35px;
+    background-image: url(../images/banner.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .f_carousal {
@@ -1869,9 +1889,6 @@ a.f_selecthotel {
     font-family: 'Montserrat-Regular';
     border-radius: 0px;
 }
-.f_btn_group {
-    padding-top: 27px;
-}
 
 .f_btn_default {
     background-color: #26245c;
@@ -1899,7 +1916,7 @@ a.f_selecthotel {
 
 .star-rating{
     font-size: 0;
-    padding-bottom: 13px;
+    
 }
 .star-rating__wrap{
     display: inline-block;
@@ -1934,7 +1951,7 @@ p.f_star_rating {
     font-family: 'Montserrat-Regular';
     font-weight: 600;
     padding-left: 15px;
-    float: left;
+    
 }
 
 .main_star {
@@ -2265,9 +2282,8 @@ h3.f_review {
     float: left;
 }
 
-.f_confirm_dropdown {
-    text-align: right;
-}
+
+
 li.float_left {
     float: left;
     color: #575757;
@@ -2635,4 +2651,8 @@ section.flight_search {
 }
 .go_back {
     cursor: pointer;
+}
+
+.f_confirm_dropdown {
+    text-align: right;
 }

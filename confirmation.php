@@ -56,6 +56,7 @@
                         <li><a href="#">Page 1-3</a></li>
                      </ul>
                   </div>
+                   
                </div>
                <div class="panel-body color_bg_f">
                   <div class="right_content">

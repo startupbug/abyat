@@ -44,7 +44,7 @@
           <div class="container">
              <div class="row">
                 <div class="col-md-12">
-                   <img src="<?php echo $base_url;?>assets/images/logo-abyat-footer.jpg" class="img-responsive f_responsive">
+                   <img src="<?php echo $base_url;?>assets/images/logo-abyat-footer.png" class="img-responsive f_responsive">
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-6">
                    <p class="f_question">You have questions regarding our services? <br>Contact us, we will be happy to help you out!</p>
@@ -119,7 +119,7 @@
 
 
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
 
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script> -->
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script> -->

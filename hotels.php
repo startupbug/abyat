@@ -24,26 +24,45 @@
          <div class="col-md-3">
             <form class="navbar-form f_navform form_border" role="search">
                <div class="input-group f_label_search">
-                  <label>Search</label>
-                  <input type="text" class="form-control" placeholder="Search" name="q">
-                  <div class="input-group-btn f_btn_group">
-                     <button class="btn btn-default f_btn_default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <label>Search</label>
+                        <i class="fa fa-angle-up f_angle"></i>
+                     </div>
+                     <div class="col-md-12">
+                        <input type="text" class="form-control" placeholder="Search" name="q">
+                        <div class="input-group-btn f_btn_group">
+                           <button class="btn btn-default f_btn_default" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </form>
             <div class="navbar-form f_navform form_border">
                <div class="input-group f_label_search" style="width: 100%;">
-                  <label>Price</label>
-                  <input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
-                  <div class="left_rangeslider">Min</div>
-                   <div class="right_rangeslider">Max</div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <label>Price</label>
+                        <i class="fa fa-angle-up f_angle"></i>
+                     </div>
+                     <div class="col-md-12">
+                        <input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
+                        <div class="left_rangeslider">Min</div>
+                         <div class="right_rangeslider">Max</div>
+                     </div>
+                  </div>
                </div>
             </div>
+            <form>
             <div class="main_rating">
-               <div class="star-rating">
-                  <p class="f_star_rating">Star Rating</p>
-                  <hr>
+               <div class="col-md-12">
+                  <div class="star-rating f_label_search">
+                     <label class="f_star_rating">Star Rating</label>
+                     <i class="fa fa-angle-up f_angle"></i>
+                     <hr class="f_star_rating">
+                  </div>
                </div>
+
                <div class="checkbox">
                   <label>
                      <input type="checkbox" value="">
@@ -147,17 +166,28 @@
                   </label>
                </div>
             </div>
+         </form>
 
               <div class="navbar-form f_navform form_border">
                <div class="input-group f_label_search" style="width: 100%;">
-                  <label>Hotel Rating</label>
-                  <input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
-                  <div class="left_rangeslider">Average</div>
-                   <div class="right_rangeslider">Excellent</div>
+                  <div class="row">
+                     <div class="col-md-12">
+                        <label>Hotel Rating</label>
+                        <i class="fa fa-angle-up f_angle"></i>
+                     </div>
+                     <div class="col-md-12">
+                        <input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
+                        <div class="left_rangeslider">Average</div>
+                         <div class="right_rangeslider">Excellent</div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="f_main_district">
-               <p class="f_star_rating">District</p>
+               <div class="col-md-12 f_label_search">
+                  <label class="f_star_rating">District</label>
+                  <i class="fa fa-angle-up f_angle"></i>
+               </div>
                <form>
                   <div class="checkbox f_check_box">
                      <label><input type="checkbox" value="">Lido Island</label>
@@ -184,7 +214,11 @@
                </form>
             </div>
             <div class="f_main_district">
-               <p class="f_star_rating">Chain</p>
+               <div class="col-md-12 f_label_search">
+                  <label class="f_star_rating">Chain</label>
+                  <i class="fa fa-angle-up f_angle"></i>
+               </div>
+
                <form>
                   <div class="checkbox f_check_box">
                      <label><input type="checkbox" value="">Lido Island</label>
@@ -211,7 +245,10 @@
                </form>
             </div>
             <div class="f_main_district">
-               <p class="f_star_rating">Property Amenities</p>
+               <div class="col-md-12 f_label_search">
+                  <label class="f_star_rating">Property Amenities</label>
+                  <i class="fa fa-angle-up f_angle"></i>
+               </div>
                <form>
                   <div class="checkbox f_check_box">
                      <label><input type="checkbox" value="">Lido Island</label>

@@ -15,7 +15,7 @@
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li class="li_active">
-                 <a href="traveller_payment.php">Traveller details</a>
+                 <a href="traveller_details.php">Traveller details</a>
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li>

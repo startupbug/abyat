@@ -1,5 +1,12 @@
 <?php include('header.php'); ?>
 <section class="forgot_password">
+   <!--<div class="container-fluid f_padding">
+      <div class="row">
+         <div class="col-md-12">
+            <img src="assets/images/banner.jpg" class="img-responsive">
+         </div>
+      </div>
+   </div>-->
    <div class="container">
       <div class="row">
          <div class="col-md-6">
@@ -111,7 +118,7 @@
             </div>
          </div>
          <div class="col-md-6">
-            <div class="panel panel-default f_panel_contact">
+            <div class="panel panel-default f_panel_contact f_need_signup">
                <div class="panel-heading f_content_forgot">NEED TO KNOW MORE?</div>
                <div class="panel-body f_contact_body">
                   <ul class="main_listforgot">
