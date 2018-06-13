@@ -255,6 +255,10 @@
                   <div class="form-group">
                     <select class="form-control s_form_field" name="" required>
                       <option value="Select">Select</option>
+                      <option value="Select">Passport</option>
+                      <option value="Select">Saudi Muqeem ID</option>
+                      <option value="Select">Saudi Citizen ID</option>
+                     
                     </select>
                   </div>
                 </div>

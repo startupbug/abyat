@@ -2661,3 +2661,22 @@ section.flight_search {
     text-align: right;
 }
 
+.f_abc a {
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+}
+
+.f_size {
+    min-width: 91px !important;
+}
+.s_silder_tab .nav>li.active>a {
+    background-color: #26245cc9 !important;
+    border: 1px solid #26245cc9 !important;
+    color: #fff;
+}
+
+@media (min-width: 992px){
+    .col-md-1-5 {
+        width: 11%;
+    }
+}

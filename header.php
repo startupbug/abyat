@@ -1,4 +1,5 @@
-<?php $base_url = 'http://site.startupbug.net:6888/abyat/frontend/'; ?>
+<!-- <?php $base_url = 'http://site.startupbug.net:6888/abyat/frontend/'; ?> -->
+<?php $base_url = 'http://localhost/abyat/'; ?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -52,21 +53,19 @@
                               <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 : ENG <span class="caret"></span>
                               </a>
-                              <ul class="dropdown-menu f_dropmenu">
-                                 <li><a href="#">Page 1-1</a></li>
-                                 <li><a href="#">Page 1-2</a></li>
-                                 <li><a href="#">Page 1-3</a></li>
+                              <ul class="dropdown-menu f_dropmenu f_size">
+                                 <li><a href="#">Arabic</a></li>
+                                
                               </ul>
                            </li>
                            <li class="dropdown">
                               <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <i class="fa fa-money fa_icon"></i>: USD
+                                <i class="fa fa-money fa_icon"></i>: SAR
                                 <span class="caret"></span>
                               </a>
-                              <ul class="dropdown-menu">
-                                 <li><a href="#">Page 1-1</a></li>
-                                 <li><a href="#">Page 1-2</a></li>
-                                 <li><a href="#">Page 1-3</a></li>
+                              <ul class="dropdown-menu f_size">
+                                 <li><a href="#">USD</a></li>
+                                
                               </ul>
                            </li>
                         </ul>
@@ -102,7 +101,7 @@
                               <li><a href="aboutus.php">ABOUT US</a></li>
                               <li><a href="#">FAQ</a></li>
                               <li><a href="contact.php">CONTACT US</a></li>
-                              <li><a href="signup.php" class="btn btn-default f_signin">SIGN IN</a></li>
+                              <li><a href="login.php" class="btn btn-default f_signin">SIGN IN</a></li>
                            </ul>
                         </div>
                         <!-- /.navbar-collapse -->

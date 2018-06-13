@@ -31,47 +31,55 @@
          <div class="tab-content f_tab">
             <div class="tab-pane fade in active" id="tab1default">
                <form>
+
                   <div class="row">
-                     <div class="col-md-3 col-md-offset-1">
-                        <div class="form-group f_group">
-                           <label for="destination"><span>Your Destination</span></label>
-                           <input id="textinput" name="textinput" placeholder="Enter a Destination or Hotel name" class="form-control input-md input_f" type="text">
+                     <div class="col-md-10 col-md-offset-1">
+                        <div class="flights-search-box">
+                           <div class="row">
+                              <div class="col-md-3">
+                                 <div class="form-group f_group">
+                                    <label for="destination"><span>Your Destination</span></label>
+                                    <input id="textinput" name="textinput" placeholder="Enter a Destination or Hotel name" class="form-control input-md input_f" type="text">
+                                 </div>
+                              </div>
+                              <div class="col-md-1 col-md-1-5">
+                                 <div class="form-group f_group">
+                                    <label for="email"><span>Check In</span></label>
+                                    <input id="textinput" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f" type="text">
+                                 </div>
+                              </div>
+                              <div class="col-md-1 col-md-1-5">
+                                 <div class="form-group f_group">
+                                    <label for="email"><span>Check Out</span></label>
+                                    <input id="textinput" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f" type="text">
+                                 </div>
+                              </div>
+                              <div class="col-md-1 col-md-1-5">
+                                 <div class="form-group f_group">
+                                    <label for="email"><span>Kids</span></label>
+                                    <input id="textinput" name="textinput" placeholder="01 Kids" class="form-control input-md input_f" type="text">
+                                 </div>
+                              </div>
+                              <div class="col-md-1 col-md-1-5">
+                                 <div class="form-group f_group">
+                                    <label for="email"><span>Adult</span></label>
+                                    <input id="textinput" name="textinput" placeholder="01 Adults" class="form-control input-md input_f" type="text">
+                                 </div>
+                              </div>
+                              <div class="col-md-1 col-md-1-5">
+                                 <div class="form-group f_group">
+                                    <label for="email"><span>Rooms</span></label>
+                                    <input id="textinput" name="textinput" placeholder="01 Rooms" class="form-control input-md input_f" type="text">
+                                 </div>
+                              </div>
+                              <div class="col-md-2">
+                                 <button type="submit" class="btn btn-default f_btnresult">SEARCH RESULTS</button>
+                              </div>
+                           </div>
                         </div>
+                        
                      </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Check In</span></label>
-                           <input id="textinput" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Check Out</span></label>
-                           <input id="textinput" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Kids</span></label>
-                           <input id="textinput" name="textinput" placeholder="01 Kids" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Adult</span></label>
-                           <input id="textinput" name="textinput" placeholder="01 Adults" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-1">
-                        <div class="form-group f_group">
-                           <label for="email"><span>Rooms</span></label>
-                           <input id="textinput" name="textinput" placeholder="01 Rooms" class="form-control input-md input_f" type="text">
-                        </div>
-                     </div>
-                     <div class="col-md-3">
-                        <button type="submit" class="btn btn-default f_btnresult">SEARCH RESULTS</button>
-                     </div>
-                  </div>
+                  </div> 
                </form>
             </div>
             <div class="tab-pane fade" id="tab2default">
