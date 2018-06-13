@@ -64,7 +64,7 @@
 }
 .header_border_bottom{
   border-bottom: 1px solid #c1c1c1;
-  padding-bottom: 45px;
+  padding-bottom: 20px;
   padding-top: 10px;
 }
 
@@ -128,10 +128,9 @@
     display: block;
 }
 .s_sub_end_button_bg{
-  padding: 52px 14px;
+  padding: 23px 14px 38px 14px;
   border-top: 1px solid #c1c1c1;
-     background: #dedee4;
-
+  background: #dedee4;
 }
 .s_sub_end_button_bg .s_botton_subheading {
     color: #333357;
