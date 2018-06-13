@@ -1,10 +1,10 @@
 $(document).ready(function () {
-	
+
 	$('.forgot_pass_btn').on('click', function() {
 		$('.sign_up_div').addClass('hidden');
 		$('.forgot_password_div').removeClass('hidden');
 	});
-	
+
 	$('.go_back').on('click', function() {
 		$('.sign_up_div').removeClass('hidden');
 		$('.forgot_password_div').addClass('hidden');
@@ -208,19 +208,25 @@ $(document).ready(function () {
 			$('#multi-city-flight').find('.flights_multi .add_flights').show();
 		}
 	});
+
+
+	$('.dropdown-toggle').on('click', function() {
+	  $(this).closest('.dropdown').toggleClass('open');
+	});
+
 });
 
 
   $(function () {
-  $("#datepicker").datepicker({ 
-        autoclose: true, 
+  $("#datepicker").datepicker({
+        autoclose: true,
         todayHighlight: true
   }).datepicker('update', new Date());
 });
 
 $(function () {
-  $("#datepicker1").datepicker({ 
-        autoclose: true, 
+  $("#datepicker1").datepicker({
+        autoclose: true,
         todayHighlight: true
   }).datepicker('update', new Date());
 });

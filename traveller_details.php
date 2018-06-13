@@ -30,7 +30,7 @@
 
    <div class="container f_hotel_main">
       <div class="row">
-         <div class="col-md-8 s_row_mainborder">
+        <div class="col-md-8 s_row_mainborder">
           <div class="row">
              <div class="col-md-12">
                <div class="row">
@@ -126,7 +126,6 @@
               <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
             </div>
           </div>
-
           <div class="row">
             <div class="col-md-12">
               <div class="row header_border_bottom">
@@ -182,7 +181,6 @@
               </div>
             </div>
           </div>
-
           <div class="row padd_0">
             <div class="col-md-12">
               <div class="row header_border_bottom">
@@ -230,12 +228,12 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-12">
-                 <!-- <p>Frequent flyer, meal, seats and special assistance (optional)
+                <!-- <div class="col-md-12">
+                 <p>Frequent flyer, meal, seats and special assistance (optional)
                     <i class="fa fa-angle-up"></i>
                   </p>
-                </div>-->
-                <!--<div class="col-md-12">
+                </div> -->
+                <!-- <div class="col-md-12">
                   <label class="s_container">Frequent flyer
                     <input type="radio" name="frequent" checked="checked">
                     <span class="s_checkmark"></span>
@@ -252,7 +250,7 @@
                     <input type="radio" name="special_assitance">
                     <span class="s_checkmark"></span>
                   </label>
-                </div>-->
+                </div> -->
                 <div class="col-md-8">
                   <div class="form-group">
                     <select class="form-control s_form_field" name="" required>
@@ -266,18 +264,18 @@
                   </div>
                 </div>
               </div>
-              <div class="s_sub_end_button_bg">
-                <div class="col-md-12">
-                  <p class="s_botton_subheading">We share the frequent flyer details with airline, though we can't guarantee point awards.</p>
+              <div class="row">
+                <div class="s_sub_end_button_bg">
+                  <div class="col-md-12">
+                    <p class="s_botton_subheading">We share the frequent flyer details with airline, though we can't guarantee point awards.</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-
           <div class="row">
             <div class="col-md-12">
-              <div class="header_border_bottom">
+              <div class="row header_border_bottom">
                 <div class="col-md-9">
                   <h3>Contact Details</h3>
                 </div>
@@ -288,7 +286,7 @@
               <div class="row">
                 <div class="col-md-12">
                   <div class="s_form_padding">
-                    <form class="s_dashboard_form" action="#">
+                    <form class="s_dashboard_form without_padding" action="#">
                      <div class="row">
                       <div class="col-md-2 detail">
                         <div class="form-group">
@@ -317,7 +315,7 @@
                       </div>
                      </div>
                      <div class="row">
-                      <div class="col-md-2">
+                      <div class="col-md-2 pt15">
                         <label class="width_50">Email *</label>
                       </div>
                       <div class="col-md-6">
@@ -327,7 +325,7 @@
                       </div>
                      </div>
                      <div class="row">
-                      <div class="col-md-2">
+                      <div class="col-md-2 pt15">
                         <label class="width_50">Mobile no *</label>
                       </div>
                       <div class="col-md-6">
@@ -350,55 +348,53 @@
             </div>
           </div>
         </div>
-      </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="s_heading_h3">FARE DETAILS</h3><hr>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="s_heading_h3">
+                    Traveller 1 (Adult)
+                    <span class="pull-right">
+                      <i class="fa fa-angle-up s_heading_h3"></i>
+                    </span>
+                  </h3>
+                </div>
+                <div class="traveller_detail">
+                  <div class="col-md-6 padding_top_bottom_5">
+                    <p>Fare SAR 2.979.00</p>
+                  </div>
+                  <div class="col-md-6 padding_top_bottom_5">
+                    <p class="text-right">SAR 2,979.00</p>
+                  </div>
+                  <div class="col-md-6 padding_top_bottom_5">
+                    <p>Taxes and Fee</p>
+                  </div>
+                  <div class="col-md-6 padding_top_bottom_5">
+                    <p class="text-right">Taxes and Fees SAR 58.00</p>
+                  </div>
+                </div>
+              </div><hr>
 
-      <div class="col-md-4">
-           <div class="row">
-             <div class="col-md-12">
-               <div class="row">
-                 <div class="col-md-12">
-                   <h3 class="s_heading_h3">FARE DETAILS</h3><hr>
-                 </div>
-               </div>
-               <div class="row">
-                 <div class="col-md-10">
-                   <h3 class="s_heading_h3">
-                     Traveller 1 (Adult)
-                   </h3>
-                 </div>
-                 <div class="col-md-2">
-                   <i class="fa fa-angle-up s_heading_h3"></i>
-                 </div>
-                 <div class="traveller_detail">
-                   <div class="col-md-6 padding_top_bottom_5">
-                     <p>Fare SAR 2.979.00</p>
-                   </div>
-                   <div class="col-md-6 padding_top_bottom_5">
-                     <p class="text-right">SAR 2,979.00</p>
-                   </div>
-                   <div class="col-md-6 padding_top_bottom_5">
-                     <p>Taxes and Fee</p>
-                   </div>
-                   <div class="col-md-6 padding_top_bottom_5">
-                     <p class="text-right">Taxes and Fees SAR 58.00</p>
-                   </div>
-                 </div>
-               </div><hr>
+              <div class="row">
+                <div class="col-md-12">
+                  <h3 class="s_heading_h3">
+                    Traveller 2 (Adult)
+                    <span class="pull-right">
+                      <i class="fa fa-angle-down s_heading_h3"></i>
+                    </span>
+                  </h3>
+                </div>
+              </div><hr>
 
-               <div class="row">
-                 <div class="col-md-10">
-                   <h3 class="s_heading_h3">
-                     Traveller 2 (Adult)
-                   </h3>
-                 </div>
-                 <div class="col-md-2">
-                   <i class="fa fa-angle-down s_heading_h3"></i>
-                 </div>
-               </div><hr>
-
-             </div>
-           </div>
-           <div class="panel panel-default">
+            </div>
+          </div>
+          <div class="panel panel-default">
             <div class="panel-body">
               <div class="row padding_top_bottom">
                 <div class="col-md-6">
@@ -435,24 +431,26 @@
                 </div>
               </div>
             </div>
-           </div>
-           <div class="panel panel-default f_panel_contact">
-              <div class="panel-heading f_panel_head">24/7 <span>CUSTOMER SERVICE</span></div>
-              <div class="panel-body f_contact_body">
-                 <p class="f_detail">For further assistance</p>
-                 <div class="f_num"><i class="fa fa-phone f_phone_icon" aria-hidden="true"></i>000 00 0000</div>
-                 <br>
-                 <p class="f_detail">For International calls:</p>
-                 <div class="f_num"><i class="fa fa-phone f_phone_icon" aria-hidden="true"></i>000 00 0000</div>
-                 <br>
-                 <p class="f_detail">For any general inquiries:</p>
-                 <div class="f_num"><i class="fa fa-envelope f_phone_icon" aria-hidden="true"></i>customercare@abyat.com</div>
-                 <br>
-                 <p class="f_detail">Frequantly asked questions:</p>
-                 <a href="#" class="f_more">More Questions</a>
-              </div>
-           </div>
-         </div>
+          </div>
+          <div class="panel panel-default f_panel_contact">
+            <div class="panel-heading f_panel_head">24/7 <span>CUSTOMER SERVICE</span></div>
+            <div class="panel-body f_contact_body">
+              <p class="f_detail">For further assistance</p>
+              <div class="f_num"><i class="fa fa-phone f_phone_icon" aria-hidden="true"></i>000 00 0000</div>
+              <br>
+              <p class="f_detail">For International calls:</p>
+              <div class="f_num"><i class="fa fa-phone f_phone_icon" aria-hidden="true"></i>000 00 0000</div>
+              <br>
+              <p class="f_detail">For any general inquiries:</p>
+              <div class="f_num"><i class="fa fa-envelope f_phone_icon" aria-hidden="true"></i>customercare@abyat.com</div>
+              <br>
+              <p class="f_detail">Frequantly asked questions:</p>
+              <a href="#" class="f_more">More Questions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
@@ -559,5 +557,5 @@
               </div>
            </div>
          </div>-->
-     
+
 <?php include('footer.php'); ?>
