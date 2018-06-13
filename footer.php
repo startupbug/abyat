@@ -44,7 +44,7 @@
           <div class="container">
              <div class="row">
                 <div class="col-md-12">
-                   <img src="<?php echo $base_url;?>assets/images/logo_abyaat_footer.png" class="img-responsive f_responsive">
+                   <img src="<?php echo $base_url;?>assets/images/logo-abyat-footer.jpg" class="img-responsive f_responsive">
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-6">
                    <p class="f_question">You have questions regarding our services? <br>Contact us, we will be happy to help you out!</p>
@@ -95,7 +95,7 @@
           <div class="container">
              <div class="row">
                 <div class="col-md-12">
-                   <p class="f_copyright f_textcenter">2018 AbyatTravela&Tours. All rights reserved.</p>
+                   <p class="f_copyright f_textcenter">© 2018 - Abyat Travel & Tourism.</p>
                 </div>
              </div>
           </div>

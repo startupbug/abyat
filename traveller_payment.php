@@ -8,7 +8,7 @@
 
             <ul class="list_right">
                <li>
-                 <a href="#">Search</a>
+                 <a href="flight_search.php">Search</a>
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li>
@@ -63,6 +63,7 @@
                </div>
              </div>
           </div>
+        
 
             <div class="row">
               <form class="" action="#">
@@ -136,7 +137,8 @@
               </button>
             </div>
             </form>
-         </div>
+          </div>
+         
          <div class="col-md-4">
            <div class="row">
              <div class="col-md-12">
@@ -238,7 +240,8 @@
               </div>
            </div>
          </div>
-      </div>
-   </div>
+       </div>
+     </div>
+      
 </section>
 <?php include('footer.php'); ?>

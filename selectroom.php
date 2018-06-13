@@ -11,7 +11,7 @@
                <i class="fa fa-angle-right f_iconright"></i>
                <li><a href="selectroom.php">Select Rooms</a></li>
                <i class="fa fa-angle-right f_iconright"></i>
-               <li><a href="#">Payment</a></li>
+               <li><a href="hotel_payment.php">Payment</a></li>
                <i class="fa fa-angle-right f_iconright"></i>
                <li><a href="confirmation.php">Confirmation</a></li>
             </ul>
@@ -252,27 +252,57 @@
                   <div class="product-slider">
                      <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                           <div class="item active"> <img src="assets/images/selectroom_img.jpg" class="img-responsive"> </div>
-                           <div class="item"> <img src="http://placehold.it/1600x700?text=Product+02"> </div>
-                           <div class="item"> <img src="http://placehold.it/1600x700?text=Product+03"> </div>
-                           <div class="item"> <img src="http://placehold.it/1600x700?text=Product+04"> </div>
-                           <div class="item"> <img src="http://placehold.it/1600x700?text=Product+05"> </div>
-                           <div class="item"> <img src="http://placehold.it/1600x700?text=Product+06"> </div>
-                           <div class="item"> <img src="http://placehold.it/1600x700?text=Product+07"> </div>
-                           <div class="item"> <img src="http://placehold.it/1600x700?text=Product+08"> </div>
-                           <div class="item"> <img src="http://placehold.it/1600x700?text=Product+09"> </div>
-                           <div class="item"> <img src="http://placehold.it/1600x700?text=Product+10"> </div>
+                           <div class="item active"> 
+                              <img src="assets/images/selectroom_img.jpg" class="img-responsive select_hotels_image_slider"> 
+                           </div>
+                           <div class="item"> 
+                              <img src="http://placehold.it/1600x700?text=Product+02" class="img-responsive select_hotels_image_slider"> 
+                           </div>
+                           <div class="item"> 
+                              <img src="http://placehold.it/1600x700?text=Product+03" class="img-responsive select_hotels_image_slider"> 
+                           </div>
+                           <div class="item"> 
+                              <img src="http://placehold.it/1600x700?text=Product+04" class="img-responsive select_hotels_image_slider"> 
+                           </div>
+                           <div class="item"> 
+                              <img src="http://placehold.it/1600x700?text=Product+05" class="img-responsive select_hotels_image_slider"> 
+                           </div>
+                           <div class="item"> 
+                              <img src="http://placehold.it/1600x700?text=Product+06" class="img-responsive select_hotels_image_slider"> 
+                           </div>
+                           <div class="item"> 
+                              <img src="http://placehold.it/1600x700?text=Product+07" class="img-responsive select_hotels_image_slider"> 
+                           </div>
+                           <div class="item"> 
+                              <img src="http://placehold.it/1600x700?text=Product+08" class="img-responsive select_hotels_image_slider"> 
+                           </div>
+                           <div class="item"> 
+                              <img src="http://placehold.it/1600x700?text=Product+09" class="img-responsive select_hotels_image_slider"> 
+                           </div>
+                           <div class="item"> 
+                              <img src="http://placehold.it/1600x700?text=Product+10" class="img-responsive select_hotels_image_slider"> 
+                           </div>
                         </div>
                      </div>
                      <div class="clearfix">
                         <div id="thumbcarousel" class="carousel slide" data-interval="false">
                            <div class="carousel-inner">
                               <div class="item active">
-                                 <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="assets/images/carousal_img1.jpg"></div>
-                                 <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="assets/images/carousal_img2.jpg"></div>
-                                 <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="assets/images/carousal_img1.jpg"></div>
-                                 <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="assets/images/carousal_img2.jpg"></div>
-                                 <div data-target="#carousel" data-slide-to="4" class="thumb"><img src="assets/images/carousal_img1.jpg"></div>
+                                 <div data-target="#carousel" data-slide-to="0" class="thumb">
+                                    <img src="assets/images/carousal_img1.jpg">
+                                 </div>
+                                 <div data-target="#carousel" data-slide-to="1" class="thumb">
+                                    <img src="assets/images/carousal_img2.jpg">
+                                 </div>
+                                 <div data-target="#carousel" data-slide-to="2" class="thumb">
+                                    <img src="assets/images/carousal_img1.jpg">
+                                 </div>
+                                 <div data-target="#carousel" data-slide-to="3" class="thumb">
+                                    <img src="assets/images/carousal_img2.jpg">
+                                 </div>
+                                 <div data-target="#carousel" data-slide-to="4" class="thumb">
+                                    <img src="assets/images/carousal_img1.jpg">
+                                 </div>
                               </div>
                               <div class="item">
                                  <div data-target="#carousel" data-slide-to="5" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+06"></div>

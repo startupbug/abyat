@@ -11,7 +11,7 @@
                <!--<i class="fa fa-angle-right f_iconright"></i>-->
                <li><a href="selectroom.php">Select Rooms</a><i class="fa fa-angle-right f_iconright"></i></li>
                <!--<i class="fa fa-angle-right f_iconright"></i>-->
-               <li><a href="#">Payment</a><i class="fa fa-angle-right f_iconright"></i></li>
+               <li><a href="hotel_payment.php">Payment</a><i class="fa fa-angle-right f_iconright"></i></li>
                <!--<i class="fa fa-angle-right f_iconright"></i>-->
                <li><a href="confirmation.php">Confirmation</a></li>
             </ul>
