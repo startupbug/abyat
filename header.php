@@ -1,4 +1,4 @@
-<?php $base_url = 'http://localhost/abyat/'; ?>
+<?php $base_url = 'http://site.startupbug.net:6888/abyat/frontend/'; ?>
 <!DOCTYPE html>
 <html lang="en">
    <head>
