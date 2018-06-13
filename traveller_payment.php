@@ -1,9 +1,11 @@
 <?php include('header.php'); ?>
 <section class="hotel">
+
    <div class="container">
       <div class="row">
          <div class="col-md-12">
             <h3 class="about_text f_confrm_content">Trip total SAR 6,195.47</h3>
+
             <ul class="list_right">
                <li>
                  <a href="flight_search.php">Search</a>
@@ -14,6 +16,7 @@
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li class="li_active">
+
                  <a href="traveller_details.php">Traveller details</a>
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
@@ -22,6 +25,7 @@
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li><a href="confirm_flight.php">Confirmation</a></li>
+
             </ul>
          </div>
       </div>
