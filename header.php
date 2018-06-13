@@ -47,6 +47,7 @@
                            <!--<li><i class="fa fa-user f_phone"></i><a href="login.php">: Login</a>/<a href="signup_faq.php">Register</a></li>-->
                         </ul>
                         <ul class="right_top">
+                           <i class="fa fa-language f_language" aria-hidden="true"></i>
                            <li class="dropdown">
                               <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                 : ENG <span class="caret"></span>
@@ -89,7 +90,7 @@
                            <span class="icon-bar"></span>
                            </button>
                            <a class="navbar-brand" href="index.php">
-                             <img src="<?php echo $base_url;?>assets/images/logo_img.png" class="img-responsive logo_f">
+                             <img src="<?php echo $base_url;?>assets/images/logo-abyat-english.jpg" class="img-responsive logo_f">
                            </a>
                         </div>
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -97,7 +98,7 @@
                            <ul class="nav navbar-nav navbar-right f_nav">
                               <li><a href="index.php">HOME</a></li>
                               <li><a href="hotels.php">HOTELS</a></li>
-                              <li><a href="traveller_details.php">FLIGHTS</a></li>
+                              <li><a href="flight_search.php">FLIGHTS</a></li>
                               <li><a href="aboutus.php">ABOUT US</a></li>
                               <li><a href="#">FAQ</a></li>
                               <li><a href="contact.php">CONTACT US</a></li>

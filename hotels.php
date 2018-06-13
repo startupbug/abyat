@@ -11,7 +11,7 @@
                <i class="fa fa-angle-right f_iconright"></i>
                <li><a href="selectroom.php">Select Rooms</a></li>
                <i class="fa fa-angle-right f_iconright"></i>
-               <li><a href="#">Payment</a></li>
+               <li><a href="hotel_payment.php">Payment</a></li>
                <i class="fa fa-angle-right f_iconright"></i>
                <li><a href="confirmation.php">Confirmation</a></li>
             </ul>
@@ -31,6 +31,14 @@
                   </div>
                </div>
             </form>
+            <div class="navbar-form f_navform form_border">
+               <div class="input-group f_label_search" style="width: 100%;">
+                  <label>Price</label>
+                  <input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
+                  <div class="left_rangeslider">Min</div>
+                   <div class="right_rangeslider">Max</div>
+               </div>
+            </div>
             <div class="main_rating">
                <div class="star-rating">
                   <p class="f_star_rating">Star Rating</p>
@@ -137,6 +145,15 @@
                   <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
                   </div>
                   </label>
+               </div>
+            </div>
+
+              <div class="navbar-form f_navform form_border">
+               <div class="input-group f_label_search" style="width: 100%;">
+                  <label>Hotel Rating</label>
+                  <input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
+                  <div class="left_rangeslider">Average</div>
+                   <div class="right_rangeslider">Excellent</div>
                </div>
             </div>
             <div class="f_main_district">

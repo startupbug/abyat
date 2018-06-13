@@ -108,6 +108,7 @@ section.booking, section.account , section.setting {
 .s_dashboard_form label {
     font-family: 'Montserrat-SemiBold';
     font-size: 15px;
+    padding-left: 15px;
 }
 .s_dashboard_form span{
     font-family: 'Montserrat-SemiBold';

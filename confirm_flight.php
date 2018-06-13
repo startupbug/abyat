@@ -6,7 +6,7 @@
             <h3 class="about_text f_confrm_content">Confirmation</h3>
            <ul class="list_right">
                <li>
-                 <a href="#">Search</a>
+                 <a href="flight_search.php">Search</a>
                  <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li>

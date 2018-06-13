@@ -1,4 +1,15 @@
 $(document).ready(function () {
+	
+	$('.forgot_pass_btn').on('click', function() {
+		$('.sign_up_div').addClass('hidden');
+		$('.forgot_password_div').removeClass('hidden');
+	});
+	
+	$('.go_back').on('click', function() {
+		$('.sign_up_div').removeClass('hidden');
+		$('.forgot_password_div').addClass('hidden');
+	});
+
 	$('#myCarousel').carousel({
 		interval: 1000000
 	});
