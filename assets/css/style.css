@@ -156,6 +156,9 @@ ol, ul{
     background-color:transparent;
     border-color:transparent;
 }
+a.btn-twitter {
+    text-align: center !important;
+}
  .nav>li>a{
     position:relative;
     display:block;
@@ -1609,6 +1612,7 @@ i.fa.fa-twitter.f_twitter {
 
 .btn-block+.btn-block {
     margin-top: 27px;
+    text-align: center !important;
 }
 
 .line-title {
@@ -2656,3 +2660,4 @@ section.flight_search {
 .f_confirm_dropdown {
     text-align: right;
 }
+
