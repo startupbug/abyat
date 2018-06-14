@@ -621,9 +621,9 @@ section.triplite_form{
     padding:10px 0 10px 0;
     background-color:rgba(255, 255, 255, 0)!important;
     background:rgba(255, 255, 255, 0);
-    color:#7091ac !important;
+    color:;
     font-size:14px;
-    border-bottom:1px solid #769eb7;
+    border-bottom:1px solid #555;
     border-radius:0;
     box-shadow:none!important;
     height:auto;
@@ -1683,7 +1683,7 @@ p.f_textcenter {
 }
 
 div#tab1default {
-    padding-top: 45px;
+   
     height: 175px;
 }
 div#tab2default {

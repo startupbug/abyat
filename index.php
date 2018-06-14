@@ -44,14 +44,14 @@
                               </div>
                               <div class="col-md-1 col-md-1-5">
                                  <div class="form-group f_group">
-                                    <label for="email"><span>Check In</span></label>
-                                    <input id="textinput" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f" type="text">
+                                    <label for="checkin"><span>Check In</span></label>
+                                    <input id="checkin" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f checkin_date input_f" type="text">
                                  </div>
                               </div>
                               <div class="col-md-1 col-md-1-5">
                                  <div class="form-group f_group">
-                                    <label for="email"><span>Check Out</span></label>
-                                    <input id="textinput" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f" type="text">
+                                    <label for="checkout"><span>Check Out</span></label>
+                                    <input id="checkout" name="textinput" placeholder="Mm/Dd/Yy" class="form-control input-md input_f checkout_date input_f" type="text">
                                  </div>
                               </div>
                               <div class="col-md-1 col-md-1-5">

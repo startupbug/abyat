@@ -88,19 +88,19 @@ $(document).ready(function () {
 	$('.multicity_daterange_2').daterangepicker({
 		singleDatePicker: true,
 		showDropdowns: true
-	}, function (start, end, label) {
-		var years = moment().diff(start, 'years');
-		var locale = "en-us";
-		var startDate = new Date(start);
-		var startmonth = startDate.toLocaleString(locale, {
-			month: 'long'
-		});
-		var startday = startDate.toLocaleString(locale, {
-			weekday: 'long'
-		});
-		$('.multicity_daterange_2').siblings('.start_date').find('.date').text(start.format('DD'));
-		$('.multicity_daterange_2').siblings('.start_date').find('.month').text(startmonth);
-		$('.multicity_daterange_2').siblings('.start_date').find('.day').text(startday);
+		}, function (start, end, label) {
+			var years = moment().diff(start, 'years');
+			var locale = "en-us";
+			var startDate = new Date(start);
+			var startmonth = startDate.toLocaleString(locale, {
+				month: 'long'
+			});
+			var startday = startDate.toLocaleString(locale, {
+				weekday: 'long'
+			});
+			$('.multicity_daterange_2').siblings('.start_date').find('.date').text(start.format('DD'));
+			$('.multicity_daterange_2').siblings('.start_date').find('.month').text(startmonth);
+			$('.multicity_daterange_2').siblings('.start_date').find('.day').text(startday);
 	});
 	var locale = "en-us";
 	var start_Date = new Date();
@@ -209,6 +209,17 @@ $(document).ready(function () {
 		}
 	});
 
+
+	$('.checkin_date').daterangepicker({
+		singleDatePicker: true,
+		showDropdowns: true
+	});
+
+
+	$('.checkout_date').daterangepicker({
+		singleDatePicker: true,
+		showDropdowns: true
+	});
 
 	$('.dropdown-toggle').on('click', function() {
 	  $(this).closest('.dropdown').toggleClass('open');

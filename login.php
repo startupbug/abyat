@@ -15,7 +15,7 @@
                   <div class="panel-heading f_forgot">
                      <ul class="nav nav-tabs sign_nav f_abc">
                         <li class="active"><a href="#tab1primary" data-toggle="tab" class="tab_forgot">Sign in</a></li>
-                        <li><a href="#tab2primary" data-toggle="tab" class="tab_forgot">Register</a></li>
+                        <li><a href="#tab2primary" data-toggle="tab" class="tab_forgot">Sign up</a></li>
                      </ul>
                   </div>
                   <div class="panel-body f_panel_body">
@@ -104,7 +104,7 @@
                                 
                               </div>
                                  <div class="btn_send">
-                                 <button type="button" class="btn f_sendrequest">SEND REQUEST</button>
+                                 <button type="button" class="btn f_sendrequest">RESET PASSWORD</button>
                               </div>
                               
                               <div class="f_goback">

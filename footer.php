@@ -56,8 +56,8 @@
                    <h3 class="list_content">Useful Links</h3>
                    <ul class="list_footer">
                       <li><a href="index.php">Home</a></li>
-                      <li><a href="#">Hotels</a></li>
-                      <li><a href="#">Flights</a></li>
+                      <li><a href="hotels.php">Hotels</a></li>
+                      <li><a href="flight_search.php">Flights</a></li>
                       <li><a href="aboutus.php">About Us</a></li>
                    </ul>
                 </div>
@@ -84,7 +84,7 @@
                    <br>
                    <h3 class="list_content">Languages</h3>
                    <div class="btn_display">
-                      <a class="btn btn-theme btn-sm btn-min-block f_english" href="#">English</a><a class="btn btn-theme btn-sm btn-min-block f_us" href="#">US</a>
+                      <a class="btn btn-theme btn-sm btn-min-block f_english" href="#">English</a><a class="btn btn-theme btn-sm btn-min-block f_us" href="#">SAR</a>
                    </div>
                 </div>
              </div>
