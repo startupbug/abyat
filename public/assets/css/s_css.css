@@ -1,0 +1,189 @@
+.li_active, .li_active a, .li_active i,.li_active span{
+  color: #26245c !important;
+}
+.s_row_mainborder>.row{
+    border: 1px solid #e0e0e0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 12px;
+    background-color: #f3f3f3;
+}
+
+.s_row_mainborder>.row h3 {
+    font-size: 16px;
+    color: #262626;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+}
+
+.s_row_mainborder>.row a{
+    font-family: 'Montserrat-Regular';
+}
+
+.s_row_mainborder>.row .dropdown{
+    text-align: right;
+    padding-right: 10px;
+}
+.s_row_mainborder>.row .dropdown-menu{
+    right: 0;
+    left: auto;
+}
+.s_label_tag{
+    font-family: 'Montserrat-Regular';
+    padding-top: 30px;
+}
+.s_label_tag i{
+    color: green;
+}
+.s_form_margin_top{
+    width: 100%;
+    margin-top: 30px;
+}
+.s_form_padding{
+    padding-top: 40px;
+}
+.s_botton_heading{
+    color: #da0b0b;
+    font-weight: 600;
+    font-size: 15px;
+}
+.s_botton_subheading{
+    font-size: 12px;
+}
+.s_row_mainborder>.row.alert_danger {
+    border: 0px solid #e0e0e0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 12px;
+    background-color: transparent;
+}
+.width_50 {
+    width: 43% !important;
+    display: inline;
+    padding-right: 0;
+}
+.header_border_bottom{
+  border-bottom: 1px solid #c1c1c1;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+/* The s_container */
+.s_container {
+    background: #fff;
+    margin-right: -6px;
+    width: 25% !important;
+    height: 48px;
+    position: relative;
+    padding-top: 14px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 15px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    z-index: 9999999;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.s_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.s_checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    border: 2px solid #ddd;
+    background-color: #fff0;
+}
+
+/* On mouse-over, add a grey background color */
+.s_container:hover input ~ .s_checkmark {
+    background-color: #cac6c657;
+}
+
+/* When the checkbox is checked, add a blue background */
+.s_container input:checked ~ .s_checkmark {
+    background-color: #cac6c657;
+}
+
+/* Create the s_checkmark/indicator (hidden when not checked) */
+.s_checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the s_checkmark when checked */
+.s_container input:checked ~ .s_checkmark:after {
+    display: block;
+}
+.s_sub_end_button_bg{
+  padding: 23px 14px 38px 14px;
+  border-top: 1px solid #c1c1c1;
+  background: #dedee4;
+}
+.s_sub_end_button_bg .s_botton_subheading {
+    color: #333357;
+    font-size: 14px;
+    font-weight: 500;
+}
+.row.padd_0 {
+    padding-bottom: 0px;
+}
+.detail .width_50 {
+    width: 64% !important;
+    display: inline;
+}
+.padding_top_bottom{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.padding_top_bottom_5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.s_heading_h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.traveller_detail p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #727272;
+}
+h3.about_text {
+    font-size: 32px;
+}
+form label.s_label {
+    padding: 15px;
+}
+.s_button {
+    background-color: #26245c !important;
+    padding: 8px 24px;
+    font-weight: 600;
+    border-radius: 0;
+    font-size: 13px;
+    color: #fff !important;
+}
+.s_button i{
+    padding: 0px 0px 0px 14px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.custom_alert{
+  background-color: #e9e9ee !important;
+}
+.custom_alert p {
+    font-size: 14px;
+    color: #26245c;
+}
