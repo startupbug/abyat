@@ -252,22 +252,22 @@ a.btn-twitter {
 }
  .f_left{
     top:50% !important;
-    left:-8% !important;
+    left:-3% !important;
     color:#a0a0a0 !important;
 }
  .f_left:hover{
     top:50% !important;
-    left:-8% !important;
+    left:-3% !important;
     color:#a0a0a0 !important;
 }
  .f_carousalright{
     top:50%;
-    right:-8% !important;
+    right:-2% !important;
     color:#a0a0a0 !important;
 }
  .f_carousalright:hover{
     top:50%;
-    right:-8% !important;
+    right:-2% !important;
     color:#a0a0a0 !important;
 }
  .s_silder_tab .nav-tabs>li{
@@ -317,21 +317,9 @@ a.btn-twitter {
     width:100%;
     padding:0px;
 }
- .f_carousalright{
-    right:-9% !important;
-    color:#a0a0a0;
-}
- .f_left{
-    left:-9% !important;
-    color:#a0a0a0 !important;
-}
  section.thumbnails{
     padding-top:50px;
     padding-bottom:50px;
-}
- .f_carousalright:hover{
-    right:-9% !important;
-    color:#a0a0a0;
 }
  section.book_image{
     padding-top:60px;
@@ -685,16 +673,7 @@ section.triplite_form{
  .book_content{
     top:11%;
 }
- .f_left{
-    top:50% !important;
-    left:-8% !important;
-    color:#a0a0a0 !important;
-}
- .f_left:hover{
-    top:50% !important;
-    left:-8% !important;
-    color:#a0a0a0 !important;
-}
+
  .frontend-box-last{
     border:1px solid #cccccc;
 }
@@ -2050,12 +2029,12 @@ a.f_room:hover {
 
 .product-slider .item img { width: 100%; height: auto; }
 
-.carousel-control { color: #0284b8; text-align: center; text-shadow: none; font-size: 30px; width: 30px; height: 30px; line-height: 20px; top: 23%; }
+.carousel-control { color: #0284b8; text-align: center; text-shadow: none; font-size: 30px; width: 30px; height: 30px; line-height: 20px; }
 
 .carousel-control:hover, .carousel-control:focus, .carousel-control:active { color: #333; }
 
 .carousel-caption, .carousel-control .fa { font: normal normal normal 30px/26px FontAwesome; }
-.carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; top: 30%; width: auto; }
+.carousel-control { background-color: rgba(0, 0, 0, 0); bottom: auto; font-size: 20px; left: 0; position: absolute; width: auto; }
 
 .carousel-control.right, .carousel-control.left { background-color: rgba(0, 0, 0, 0); background-image: none; }
 
