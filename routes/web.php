@@ -10,6 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+/* Public Routes */
 Route::get('/','External\PagesController@home')->name('public_index');
 Route::get('/contact','External\PagesController@contact')->name('contact');
 Route::get('/about','External\PagesController@about')->name('about');
@@ -20,6 +22,14 @@ Route::get('/confirmation','External\PagesController@confirmation')->name('confi
 Route::get('/flight_search','External\PagesController@flight_search')->name('flight_search');
 Route::get('/privacy','External\PagesController@privacy')->name('privacy');
 
-/* Authentication Routes */
-Route::get('/signin','AuthenticationController@login_index')->name('new_login');
+Route::get('/dashboard','Dashboard\DashboardController@dashboard')->name('dashboard');
 
+/* Authentication Routes */
+Route::group(['middleware' => 'guest'], function () {
+	Route::get('/signin', 'AuthenticationController@login_index')->name('signin');
+	//register
+	Route::post('/register', 'AuthenticationController@register_post')->name('register_post');
+	//Login Post
+	Route::post('/login', 'AuthenticationController@login_post')->name('login_post');
+});
+	Route::get('/logout_user', 'AuthenticationController@logout_user')->name('logout_user');

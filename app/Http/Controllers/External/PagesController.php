@@ -38,6 +38,5 @@ class PagesController extends Controller
     } 
     public function privacy(){
         return view('privacy');
-    } 
-      
+    }
 }

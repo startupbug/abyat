@@ -97,11 +97,11 @@
                            <ul class="nav navbar-nav navbar-right f_nav">
                               <li><a href="{{route('public_index')}}">HOME</a></li>
                               <li><a href="{{route('hotels')}}">HOTELS</a></li>
-                              <li><a href="flight_search.php">FLIGHTS</a></li>
+                              <li><a href="{{route('flight_search')}}">FLIGHTS</a></li>
                               <li><a href="{{route('about')}}">ABOUT US</a></li>
                               <li><a href="#">FAQ</a></li>
                               <li><a href="{{route('contact')}}">CONTACT US</a></li>
-                              <li><a href="{{route('new_login')}}" class="btn btn-default f_signin">SIGN IN</a></li>
+                              <li><a href="{{route('signin')}}" class="btn btn-default f_signin">SIGN IN</a></li>
                            </ul>
                         </div>
                         <!-- /.navbar-collapse -->

@@ -1,13 +1,7 @@
 @extends('layouts.public')
 @section('content')
+@include('partials.error_section')
 <section class="forgot_password">
-   <!--<div class="container-fluid f_padding">
-      <div class="row">
-         <div class="col-md-12">
-            <img src="assets/images/banner.jpg" class="img-responsive">
-         </div>
-      </div>
-   </div>-->
    <div class="container">
       <div class="row">
          <div class="col-md-6">
@@ -22,7 +16,8 @@
                   <div class="panel-body f_panel_body">
                      <div class="tab-content">
                         <div class="tab-pane fade in active" id="tab1primary">
-                           <form>
+                           <form role="form" method="post" action="{{route('login_post')}}">
+                              {{csrf_field()}}
                               <a class="btn btn-block btn-social btn-facebook email_forgot">
                               <i class="fa fa-facebook"></i> Sign In with facebook
                               </a>
@@ -31,17 +26,17 @@
                               </a>
                               <h1 class="line-title">or</h1>
                               <div class="form-group email_forgot">
-                                 <label for="username">Username</label>
-                                 <input type="uname" class="form-control f_control_forgot" id="uname" placeholder="(required)">
+                                 <label for="username">Email</label>
+                                 <input type="uname" name="email" class="form-control f_control_forgot" id="uname" placeholder="(required)">
                               </div>
                               <div class="form-group email_forgot">
                                  <label for="pwd">Password:</label>
-                                 <input type="password" class="form-control f_control_forgot" id="pwd_1">
+                                 <input type="password" name="password" class="form-control f_control_forgot" id="pwd_1">
                               </div>
                               <div class="checkbox email_forgot">
                                  <label><input type="checkbox"> Remember me</label>
                               </div>
-                              <div class="btn_send"><button type="button" class="btn f_login">LOG IN NOW</button></div>
+                              <div class="btn_send"><button type="submit" class="btn f_login">LOG IN NOW</button></div>
                               <!--<div class="f_goback"><a href="#" class="go_back">Forgot my password</a></div>-->
                               <div class="btn_forgot"><button type="button" class="btn f_login forgot_pass_btn">FORGOT PASSWORD</button></div>
                               <h1 class="line-title">or</h1>
@@ -51,7 +46,8 @@
                            </form>
                         </div>
                         <div class="tab-pane fade" id="tab2primary">
-                           <form>
+                           <form role="form" method="post" action="{{route('register_post')}}">
+                              {{csrf_field()}}
                               <a class="btn btn-block btn-social btn-facebook email_forgot">
                               <i class="fa fa-facebook"></i> Sign In with facebook
                               </a>
@@ -61,24 +57,24 @@
                               <h1 class="line-title">or</h1>
                               <div class="form-group email_forgot">
                                  <label for="fullname">Full Name</label>
-                                 <input type="fullname" class="form-control f_control_forgot" id="fullname" placeholder="(required)">
+                                 <input type="fullname" name="name" class="form-control f_control_forgot" id="fullname" placeholder="(required)">
                               </div>
                               <div class="form-group email_forgot">
                                  <label for="username">Email</label>
-                                 <input type="email" class="form-control f_control_forgot" id="email_1" placeholder="(required)">
+                                 <input type="email" name="email" class="form-control f_control_forgot" id="email_1" placeholder="(required)">
                               </div>
                               <div class="form-group email_forgot">
                                  <label for="pwd">Password (required)</label>
-                                 <input type="password" class="form-control f_control_forgot" id="pwd_2" placeholder="(required)">
+                                 <input type="password" name="password" class="form-control f_control_forgot" id="pwd_2" placeholder="(required)">
                               </div>
                               <div class="form-group email_forgot">
                                  <label for="pwd">Confirm Password (required)</label>
-                                 <input type="c_password" class="form-control f_control_forgot" id="c_pwd" placeholder="(required)">
+                                 <input type="password" name="confirmation_password" class="form-control f_control_forgot" id="c_pwd" placeholder="(required)">
                               </div>
-                              <div class="btn_send"><button type="button" class="btn f_login">CREATE AN ACCOUNT</button></div>
+                              <div class="btn_send"><button type="submit" class="btn f_login">CREATE AN ACCOUNT</button></div>
                               <h1 class="line-title">or</h1>
                               <div class="btn_signup_f">
-                                 <button type="button" class="btn f_signup"><a href="login.php">LOGIN NOW </a><br><span>Already have an account? Login Now</span></button>
+                                 <button type="button" class="btn f_signup"><a href="{{route('signin')}}">LOGIN NOW </a><br><span>Already have an account? Login Now</span></button>
                               </div>
                            </form>
                         </div>

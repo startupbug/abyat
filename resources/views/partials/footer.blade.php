@@ -55,16 +55,16 @@
                 <div class="col-md-2 col-sm-6 col-xs-6">
                    <h3 class="list_content">Useful Links</h3>
                    <ul class="list_footer">
-                      <li><a href="index.php">Home</a></li>
-                      <li><a href="hotels.php">Hotels</a></li>
-                      <li><a href="flight_search.php">Flights</a></li>
-                      <li><a href="aboutus.php">About Us</a></li>
+                      <li><a href="{{route('public_index')}}">Home</a></li>
+                      <li><a href="{{route('hotels')}}">Hotels</a></li>
+                      <li><a href="{{route('flight_search')}}">Flights</a></li>
+                      <li><a href="{{route('about')}}">About Us</a></li>
                    </ul>
                 </div>
                 <div class="col-md-2 col-sm-6 col-xs-6">
                    <h3 class="list_content"></h3>
                    <ul class="list_footer f_paddingtop">
-                      <li><a href="contact.php">Contact us</a></li>
+                      <li><a href="{{route('contact')}}">Contact us</a></li>
                       <li><a href="#">FAQ's</a></li>
                       <li><a href="#">Terms & Conditions</a></li>
                       <li><a href="{{route('privacy')}}">Privacy Policy</a></li>

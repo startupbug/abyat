@@ -1,4 +1,5 @@
-<?php include('../header.php'); ?>
+@extends('layouts.public')
+@section('content')
 <section class="account">
    <div class="container">
      <div class="row">
@@ -15,21 +16,21 @@
              </div>
              <ul class="list-unstyled components s_ul_list">
                <li>
-                 <a href="<?php echo $base_url;?>dashboard/mybooking.php">
+                 <a href="mybooking.php">
                    <i class="fa fa-address-book"></i>
                    My Bookings
                    <i class="fa fa-angle-right s_float_right"></i>
                  </a>
                </li>
                <li class="active">
-                 <a href="<?php echo $base_url;?>dashboard/myaccount.php">
+                 <a href="myaccount.php">
                    <i class="fa fa-user"></i>
                    My Account
                    <i class="fa fa-angle-right s_float_right"></i>
                  </a>
                </li>
                <li>
-                 <a href="<?php echo $base_url;?>dashboard/setting.php">
+                 <a href="setting.php">
                    <i class="fa fa-gear"></i>
                    Setting
                    <i class="fa fa-angle-right s_float_right"></i>
@@ -180,4 +181,4 @@
      </div>
    </div>
 </section>
-<?php include('../footer.php'); ?>
+@endsection
