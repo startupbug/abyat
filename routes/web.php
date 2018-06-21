@@ -11,6 +11,7 @@
 |
 */
 
+
 /* Public Routes */
 Route::get('/','External\PagesController@home')->name('public_index');
 Route::get('/contact','External\PagesController@contact')->name('contact');
@@ -24,6 +25,10 @@ Route::get('/privacy','External\PagesController@privacy')->name('privacy');
 
 Route::get('/dashboard','Dashboard\DashboardController@dashboard')->name('dashboard');
 
+Route::get('/mybooking','Dashboard\DashboardController@mybooking')->name('mybooking');
+Route::get('/setting','Dashboard\DashboardController@setting')->name('setting');
+Route::post('update_user_info/{id}', 'Dashboard\DashboardController@update_user_info')->name('update_user_info');
+Route::post('password_update/{id}', 'Dashboard\DashboardController@update_password')->name('update_password');
 /* Authentication Routes */
 Route::group(['middleware' => 'guest'], function () {
 	Route::get('/signin', 'AuthenticationController@login_index')->name('signin');

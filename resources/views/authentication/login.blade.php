@@ -63,6 +63,7 @@
                                  <label for="username">Email</label>
                                  <input type="email" name="email" class="form-control f_control_forgot" id="email_1" placeholder="(required)">
                               </div>
+                              <input type="hidden" name="role_id" value="2">
                               <div class="form-group email_forgot">
                                  <label for="pwd">Password (required)</label>
                                  <input type="password" name="password" class="form-control f_control_forgot" id="pwd_2" placeholder="(required)">

@@ -9,6 +9,7 @@ use App\Events\UserProfile;
 use App\Profile;
 use Validator;
 use App\User;
+use App\Role;
 use Auth;
 use Mail;
 use DB;
@@ -21,8 +22,8 @@ class AuthenticationController extends Controller
 
     public function login_post(Request $request){
         try{
-        if(Auth::attempt(['email' => $request->email, 'password' => $request->password ] )) {   
-            return redirect()->route('dashboard');
+        if(Auth::attempt(['email' => $request->email, 'password' => $request->password ] )) {                   
+            return redirect()->route('dashboard');     
         }else{
             $this->set_session('invalid username or password', false);
             return redirect()->route('signin');
@@ -39,7 +40,10 @@ class AuthenticationController extends Controller
         $user->name = $request->input('name');            
         $user->email = $request->input('email');
         $user->password = bcrypt( $request->input('password') );
+        $user->role_id = $request->input('role_id');
         if($user->save()){ 
+            $user_role = Role::find($request->input('role_id'));
+            $user->attachRole($user_role);
             event(new  UserProfile($user));  
             $this->set_session('You Have Successfully Registered.', true);
         }else{

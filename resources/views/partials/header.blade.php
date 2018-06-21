@@ -101,7 +101,27 @@
                               <li><a href="{{route('about')}}">ABOUT US</a></li>
                               <li><a href="#">FAQ</a></li>
                               <li><a href="{{route('contact')}}">CONTACT US</a></li>
-                              <li><a href="{{route('signin')}}" class="btn btn-default f_signin">SIGN IN</a></li>
+                              @if(Auth::check())
+                              <li class="dropdown">
+                                <a class="dropdown-toggle btn btn-default f_signin" data-toggle="dropdown" href="#">
+                                  {{Auth::user()->name}}
+                                   <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu f_size">
+                                 @if(Auth::user()->role_id == 1)
+                                   <li><a href="{{route('admin-index')}}">Dashboard</a></li>
+                                   <li><a href="{{route('logout')}}">Logout</a></li>       
+                                 @else
+                                   <li><a href="{{route('dashboard')}}">Dashboard</a></li>
+                                   <li><a href="{{route('logout_user')}}">Logout</a></li>       
+                                 @endif
+                                </ul>
+                              </li>
+                              @else
+                              <li>
+                                 <a href="{{route('signin')}}" class="btn btn-default f_signin">SIGN IN</a>
+                              </li>
+                              @endif
                            </ul>
                         </div>
                         <!-- /.navbar-collapse -->
