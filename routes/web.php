@@ -20,8 +20,10 @@ Route::get('/select_room','External\PagesController@select_room')->name('select_
 Route::get('/hotels','External\PagesController@hotels')->name('hotels');
 Route::get('/hotel_payment','External\PagesController@hotel_payment')->name('hotel_payment');
 Route::get('/confirmation','External\PagesController@confirmation')->name('confirmation');
-Route::get('/flight_search','External\PagesController@flight_search')->name('flight_search');
+
 Route::get('/privacy','External\PagesController@privacy')->name('privacy');
+Route::get('/flight_search','External\GuzzleController@flight_search')->name('flight_search');
+
 
 Route::get('/dashboard','Dashboard\DashboardController@dashboard')->name('dashboard');
 

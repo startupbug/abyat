@@ -40,7 +40,7 @@
                               <!--<div class="f_goback"><a href="#" class="go_back">Forgot my password</a></div>-->
                               <div class="btn_forgot"><button type="button" class="btn f_login forgot_pass_btn">FORGOT PASSWORD</button></div>
                               <h1 class="line-title">or</h1>
-                              <div class="btn_signup_f">
+                              <div class="btn_signup_f">       
                                  <button type="button" class="btn f_signup">SIGN UP NOW <br><span>Don't have an account? Join Now</span></button>
                               </div>
                            </form>
