@@ -25,11 +25,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle question-toggle collapsed f_panelheading" data-toggle="collapse" data-target="#question0">
                <h4 class="panel-title">
-                  <a href="#question0" class="ing">
-                     <ul>
-                        <li class="f_info">Information collection and use</li>
-                     </ul>
-                  </a>
+                  <ul>
+                     <li class="f_info">Information collection and use</li>
+                  </ul>
                </h4>
             </div>
             <div id="question0" class="panel-collapse collapse" style="height: 0px;">
@@ -43,11 +41,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question1">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
-                     <ul>
-                        <li class="f_info">What information will we collect?</li>
-                     </ul>
-                  </a>
+                  <ul>
+                     <li class="f_info">What information will we collect?</li>
+                  </ul>
                </h4>
             </div>
             <div id="question1" class="panel-collapse collapse" style="height: 0px;">
@@ -61,11 +57,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question2">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
-                     <ul>
-                        <li class="f_info">We will use this information in the following ways</li>
-                     </ul>
-                  </a>
+                  <ul>
+                     <li class="f_info">We will use this information in the following ways</li>
+                  </ul>
                </h4>
             </div>
             <div id="question2" class="panel-collapse collapse" style="height: 0px;">
@@ -79,11 +73,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question3">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
-                     <ul>
-                        <li class="f_info">What will this information be used for?</li>
-                     </ul>
-                  </a>
+                  <ul>
+                     <li class="f_info">What will this information be used for?</li>
+                  </ul>
                </h4>
             </div>
             <div id="question3" class="panel-collapse collapse" style="height: 0px;">
@@ -97,11 +89,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question4">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
-                     <ul>
-                        <li class="f_info">How do we use your personal information?</li>
-                     </ul>
-                  </a>
+                  <ul>
+                     <li class="f_info">How do we use your personal information?</li>
+                  </ul>
                </h4>
             </div>
             <div id="question4" class="panel-collapse collapse" style="height: 0px;">
@@ -115,11 +105,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question5">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
-                     <ul>
-                        <li class="f_info">Who do we share your information with?</li>
-                     </ul>
-                  </a>
+                  <ul>
+                     <li class="f_info">Who do we share your information with?</li>
+                  </ul>
                </h4>
             </div>
             <div id="question5" class="panel-collapse collapse" style="height: 0px;">
@@ -133,11 +121,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question6">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
                      <ul>
                         <li class="f_info">Transfer of your personal information</li>
                      </ul>
-                  </a>
                </h4>
             </div>
             <div id="question6" class="panel-collapse collapse" style="height: 0px;">
@@ -151,11 +137,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question7">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
                      <ul>
                         <li class="f_info">What you need to know when using the tajawal mobile phone and tablet apps (the 'mobile apps')</li>
                      </ul>
-                  </a>
                </h4>
             </div>
             <div id="question7" class="panel-collapse collapse" style="height: 0px;">
@@ -169,11 +153,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question8">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
                      <ul>
                         <li class="f_info">Cookies Policy</li>
                      </ul>
-                  </a>
                </h4>
             </div>
             <div id="question8" class="panel-collapse collapse" style="height: 0px;">
@@ -189,11 +171,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle question-toggle collapsed f_panelheading" data-toggle="collapse" data-target="#question0_profile">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
                      <ul>
                         <li class="f_info">Information collection and use</li>
                      </ul>
-                  </a>
                </h4>
             </div>
             <div id="question0_profile" class="panel-collapse collapse" style="height: 0px;">
@@ -207,11 +187,9 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question1_profile">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
                      <ul>
                         <li class="f_info">What information will we collect?</li>
                      </ul>
-                  </a>
                </h4>
             </div>
             <div id="question1_profile" class="panel-collapse collapse" style="height: 0px;">
@@ -225,11 +203,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question2_profile">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">We will use this information in the following ways</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question2_profile" class="panel-collapse collapse" style="height: 0px;">
@@ -243,11 +221,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question3_profile">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">What will this information be used for?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question3_profile" class="panel-collapse collapse" style="height: 0px;">
@@ -261,11 +239,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question4_profile">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">How do we use your personal information?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question4_profile" class="panel-collapse collapse" style="height: 0px;">
@@ -279,11 +257,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question5_profile">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">Who do we share your information with?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question5_profile" class="panel-collapse collapse" style="height: 0px;">
@@ -297,11 +275,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question6_profile">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">Transfer of your personal information</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question6_profile" class="panel-collapse collapse" style="height: 0px;">
@@ -315,11 +293,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question7_profile">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">What you need to know when using the tajawal mobile phone and tablet apps (the 'mobile apps')</li>
                      </ul>
-                  </a>
+                 
                </h4>
             </div>
             <div id="question7_profile" class="panel-collapse collapse" style="height: 0px;">
@@ -333,11 +311,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question8_profile">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">Cookies Policy</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question8_profile" class="panel-collapse collapse" style="height: 0px;">
@@ -353,11 +331,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle question-toggle collapsed f_panelheading" data-toggle="collapse" data-target="#question0_contact">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">Information collection and use</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question0_contact" class="panel-collapse collapse" style="height: 0px;">
@@ -371,11 +349,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question1_contact">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">What information will we collect?</li>
                      </ul>
-                  </a>
+                 
                </h4>
             </div>
             <div id="question1_contact" class="panel-collapse collapse" style="height: 0px;">
@@ -389,11 +367,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question2_contact">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">We will use this information in the following ways</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question2_contact" class="panel-collapse collapse" style="height: 0px;">
@@ -407,11 +385,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question3_contact">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">What will this information be used for?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question3_contact" class="panel-collapse collapse" style="height: 0px;">
@@ -425,11 +403,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question4_contact">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">How do we use your personal information?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question4_contact" class="panel-collapse collapse" style="height: 0px;">
@@ -443,11 +421,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question5_contact">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">Who do we share your information with?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question5_contact" class="panel-collapse collapse" style="height: 0px;">
@@ -461,11 +439,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question6_contact">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">Transfer of your personal information</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question6_contact" class="panel-collapse collapse" style="height: 0px;">
@@ -479,11 +457,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question7_contact">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">What you need to know when using the tajawal mobile phone and tablet apps (the 'mobile apps')</li>
                      </ul>
-                  </a>
+                 
                </h4>
             </div>
             <div id="question7_contact" class="panel-collapse collapse" style="height: 0px;">
@@ -497,11 +475,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question8_contact">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">Cookies Policy</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question8_contact" class="panel-collapse collapse" style="height: 0px;">
@@ -517,11 +495,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle question-toggle collapsed f_panelheading" data-toggle="collapse" data-target="#question0_education">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">Information collection and use</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question0_education" class="panel-collapse collapse" style="height: 0px;">
@@ -535,11 +513,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question1_education">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">What information will we collect?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question1_education" class="panel-collapse collapse" style="height: 0px;">
@@ -553,11 +531,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question2_education">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                
                      <ul>
                         <li class="f_info">We will use this information in the following ways</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question2_education" class="panel-collapse collapse" style="height: 0px;">
@@ -571,11 +549,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question3_education">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">What will this information be used for?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question3_education" class="panel-collapse collapse" style="height: 0px;">
@@ -589,11 +567,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question4_education">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">How do we use your personal information?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question4_education" class="panel-collapse collapse" style="height: 0px;">
@@ -607,11 +585,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question5_education">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">Who do we share your information with?</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question5_education" class="panel-collapse collapse" style="height: 0px;">
@@ -625,11 +603,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question6_education">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">Transfer of your personal information</li>
                      </ul>
-                  </a>
+                  
                </h4>
             </div>
             <div id="question6_education" class="panel-collapse collapse" style="height: 0px;">
@@ -643,11 +621,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question7_education">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                 
                      <ul>
                         <li class="f_info">What you need to know when using the tajawal mobile phone and tablet apps (the 'mobile apps')</li>
                      </ul>
-                  </a>
+                 
                </h4>
             </div>
             <div id="question7_education" class="panel-collapse collapse" style="height: 0px;">
@@ -661,11 +639,11 @@
          <div class="panel panel-default f_paneldefualt">
             <div class="panel-heading accordion-toggle collapsed f_panelheading question-toggle" data-toggle="collapse" data-target="#question8_education">
                <h4 class="panel-title">
-                  <a href="#" class="ing">
+                  
                      <ul>
                         <li class="f_info">Cookies Policy</li>
                      </ul>
-                  </a>
+                 
                </h4>
             </div>
             <div id="question8_education" class="panel-collapse collapse" style="height: 0px;">
