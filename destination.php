@@ -441,7 +441,7 @@
    <h3 class="f_dubai">Cheap Flights to Dubai</h3>
    <div class="container">
       <div class="row">
-          <h3 class="f_flights">Flights to Dubai</h3>
+          <h3 class="f_flights"><i class="fa fa-plane f_plane" aria-hidden="true"></i>Flights to Dubai</h3>
          <div class="col-md-3">
            
             <ul class="list_dest">
@@ -493,7 +493,7 @@
 
    <div class="container">
       <div class="row">
-          <h3 class="f_flights">Flights from Dubai</h3>
+          <h3 class="f_flights"><i class="fa fa-plane f_plane" aria-hidden="true"></i>Flights from Dubai</h3>
          <div class="col-md-3">
            
             <ul class="list_dest">
