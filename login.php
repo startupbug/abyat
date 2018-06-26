@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="forgot_password">
+<section class="forgot_password" dir="">
    <!--<div class="container-fluid f_padding">
       <div class="row">
          <div class="col-md-12">
@@ -10,7 +10,7 @@
    <div class="container">
       <div class="row">
          <div class="col-md-6">
-            <div class="sign_up_div">            
+            <div class="sign_up_div" dir="ltr">
                <div class="panel with-nav-tabs panel-primary f_primary">
                   <div class="panel-heading f_forgot">
                      <ul class="nav nav-tabs sign_nav f_abc">
@@ -23,10 +23,12 @@
                         <div class="tab-pane fade in active" id="tab1primary">
                            <form>
                               <a class="btn btn-block btn-social btn-facebook email_forgot">
-                              <i class="fa fa-facebook"></i> Sign In with facebook
+                                <i class="fa fa-facebook"></i>
+                                <p>Sign In with facebook</p>
                               </a>
                               <a class="btn btn-block btn-social btn-twitter email_forgot">
-                              <i class="fa fa-twitter f_twitter"></i> Sign in with Twitter
+                                <i class="fa fa-twitter f_twitter"></i>
+                                <p>Sign in with Twitter</p>
                               </a>
                               <h1 class="line-title">or</h1>
                               <div class="form-group email_forgot">
@@ -52,10 +54,12 @@
                         <div class="tab-pane fade" id="tab2primary">
                            <form>
                               <a class="btn btn-block btn-social btn-facebook email_forgot">
-                              <i class="fa fa-facebook"></i> Sign In with facebook
+                                <i class="fa fa-facebook"></i>
+                                <p>Sign In with facebook</p>
                               </a>
                               <a class="btn btn-block btn-social btn-twitter email_forgot">
-                              <i class="fa fa-twitter f_twitter"></i> Sign in with Twitter
+                                <i class="fa fa-twitter f_twitter"></i>
+                                <p>Sign in with Twitter</p>
                               </a>
                               <h1 class="line-title">or</h1>
                               <div class="form-group email_forgot">
@@ -85,8 +89,8 @@
                   </div>
                </div>
             </div>
-            
-            <div class="forgot_password_div hidden">            
+
+            <div class="forgot_password_div hidden">
                <div class="panel with-nav-tabs panel-primary f_primary">
                   <div class="panel-heading f_forgot">
                      <ul class="nav nav-tabs sign_nav sign_nav_s">
@@ -101,12 +105,12 @@
                               <div class="form-group email_forgot">
                                  <label for="email">Email</label>
                                  <input type="email" class="form-control f_control_forgot" id="email_2">
-                                
+
                               </div>
                                  <div class="btn_send">
                                  <button type="button" class="btn f_sendrequest">RESET PASSWORD</button>
                               </div>
-                              
+
                               <div class="f_goback">
                                  <div class="go_back">Go Back</div>
                               </div>

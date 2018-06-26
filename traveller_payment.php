@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="hotel">
+<section class="hotel traveller_pay" dir="">
 
    <div class="container">
       <div class="row">
@@ -63,7 +63,7 @@
                </div>
              </div>
           </div>
-        
+
 
             <div class="row">
               <form class="" action="#">
@@ -76,7 +76,7 @@
                       <p>* REQUIRED FIELDS</p>
                     </div>
                   </div>
-                  <div class="row">
+                  <div class="row right_left">
                     <div class="col-md-9">
                       <div class="s_form_padding">
                           <div class="s_dashboard_form">
@@ -138,12 +138,12 @@
             </div>
             </form>
           </div>
-         
+
          <div class="col-md-4">
            <div class="row">
              <div class="col-md-12">
-               <div class="row">
-                 <div class="col-md-12">
+               <div class="row heading_a">
+                 <div class="col-md-12 ">
                    <h3 class="s_heading_h3">FARE DETAILS</h3><hr>
                  </div>
                </div>
@@ -242,6 +242,6 @@
          </div>
        </div>
      </div>
-      
+
 </section>
 <?php include('footer.php'); ?>

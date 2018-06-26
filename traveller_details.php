@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="hotel">
+<section class="hotel traveller_details" dir="">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
@@ -54,8 +54,7 @@
                <div class="row">
                  <div class="col-md-12">
                    <p class="s_label_tag">
-                     <i class="fa fa-arrow-circle-right"></i>
-                     Flight on Thursday 07 June 2018 from Manila to Kinshasa
+                     <i class="fa fa-arrow-circle-right"></i> Flight on Thursday 07 June 2018 from Manila to Kinshasa
                    </p>
                  </div>
                </div>
@@ -142,7 +141,7 @@
                     <form class="s_dashboard_form" action="#">
                      <div class="row">
                       <div class="col-md-3">
-                        <div class="form-group">
+                        <div class="form-group label_right">
                           <label class="width_50">Full Name *</label>
                           <select class="form-control s_form_field width_50" name="" required>
                             <option value="title">Title</option>
@@ -197,7 +196,7 @@
                     <form class="s_dashboard_form" action="#">
                      <div class="row">
                       <div class="col-md-3">
-                        <div class="form-group">
+                        <div class="form-group label_right">
                           <label class="width_50">Full Name *</label>
                           <select class="form-control s_form_field width_50" name="" required>
                             <option value="title">Title</option>
@@ -258,7 +257,7 @@
                       <option value="Select">Passport</option>
                       <option value="Select">Saudi Muqeem ID</option>
                       <option value="Select">Saudi Citizen ID</option>
-                     
+
                     </select>
                   </div>
                 </div>
@@ -299,7 +298,7 @@
                       </div>
                       <div class="col-md-2 detail">
                         <div class="form-group">
-                          <select class="form-control s_form_field" name="" required>
+                          <select class="form-control s_form_field abc" name="" required>
                             <option value="title">Title</option>
                             <option value="title">Title</option>
                             <option value="title">Title</option>
@@ -334,7 +333,7 @@
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <select class="form-control s_form_field" name="" required>
+                          <select class="form-control s_form_field abc" name="" required>
                             <option value="title">Select</option>
                           </select>
                         </div>

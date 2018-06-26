@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="select_room">
+<section class="select_room" dir="">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
@@ -43,7 +43,7 @@
                </div>
             </div>
          </div>
-        
+
       </div>
    </div>
    <div class="container">
@@ -51,7 +51,7 @@
          <div class="col-md-12">
             <div class=" well well-sm  bg-white borderZero f_well"  uib-dropdown >
                <div class="btn-group date-block btn-group-justified font-small dropdown" data-toggle="buttons">
-                  <label href="#home" data-toggle="tab" class="btn btn-default f_defualt f_font next font-small semiBold active-btn" title="Next Day" border-radius:0;">
+                  <label href="#home" data-toggle="tab" class="btn btn-default f_defualt f_font next font-small semiBold active-btn" title="Next Day">
                   Photos
                   </label>
                   <label  href="#profile" data-toggle="tab" class="btn btn-default f_defualt f_font previous text-right font-small semiBold" title="Previous Day">
@@ -252,35 +252,35 @@
                   <div class="product-slider">
                      <div id="carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                           <div class="item active"> 
-                              <img src="assets/images/selectroom_img.jpg" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item active">
+                              <img src="assets/images/selectroom_img.jpg" class="img-responsive select_hotels_image_slider">
                            </div>
-                           <div class="item"> 
-                              <img src="http://placehold.it/1600x700?text=Product+02" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item">
+                              <img src="http://placehold.it/1600x700?text=Product+02" class="img-responsive select_hotels_image_slider">
                            </div>
-                           <div class="item"> 
-                              <img src="http://placehold.it/1600x700?text=Product+03" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item">
+                              <img src="http://placehold.it/1600x700?text=Product+03" class="img-responsive select_hotels_image_slider">
                            </div>
-                           <div class="item"> 
-                              <img src="http://placehold.it/1600x700?text=Product+04" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item">
+                              <img src="http://placehold.it/1600x700?text=Product+04" class="img-responsive select_hotels_image_slider">
                            </div>
-                           <div class="item"> 
-                              <img src="http://placehold.it/1600x700?text=Product+05" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item">
+                              <img src="http://placehold.it/1600x700?text=Product+05" class="img-responsive select_hotels_image_slider">
                            </div>
-                           <div class="item"> 
-                              <img src="http://placehold.it/1600x700?text=Product+06" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item">
+                              <img src="http://placehold.it/1600x700?text=Product+06" class="img-responsive select_hotels_image_slider">
                            </div>
-                           <div class="item"> 
-                              <img src="http://placehold.it/1600x700?text=Product+07" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item">
+                              <img src="http://placehold.it/1600x700?text=Product+07" class="img-responsive select_hotels_image_slider">
                            </div>
-                           <div class="item"> 
-                              <img src="http://placehold.it/1600x700?text=Product+08" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item">
+                              <img src="http://placehold.it/1600x700?text=Product+08" class="img-responsive select_hotels_image_slider">
                            </div>
-                           <div class="item"> 
-                              <img src="http://placehold.it/1600x700?text=Product+09" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item">
+                              <img src="http://placehold.it/1600x700?text=Product+09" class="img-responsive select_hotels_image_slider">
                            </div>
-                           <div class="item"> 
-                              <img src="http://placehold.it/1600x700?text=Product+10" class="img-responsive select_hotels_image_slider"> 
+                           <div class="item">
+                              <img src="http://placehold.it/1600x700?text=Product+10" class="img-responsive select_hotels_image_slider">
                            </div>
                         </div>
                      </div>
@@ -312,10 +312,10 @@
                                  <div data-target="#carousel" data-slide-to="9" class="thumb"><img src="http://placehold.it/100x80?text=Thumb+10"></div>
                               </div>
                            </div>
-                           <!-- /carousel-inner --> 
-                           <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a> <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i> </a> 
+                           <!-- /carousel-inner -->
+                           <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev"> <i class="fa fa-angle-left" aria-hidden="true"></i> </a> <a class="right carousel-control" href="#thumbcarousel" role="button" data-slide="next"><i class="fa fa-angle-right" aria-hidden="true"></i> </a>
                         </div>
-                        <!-- /thumbcarousel --> 
+                        <!-- /thumbcarousel -->
                      </div>
                   </div>
                   <div class="panel panel-default f_rooms_available">
@@ -324,16 +324,16 @@
                         <div class="col-md-4">
                            <form>
                               <div id="datepicker" class="input-group date" data-date-format="mm-dd-yyyy">
-                                 <input class="form-control" type="text" readonly />
-                                 <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                <input class="form-control" type="text" readonly />
                               </div>
                            </form>
                         </div>
                         <div class="col-md-4">
                            <form>
                               <div id="datepicker1" class="input-group date" data-date-format="mm-dd-yyyy">
-                                 <input class="form-control" type="text" readonly />
-                                 <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+                                <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                <input class="form-control" type="text" readonly />
                               </div>
                            </form>
                         </div>
@@ -430,7 +430,7 @@
                      <div class="panel-body f_panelbody">
                         <h3 class="panel_content">General Description</h3>
                         <p class="f_splendid">
-                           Splendid Venice - Starhotels Collezione like no other is perfectly situated in San Marco, Venice, as it is surrounded by many enjoyable landmarks such as St. Mark's Basilica and Piazza San Marco.  
+                           Splendid Venice - Starhotels Collezione like no other is perfectly situated in San Marco, Venice, as it is surrounded by many enjoyable landmarks such as St. Mark's Basilica and Piazza San Marco.
                            The comfy and elegant 165 rooms offer Wi-Fi, LCD TVs, and bathroom with toiletries, shower, and hairdryer.
                         </p>
                         <p class="check_in">Check-out: Until 12:00 PM</p>
@@ -472,7 +472,7 @@
                         <br>
                         <h3 class="panel_content">Business, Other Amenities</h3>
                         <p class="f_splendid">
-                           Splendid Venice - Starhotels Collezione guarantees your business events to be successful with its amenities and services; such as business center. It also provides currency exchange, laundry/dry cleaning, multilingual staff, express check-in & check-out, and 24-hour front desk to fulfil all your needs.  
+                           Splendid Venice - Starhotels Collezione guarantees your business events to be successful with its amenities and services; such as business center. It also provides currency exchange, laundry/dry cleaning, multilingual staff, express check-in & check-out, and 24-hour front desk to fulfil all your needs.
                         </p>
                      </div>
                   </div>

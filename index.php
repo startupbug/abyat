@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="triprite">
+<section class="triprite" dir="">
    <!-- Silder Images -->
    <div class="container-fluid f_padding">
       <div class="w3-content w3-display-container">
@@ -31,7 +31,6 @@
          <div class="tab-content f_tab">
             <div class="tab-pane fade in active" id="tab1default">
                <form>
-
                   <div class="row">
                      <div class="col-md-10 col-md-offset-1">
                         <div class="flights-search-box">
@@ -77,9 +76,9 @@
                               </div>
                            </div>
                         </div>
-                        
+
                      </div>
-                  </div> 
+                  </div>
                </form>
             </div>
             <div class="tab-pane fade" id="tab2default">
@@ -89,19 +88,19 @@
                         <div class="row">
                            <div class="col-md-8">
                               <label class="custom_radio">
-                              <input type="radio" class="flight_radio_button radio_button" name="r1" data-message="one-way" checked="" value="one-way"> 
+                              <input type="radio" class="flight_radio_button radio_button" name="r1" data-message="one-way" checked="" value="one-way">
                               <span class="radio_span_text">
                               One-way
                               </span>
                               </label>
                               <label class="custom_radio">
-                              <input type="radio" class="flight_radio_button radio_button" name="r1" data-message="round-trip" value="round-trip">  
+                              <input type="radio" class="flight_radio_button radio_button" name="r1" data-message="round-trip" value="round-trip">
                               <span class="radio_span_text">
                               Round-trip
                               </span>
                               </label>
                               <label class="custom_radio">
-                              <input type="radio" class="flight_radio_button radio_button" name="r1" data-message="multi-city" value="multi-city">  
+                              <input type="radio" class="flight_radio_button radio_button" name="r1" data-message="multi-city" value="multi-city">
                               <span class="radio_span_text">
                               Multi-city
                               </span>
@@ -355,7 +354,7 @@
                               <div class="row multi-city-value" id="multi-city-flight">
                                  <div class="col-md-8 flights_multi">
                                     <h3 class="www-srchf__multi__ttl">
-                                       <i class="fa fa-plane"></i> Flight 2 
+                                       <i class="fa fa-plane"></i> Flight 2
                                     </h3>
                                     <div class="row">
                                        <div class="col-md-9">
@@ -406,7 +405,7 @@
                                           <span class="add-multi-city-flight">
                                           Add up to 6 flights
                                           <i class="fa fa-plus-circle"></i>
-                                          </span>  
+                                          </span>
                                        </p>
                                     </div>
                                  </div>
@@ -421,7 +420,7 @@
       </div>
    </div>
 </section>
-<section class="thumbnails">
+<section class="thumbnails" dir="">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
@@ -438,7 +437,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.jpg">                                         
+                                       <img src="assets/images/image_one.jpg">
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -463,7 +462,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_two.jpg">                                         
+                                       <img src="assets/images/image_two.jpg">
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -488,7 +487,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_three.jpg">                                         
+                                       <img src="assets/images/image_three.jpg">
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -517,7 +516,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.jpg">                                         
+                                       <img src="assets/images/image_one.jpg">
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -542,7 +541,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.jpg">                                         
+                                       <img src="assets/images/image_one.jpg">
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -567,7 +566,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-inner">
                                     <div class="img">
-                                       <img src="assets/images/image_one.jpg">                                         
+                                       <img src="assets/images/image_one.jpg">
                                     </div>
                                     <div class="course-detail-front">
                                        <h5>Luxury with ultra superior room</h5>
@@ -601,7 +600,7 @@
       </div>
    </div>
 </section>
-<section class="book_image">
+<section class="book_image" dir="">
    <div class="container-fluid f_media_bg">
       <div class="row">
          <div class="col-md-12">
@@ -614,7 +613,7 @@
                      </div>
                      <div class="media-body f_booking">
                         <h4 class="media-heading f_mediacontent">No booking charges</h4>
-                        <p class="f_mediatext f_fontsize">We don't charge you an extra fee for booking a hotel room with us.</p>
+                        <p class="f_mediatext f_fontsize">We don't charge you an extra fee for booking a hotel room with us</p>
                      </div>
                   </div>
                   <div class="media f_media">
@@ -650,7 +649,7 @@
       </div>
    </div>
 </section>
-<section class="thumbnails">
+<section class="thumbnails" dir="">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
@@ -766,7 +765,7 @@
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
                                     <div class="img">
-                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">                   
+                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">
                                     </div>
                                     <div class="row margin-custom">
                                        <div class="col-md-8 text-left">
@@ -832,45 +831,5 @@
       </div>
    </div>
 </section>
-<!--<div style="position: relative;">
-   <section class="price_index">
-      <div class="container">
-         <div class="row f_ipad">
-            <div class="col-md-4">
-               <div class="money_icon"> <i class="fa fa-money f_money"></i></div>
-               <h3 class="f_price">Best Price Guarantee</h3>
-               <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
-            </div>
-            <div class="col-md-4">
-               <div class="money_icon"> <i class="fa fa-plane f_money"></i></div>
-               <h3 class="f_price">Travel Insurance</h3>
-               <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
-            </div>
-            <div class="col-md-4">
-               <div class="money_icon"> <i class="fa fa-question f_money"></i></div>
-               <h3 class="f_price">Need Help?</h3>
-               <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="triplite_form">
-      <div class="container f_formborder">
-         <div class="row">
-            <div class="col-md-3">
-               <h3 class="sign_f">Sign Up for New <br>Updates & Newsletter</h3>
-            </div>
-            <div class="col-md-9">
-               <div class="input-group">
-                  <input type="text" class="form-control f_control">
-                  <div class="input-group-btn f_inputbtn">
-                     <button type="submit" class="btn btn-default f_search">SUBMIT</button>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-</div>-->
 <div class="clearfix"></div>
 <?php include('footer.php'); ?>

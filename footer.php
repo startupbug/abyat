@@ -1,5 +1,5 @@
     <!-- footer section -->
-    <footer>
+    <footer dir="">
        <div style="position: relative;">
           <section class="price_index">
              <div class="container">
@@ -101,6 +101,7 @@
           </div>
        </section>
     </footer>
+
     <!-- jQuery -->
     <script src="<?php echo $base_url;?>assets/js/jquery-3.1.1.min.js"></script>
     <!-- Bootstrap -->
@@ -121,6 +122,12 @@
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
 
+   <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+   <script type="text/javascript">
+   function googleTranslateElementInit() {
+     new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+   }
+   </script>
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script> -->
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script> -->
     <!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" /> -->

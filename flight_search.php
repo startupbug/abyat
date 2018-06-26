@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="flight_search">
+<section class="flight_search" dir="">
    <div class="container">
       <div class="row">
          <div class="col-md-12">

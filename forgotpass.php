@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="forgot_password">
+<section class="forgot_password" dir="">
    <div class="container">
       <div class="row">
          <div class="col-md-6">
@@ -18,12 +18,12 @@
                            <div class="form-group email_forgot">
                               <label for="email">Email</label>
                               <input type="email" class="form-control f_control_forgot" id="email">
-                             
+
                            </div>
                               <div class="btn_send">
                               <button type="button" class="btn f_sendrequest">SEND REQUEST</button>
                            </div>
-                           
+
                            <div class="f_goback"><a href="#" class="go_back">Go Back</a></div>
                         </form>
                      </div>

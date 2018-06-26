@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="confirmation">
+<section class="confirmation" dir="">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
@@ -39,7 +39,7 @@
                <li><i class="fa fa-star" aria-hidden="true"></i></li>
             </ul>
             <p class="f_marco">San Marco, 2947 Campo Santo Stefano, San Marco, 30124 Venice, Italy</p>
-            <div class="f_check_email"><a href="#" class="f_check">CHECK YOUR EMAIL</a></div>
+            <div class="f_check_email"><a href="#" class="check_btn_s f_check">CHECK YOUR EMAIL</a></div>
          </div>
          <div class="col-md-9">
             <div class="panel panel-default">
@@ -56,7 +56,7 @@
                         <li><a href="#">Page 1-3</a></li>
                      </ul>
                   </div>
-                   
+
                </div>
                <div class="panel-body color_bg_f">
                   <div class="right_content">
@@ -142,7 +142,7 @@
                   <!--<div class="col-md-6">
                      <div class="f_main_content">
                         <p class="f-sup">VAT</p>
-                        
+
                      </div>
                      </div>-->
                </div>

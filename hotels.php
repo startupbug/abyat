@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="hotel">
+<section class="hotel" dir="">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
