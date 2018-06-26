@@ -1,4 +1,5 @@
-<?php include('header.php'); ?>
+@extends('layouts.public')
+@section('content')
 <section class="hotel">
    <div class="container">
       <div class="row">
@@ -55,7 +56,7 @@
                  <div class="col-md-12">
                    <p class="s_label_tag">
                      <i class="fa fa-arrow-circle-right"></i>
-                     Flight on Thursday 07 June 2018 from Manila to Kinshasa
+                     Flight on {!! date('D d-M-Y', strtotime( $data->AirItinerary->OriginDestinationOptions->OriginDestinationOption[0]->FlightSegment[0]->DepartureDateTime)) !!} from  {!! $data->AirItinerary->OriginDestinationOptions->OriginDestinationOption[0]->FlightSegment[0]->DepartureAirport->LocationCode!!} to {!! $data->AirItinerary->OriginDestinationOptions->OriginDestinationOption[0]->FlightSegment[0]->ArrivalAirport->LocationCode!!}
                    </p>
                  </div>
                </div>
@@ -371,16 +372,16 @@
                 </div>
                 <div class="traveller_detail">
                   <div class="col-md-6 padding_top_bottom_5">
-                    <p>Fare SAR 2.979.00</p>
+                    <p>Fare {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->CurrencyCode!!} {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->Amount!!}</p>
                   </div>
                   <div class="col-md-6 padding_top_bottom_5">
-                    <p class="text-right">SAR 2,979.00</p>
+                    <p class="text-right">{!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->CurrencyCode!!} {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->Amount!!}</p>
                   </div>
                   <div class="col-md-6 padding_top_bottom_5">
                     <p>Taxes and Fee</p>
                   </div>
                   <div class="col-md-6 padding_top_bottom_5">
-                    <p class="text-right">Taxes and Fees SAR 58.00</p>
+                    <p class="text-right">Taxes and Fees {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->CurrencyCode!!} {!! $data->AirItineraryPricingInfo->ItinTotalFare->Taxes->Tax[0]->Amount!!}</p>
                   </div>
                 </div>
               </div><hr>
@@ -561,5 +562,4 @@
               </div>
            </div>
          </div>-->
-
-<?php include('footer.php'); ?>
+@endsection

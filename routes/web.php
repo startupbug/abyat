@@ -23,6 +23,7 @@ Route::get('/confirmation','External\PagesController@confirmation')->name('confi
 
 Route::get('/privacy','External\PagesController@privacy')->name('privacy');
 Route::get('/flight_search','External\GuzzleController@flight_search')->name('flight_search');
+Route::get('/flight_detail/{tagID}','External\GuzzleController@flight_detail')->name('flight_detail');
 
 
 Route::get('/dashboard','Dashboard\DashboardController@dashboard')->name('dashboard');
