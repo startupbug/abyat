@@ -1,5 +1,6 @@
 <?php include('header.php'); ?>
-<section class="triprite">
+<section class="destination">
+   <section class="triprite">
    <!-- Silder Images -->
    <div class="container-fluid f_padding">
       <div class="w3-content w3-display-container">
@@ -421,456 +422,173 @@
       </div>
    </div>
 </section>
-<section class="thumbnails">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h3 class="f_content">Featured Rooms</h3>
-         </div>
-         <div class="col-md-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="well-none">
-               <div id="myCarousel" class="carousel slide">
-                  <!-- Carousel items -->
-                  <div class="carousel-inner">
-                     <div class="item active">
-                        <div class="row">
-                           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-inner">
-                                    <div class="img">
-                                       <img src="assets/images/image_one.jpg">                                         
-                                    </div>
-                                    <div class="course-detail-front">
-                                       <h5>Luxury with ultra superior room</h5>
-                                       <div class="row margin-custom">
-                                          <div class="col-md-4 text-left">
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                          </div>
-                                          <h3 class="f_reviews">7 Reviews</h3>
-                                       </div>
-                                       <div class="row s_row_">
-                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-inner">
-                                    <div class="img">
-                                       <img src="assets/images/image_two.jpg">                                         
-                                    </div>
-                                    <div class="course-detail-front">
-                                       <h5>Luxury with ultra superior room</h5>
-                                       <div class="row margin-custom">
-                                          <div class="col-md-4 text-left">
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                          </div>
-                                          <h3 class="f_reviews">7 Reviews</h3>
-                                       </div>
-                                       <div class="row s_row_">
-                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-inner">
-                                    <div class="img">
-                                       <img src="assets/images/image_three.jpg">                                         
-                                    </div>
-                                    <div class="course-detail-front">
-                                       <h5>Luxury with ultra superior room</h5>
-                                       <div class="row margin-custom">
-                                          <div class="col-md-4 text-left">
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                          </div>
-                                          <h3 class="f_reviews">7 Reviews</h3>
-                                       </div>
-                                       <div class="row s_row_">
-                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item">
-                        <div class="row">
-                           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-inner">
-                                    <div class="img">
-                                       <img src="assets/images/image_one.jpg">                                         
-                                    </div>
-                                    <div class="course-detail-front">
-                                       <h5>Luxury with ultra superior room</h5>
-                                       <div class="row margin-custom">
-                                          <div class="col-md-4 text-left">
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                          </div>
-                                          <h3 class="f_reviews">7 Reviews</h3>
-                                       </div>
-                                       <div class="row s_row_">
-                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-inner">
-                                    <div class="img">
-                                       <img src="assets/images/image_one.jpg">                                         
-                                    </div>
-                                    <div class="course-detail-front">
-                                       <h5>Luxury with ultra superior room</h5>
-                                       <div class="row margin-custom">
-                                          <div class="col-md-4 text-left">
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                          </div>
-                                          <h3 class="f_reviews">7 Reviews</h3>
-                                       </div>
-                                       <div class="row s_row_">
-                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-inner">
-                                    <div class="img">
-                                       <img src="assets/images/image_one.jpg">                                         
-                                    </div>
-                                    <div class="course-detail-front">
-                                       <h5>Luxury with ultra superior room</h5>
-                                       <div class="row margin-custom">
-                                          <div class="col-md-4 text-left">
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                             <i class="fa fa-star f_star" aria-hidden="true"></i>
-                                          </div>
-                                          <h3 class="f_reviews">7 Reviews</h3>
-                                       </div>
-                                       <div class="row s_row_">
-                                          <h3 class="f_benjamin">2600 Benjamin Franklin Pkwy, <br> Philadelphia, PA 19130, USA</h3>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!--/carousel-inner-->
-               <a class="left carousel-control f_left" href="#myCarousel" data-slide="prev"><i class="fa fa-chevron-left fa-4"></i></a>
-               <a class="right carousel-control f_carousalright" href="#myCarousel" data-slide="next"><i class="fa fa-chevron-right fa-4"></i></a>
-            </div>
-            <!--/myCarousel-->
+            <h3 class="f_dubai">About Dubai</h3>
+            <p class="f_cheap">Cheap flights to Dubai are readily available at tajawal, if you are planning to visit dubai we have a wole bunch of luxury and affordable flights options we always make it easy for you to decide which date you want to travel by giving you the lowest airfare on flights to dubai.</p>
+            <br>
+            <p class="f_cheap">Choose from tajawal last minute lowcost flight deals to dubai if you are looking for cheap flights to Dubai! We've got the best flights in store for you to the City of Gold! Dubai is known to have a thing for breaking world records, so being home to Burj Khalifa, the world’s tallest tower and JW Marriott Marquis Dubai Hotel, the world’s tallest hotel should come as no surprise! Dubai also holds the title of the city with the world’s longest homemade gold chain.</p>
+            <br>
+            <p class="f_cheap">Dubai is packed with monuments that attract travelers from all over the world such as Burj Khalifa, Burj al Arab, and the Jumeirah Archaeological site. The Dubai Mall, Souk Madinat Jumeirah and the Dubai Museum are also attractions that tourists visit when in Dubai. </p>
+            <br>
+            <p class="f_cheap">If you want to plan a visit to Dubai at a time where the weather is not too humid or hot, the best time to do so is from November to April. Known for its tropical desert climate, Dubai is a city that is sunny all year round. However, the summer in Dubai starts around May and lasts until October. Winter in Dubai starts in November and ends in April. The winter in Dubai is warm and short with an average of 23 degrees, Choose the low cost flights to dubai from tajawal.</p>
+            <br>
+            <p class="f_cheap">When you are looking out for the best flight prices for Dubai, please make sure that you compare all the offers from over 300+ Airlines and go for the deal which suits your style, you can also use our search filters to narrow your search for most desireable results for booking flights to Dubai.</p>
          </div>
       </div>
    </div>
-</section>
-<section class="book_image">
-   <div class="container-fluid f_media_bg">
-      <div class="row">
-         <div class="col-md-12">
-            <div class="book_content">
-               <div class="col-md-7 col-sm-12 col-md-offset-5 col-sm-offset-0">
-                  <h1>Book with confidence</h1>
-                  <div class="media f_media">
-                     <div class="media-left">
-                        <div class="border_box">01</div>
-                     </div>
-                     <div class="media-body f_booking">
-                        <h4 class="media-heading f_mediacontent">No booking charges</h4>
-                        <p class="f_mediatext f_fontsize">We don't charge you an extra fee for booking a hotel room with us.</p>
-                     </div>
-                  </div>
-                  <div class="media f_media">
-                     <div class="media-left">
-                        <div class="border_box">02</div>
-                     </div>
-                     <div class="media-body f_booking">
-                        <h4 class="media-heading f_mediacontent">No cancellation fees</h4>
-                        <p class="f_mediatext f_fontsize">We don't charge you a cancellation or modification fee in case plans change</p>
-                     </div>
-                  </div>
-                  <div class="media f_media">
-                     <div class="media-left">
-                        <div class="border_box">03</div>
-                     </div>
-                     <div class="media-body f_booking">
-                        <h4 class="media-heading f_mediacontent">Instant confirmation</h4>
-                        <p class="f_mediatext f_fontsize">Instant booking confirmation whether booking online or via the telephone</p>
-                     </div>
-                  </div>
-                  <div class="media f_media">
-                     <div class="media-left">
-                        <div class="border_box">04</div>
-                     </div>
-                     <div class="media-body f_booking">
-                        <h4 class="media-heading f_mediacontent">Flexible booking</h4>
-                        <p class="f_mediatext f_fontsize">You can book up to a whole year in advance until the moment of your stay</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<section class="thumbnails">
+   <h3 class="f_dubai">Cheap Flights to Dubai</h3>
    <div class="container">
       <div class="row">
-         <div class="col-md-12">
-            <h3 class="f_content">Popular Destination</h3>
+          <h3 class="f_flights">Flights to Dubai</h3>
+         <div class="col-md-3">
+           
+            <ul class="list_dest">
+               <li><a href="#">Atlanta to Dubai</a></li>
+               <li><a href="#">Boston to Dubai</a></li>
+               <li><a href="#">Delhi to Dubai</a></li>
+               <li><a href="#">Honolulu to Dubai</a></li>
+               <li><a href="#">Kuwait City to Dubai</a></li>
+               <li><a href="#">Riyadh to Dubai</a></li>
+            </ul>
          </div>
-         <div class="col-md-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="well-none">
-               <div id="myCarouse2" class="carousel slide">
-                  <!-- Carousel items -->
-                  <div class="carousel-inner">
-                     <div class="item active">
-                        <div class="row">
-                           <div class="col-xs-12 col-sm-3 col-md-3">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-last">
-                                    <div class="img">
-                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">
-                                    </div>
-                                    <div class="row margin-custom">
-                                       <div class="col-md-8 text-left">
-                                          <h5 class="course-detail-front">Atlantis - The Palm</h5>
-                                          <span class="paris_f">Paris</span>
-                                       </div>
-                                       <div class="col-md-4">
-                                          <h3 class="f_from">From</h3>
-                                          <span class="num_f">$490</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-3 col-md-3">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-last">
-                                    <div class="img">
-                                       <img src="assets/images/popular_image2.jpg" class="img-responsive">
-                                    </div>
-                                    <div class="row margin-custom">
-                                       <div class="col-md-8 text-left">
-                                          <h5 class="course-detail-front">Atlantis - The Palm</h5>
-                                          <span class="paris_f">Paris</span>
-                                       </div>
-                                       <div class="col-md-4">
-                                          <h3 class="f_from">From</h3>
-                                          <span class="num_f">$490</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-3 col-md-3">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-last">
-                                    <div class="img">
-                                       <img src="assets/images/popular_image3.jpg" class="img-responsive">
-                                    </div>
-                                    <div class="row margin-custom">
-                                       <div class="col-md-8 text-left">
-                                          <h5 class="course-detail-front">Atlantis - The Palm</h5>
-                                          <span class="paris_f">Paris</span>
-                                       </div>
-                                       <div class="col-md-4">
-                                          <h3 class="f_from">From</h3>
-                                          <span class="num_f">$490</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-3 col-md-3">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-last">
-                                    <div class="img">
-                                       <img src="assets/images/popular_image4.jpg" class="img-responsive">
-                                    </div>
-                                    <div class="row margin-custom">
-                                       <div class="col-md-8 text-left">
-                                          <h5 class="course-detail-front">Atlantis - The Palm</h5>
-                                          <span class="paris_f">Paris</span>
-                                       </div>
-                                       <div class="col-md-4">
-                                          <h3 class="f_from">From</h3>
-                                          <span class="num_f">$490</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item">
-                        <div class="row">
-                           <div class="col-xs-12 col-sm-3 col-md-3">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-last">
-                                    <div class="img">
-                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">
-                                    </div>
-                                    <div class="row margin-custom">
-                                       <div class="col-md-8 text-left">
-                                          <h5 class="course-detail-front">Atlantis - The Palm</h5>
-                                          <span class="paris_f">Paris</span>
-                                       </div>
-                                       <div class="col-md-4">
-                                          <h3 class="f_from">From</h3>
-                                          <span class="num_f">$490</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-3 col-md-3">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-last">
-                                    <div class="img">
-                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">                   
-                                    </div>
-                                    <div class="row margin-custom">
-                                       <div class="col-md-8 text-left">
-                                          <h5 class="course-detail-front">Atlantis - The Palm</h5>
-                                          <span class="paris_f">Paris</span>
-                                       </div>
-                                       <div class="col-md-4">
-                                          <h3 class="f_from">From</h3>
-                                          <span class="num_f">$490</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-3 col-md-3">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-last">
-                                    <div class="img">
-                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">
-                                    </div>
-                                    <div class="row margin-custom">
-                                       <div class="col-md-8 text-left">
-                                          <h5 class="course-detail-front">Atlantis - The Palm</h5>
-                                          <span class="paris_f">Paris</span>
-                                       </div>
-                                       <div class="col-md-4">
-                                          <h3 class="f_from">From</h3>
-                                          <span class="num_f">$490</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-xs-12 col-sm-3 col-md-3">
-                              <div class="frontend-box">
-                                 <div class="frontend-box-last">
-                                    <div class="img">
-                                       <img src="assets/images/popular_image1.jpg" class="img-responsive">
-                                    </div>
-                                    <div class="row margin-custom">
-                                       <div class="col-md-8 text-left">
-                                          <h5 class="course-detail-front">Atlantis - The Palm</h5>
-                                          <span class="paris_f">Paris</span>
-                                       </div>
-                                       <div class="col-md-4">
-                                          <h3 class="f_from">From</h3>
-                                          <span class="num_f">$490</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!--/carousel-inner-->
-               <a class="left carousel-control f_left" href="#myCarouse2" data-slide="prev"><i class="fa fa-chevron-left fa-4"></i></a>
-               <a class="right carousel-control f_carousalright" href="#myCarouse2" data-slide="next"><i class="fa fa-chevron-right fa-4"></i></a>
-            </div>
-            <!--/myCarousel-->
+         <div class="col-md-3">
+           
+            <ul class="list_dest">
+               <li><a href="#">Atlanta to Dubai</a></li>
+               <li><a href="#">Boston to Dubai</a></li>
+               <li><a href="#">Delhi to Dubai</a></li>
+               <li><a href="#">Honolulu to Dubai</a></li>
+               <li><a href="#">Kuwait City to Dubai</a></li>
+               <li><a href="#">Riyadh to Dubai</a></li>
+            </ul>
+         </div>
+         <div class="col-md-3">
+            
+            <ul class="list_dest">
+               <li><a href="#">Atlanta to Dubai</a></li>
+               <li><a href="#">Boston to Dubai</a></li>
+               <li><a href="#">Delhi to Dubai</a></li>
+               <li><a href="#">Honolulu to Dubai</a></li>
+               <li><a href="#">Kuwait City to Dubai</a></li>
+               <li><a href="#">Riyadh to Dubai</a></li>
+            </ul>
+         </div>
+         <div class="col-md-3">
+           
+            <ul class="list_dest">
+               <li><a href="#">Atlanta to Dubai</a></li>
+               <li><a href="#">Boston to Dubai</a></li>
+               <li><a href="#">Delhi to Dubai</a></li>
+               <li><a href="#">Honolulu to Dubai</a></li>
+               <li><a href="#">Kuwait City to Dubai</a></li>
+               <li><a href="#">Riyadh to Dubai</a></li>
+            </ul>
+         </div>
+      </div>
+      <hr>
+   </div>
+
+
+   <div class="container">
+      <div class="row">
+          <h3 class="f_flights">Flights from Dubai</h3>
+         <div class="col-md-3">
+           
+            <ul class="list_dest">
+               <li><a href="#">Atlanta to Dubai</a></li>
+               <li><a href="#">Boston to Dubai</a></li>
+               <li><a href="#">Delhi to Dubai</a></li>
+               <li><a href="#">Honolulu to Dubai</a></li>
+               <li><a href="#">Kuwait City to Dubai</a></li>
+               <li><a href="#">Riyadh to Dubai</a></li>
+            </ul>
+         </div>
+         <div class="col-md-3">
+           
+            <ul class="list_dest">
+               <li><a href="#">Atlanta to Dubai</a></li>
+               <li><a href="#">Boston to Dubai</a></li>
+               <li><a href="#">Delhi to Dubai</a></li>
+               <li><a href="#">Honolulu to Dubai</a></li>
+               <li><a href="#">Kuwait City to Dubai</a></li>
+               <li><a href="#">Riyadh to Dubai</a></li>
+            </ul>
+         </div>
+         <div class="col-md-3">
+            
+            <ul class="list_dest">
+               <li><a href="#">Atlanta to Dubai</a></li>
+               <li><a href="#">Boston to Dubai</a></li>
+               <li><a href="#">Delhi to Dubai</a></li>
+               <li><a href="#">Honolulu to Dubai</a></li>
+               <li><a href="#">Kuwait City to Dubai</a></li>
+               <li><a href="#">Riyadh to Dubai</a></li>
+            </ul>
+         </div>
+         <div class="col-md-3">
+           
+            <ul class="list_dest">
+               <li><a href="#">Atlanta to Dubai</a></li>
+               <li><a href="#">Boston to Dubai</a></li>
+               <li><a href="#">Delhi to Dubai</a></li>
+               <li><a href="#">Honolulu to Dubai</a></li>
+               <li><a href="#">Kuwait City to Dubai</a></li>
+               <li><a href="#">Riyadh to Dubai</a></li>
+            </ul>
+         </div>
+      </div>
+      <hr>
+   </div>
+
+   <div class="container">
+      <div class="row">
+         <h3 class="f_airline">Top airlines flying to Dubai</h3>
+         <div class="col-md-2">
+            <p class="f_emirates">Emirates</p>
+         </div>
+         <div class="col-md-2">
+            <p class="f_emirates">flydubai</p>
+         </div>
+          <div class="col-md-2">
+            <p class="f_emirates">Saudi Arabian Airlines</p>
+         </div>
+          <div class="col-md-2">
+            <p class="f_emirates">flynas</p>
+         </div>
+          <div class="col-md-2">
+            <p class="f_emirates">Etihad Airways</p>
+         </div>
+          <div class="col-md-2">
+            <p class="f_emirates">Turkish Airways</p>
+         </div>
+      </div>
+   </div>
+   <br>
+
+   <div class="container">
+      <div class="row">
+        
+         <div class="col-md-2">
+            <p class="f_emirates">Jet Airways</p>
+         </div>
+         <div class="col-md-2">
+            <p class="f_emirates">Cathay Pacific</p>
+         </div>
+          <div class="col-md-2">
+            <p class="f_emirates">Ethiopian Airlines</p>
+         </div>
+          <div class="col-md-2">
+            <p class="f_emirates">SriLankan Airlines</p>
+         </div>
+          <div class="col-md-2">
+            <p class="f_emirates">Malaysia Airlines</p>
+         </div>
+          <div class="col-md-2">
+            <p class="f_emirates">Philippine Airlines</p>
          </div>
       </div>
    </div>
 </section>
-<!--<div style="position: relative;">
-   <section class="price_index">
-      <div class="container">
-         <div class="row f_ipad">
-            <div class="col-md-4">
-               <div class="money_icon"> <i class="fa fa-money f_money"></i></div>
-               <h3 class="f_price">Best Price Guarantee</h3>
-               <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
-            </div>
-            <div class="col-md-4">
-               <div class="money_icon"> <i class="fa fa-plane f_money"></i></div>
-               <h3 class="f_price">Travel Insurance</h3>
-               <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
-            </div>
-            <div class="col-md-4">
-               <div class="money_icon"> <i class="fa fa-question f_money"></i></div>
-               <h3 class="f_price">Need Help?</h3>
-               <p class="f_tripcontent">At vero eos et accusamus etterum <br>lustodio dignissimos ducimus...</p>
-            </div>
-         </div>
-      </div>
-   </section>
-   <section class="triplite_form">
-      <div class="container f_formborder">
-         <div class="row">
-            <div class="col-md-3">
-               <h3 class="sign_f">Sign Up for New <br>Updates & Newsletter</h3>
-            </div>
-            <div class="col-md-9">
-               <div class="input-group">
-                  <input type="text" class="form-control f_control">
-                  <div class="input-group-btn f_inputbtn">
-                     <button type="submit" class="btn btn-default f_search">SUBMIT</button>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-</div>-->
-<div class="clearfix"></div>
 <?php include('footer.php'); ?>

@@ -2659,3 +2659,60 @@ section.flight_search {
         width: 11%;
     }
 }
+
+
+/*Destination_CSS*/
+
+h3.f_dubai {
+    
+    font-size: 30px;
+    font-weight: 600;
+    color: #282828;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p.f_cheap {
+   
+    font-size: 14px;
+    font-weight: 300;
+    color: #6b6b6b;
+    font-family: 'Montserrat-Light';
+}
+h3.f_flights {
+    font-size: 20px;
+    font-weight: 600;
+    color: #282828;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.list_dest a {
+    font-size: 16px;
+    color: #626262;
+    font-family: 'Montserrat-SemiBold';
+}
+
+.list_dest li {
+    padding-bottom: 10px;
+}
+
+h3.f_airline {
+    font-size: 20px;
+    font-weight: 600;
+    color: #282828;
+    padding-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+p.f_emirates {
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Montserrat-SemiBold';
+}
+
+section.destination {
+    padding-bottom: 40px;
+}

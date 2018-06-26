@@ -101,7 +101,17 @@
                               <li><a href="aboutus.php">ABOUT US</a></li>
                               <li><a href="#">FAQ</a></li>
                               <li><a href="contact.php">CONTACT US</a></li>
-                              <li><a href="login.php" class="btn btn-default f_signin">SIGN IN</a></li>
+                              <!-- <li><a href="login.php" class="btn btn-default f_signin">SIGN IN</a></li> -->
+                              <li class="dropdown">
+                                 <a class="dropdown-toggle btn btn-default f_signin" data-toggle="dropdown" href="#">
+                                    User Name
+                                    <span class="caret"></span>
+                                 </a>
+                                 <ul class="dropdown-menu f_size">
+                                    <li><a href="#">Dashboard</a></li>
+                                    <li><a href="#">Logout</a></li>       
+                                 </ul>
+                              </li>
                            </ul>
                         </div>
                         <!-- /.navbar-collapse -->
