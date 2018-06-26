@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="confirmation">
+<section class="confirmation" dir="rtl">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
@@ -40,9 +40,9 @@
             <div class="main_flight_img"><img src="assets/images/confirmation_img.jpg" class="img_flight"></div>
             <h3 class="f_france">Air France</h3>
              <h3 class="f_france">AF-889</h3>
-           
-            
-            <div class="f_check_email"><a href="#" class="f_check">CHECK YOUR EMAIL</a></div>
+
+
+            <div class="f_check_email"><a href="#" class="check_btn_s f_check">CHECK YOUR EMAIL</a></div>
          </div>
          <div class="col-md-9">
             <div class="panel panel-default">
@@ -61,10 +61,10 @@
                   </div>
                </div>
                <div class="panel-body color_bg_f">
-                  
-                
+
+
                  <p class="f_flight">Flight on Thursday 07 June 2018 from Manila to Kinshasa</p>
-                 
+
                </div>
             </div>
             <div class="row">
@@ -76,7 +76,7 @@
                  <div class="row">
                <div class="col-md-6">
                <p class="f-sup f_travel">Traveller 1 (Adult)</p>
-              
+
             </div>
             <div class="col-md-6">
                <div class="f_main_content">
@@ -88,7 +88,7 @@
 
             <div class="col-md-6">
                <p class="f-sup">Fare SAR 2,979.00</p>
-              
+
             </div>
             <div class="col-md-6">
                <div class="f_main_content">
@@ -98,7 +98,7 @@
 
             <div class="col-md-6">
                <p class="f-sup">Taxes and Fee</p>
-              
+
             </div>
             <div class="col-md-6">
                <div class="f_main_content">
@@ -112,7 +112,7 @@
             <div class="row">
              <div class="col-md-6">
                <p class="f-sup f_travel">Traveller 2 (Adult)</p>
-              
+
             </div>
             <div class="col-md-6">
                <div class="f_main_content">
@@ -141,7 +141,7 @@
                   <!--<div class="col-md-6">
                      <div class="f_main_content">
                         <p class="f-sup">VAT</p>
-                        
+
                      </div>
                      </div>-->
                </div>

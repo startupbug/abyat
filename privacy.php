@@ -1,12 +1,12 @@
 <?php include('header.php'); ?>
-<section class="privacy">
+<section class="privacy" dir="rtl">
    <div class="container">
    <div class="row">
    <div class="col-md-12">
    <h3 class="about_text">Privacy Policy</h3>
    <div class=" well well-sm  bg-white borderZero f_well"  uib-dropdown >
       <div class="btn-group date-block btn-group-justified font-small dropdown" data-toggle="buttons">
-         <label href="#home" data-toggle="tab" class="btn btn-default f_defualt f_font next font-small semiBold active-btn" title="Next Day" border-radius:0;">
+         <label href="#home" data-toggle="tab" class="btn btn-default f_defualt f_font next font-small semiBold active-btn" title="Next Day">
          General
          </label>
          <label  href="#profile" data-toggle="tab" class="btn btn-default f_defualt f_font previous text-right font-small semiBold" title="Previous Day">

@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="hotel">
+<section class="hotel hotel_pay" dir="rtl">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
@@ -148,7 +148,7 @@
                            <p>* REQUIRED FIELDS</p>
                         </div>
                      </div>
-                     <div class="row">
+                     <div class="row `right_left`">
                         <div class="col-md-9">
                            <div class="s_form_padding">
                               <div class="s_dashboard_form">

@@ -554,7 +554,7 @@ a.btn-twitter {
     font-size:16px;
     color:#ffff;
     font-family:'Montserrat-Regular';
-   
+
     border-radius:0px;
 }
  .f_us:hover{
@@ -643,9 +643,9 @@ section.triplite_form{
  .f_btnresult:active{
    background-color: #7e7c9c !important;
     border: 1px solid #7e7c9c !important;
-    
+
     color: #ffffff !important;
-    
+
 }
  .f_btnresult:focus{
     background-color: #7e7c9c;
@@ -1193,7 +1193,7 @@ h3.about_text {
     color: #262626;
     font-family: 'Montserrat-Bold';
     padding-top: 10px;
-   
+
 }
 
 p.f_content {
@@ -1301,11 +1301,11 @@ p.f_contact {
 }
 
 .f_submit_contact {
-    
+
     background-color: #26245c !important;
     border: 1px solid #26245c !important;
     color: #fff !important;
-    
+
 }
 
 .f_panel_contact {
@@ -1605,7 +1605,11 @@ button.btn.f_signup {
     border-radius: 0px;
     text-align: center;
 }
+.check_btn_s{
 
+   text-align: center;
+  display: block;
+}
 i.fa.fa-twitter.f_twitter {
     background-color: #3f9de4;
 }
@@ -1683,7 +1687,7 @@ p.f_textcenter {
 }
 
 div#tab1default {
-   
+
     height: 175px;
 }
 div#tab2default {
@@ -1920,7 +1924,7 @@ a.f_selecthotel {
 
 .star-rating{
     font-size: 0;
-    
+
 }
 .star-rating__wrap{
     display: inline-block;
@@ -1955,7 +1959,7 @@ p.f_star_rating {
     font-family: 'Montserrat-Regular';
     font-weight: 600;
     padding-left: 15px;
-    
+
 }
 
 .main_star {
@@ -2359,7 +2363,7 @@ h3.f_confrm_content {
 }
 
 a.f_check:hover {
-   
+
     text-decoration: none;
 }
 section.confirmation {
@@ -2409,7 +2413,7 @@ span.f_founder {
 }
 
 .f_signup a:hover {
-    
+
     text-decoration: none;
 }
 
@@ -2517,9 +2521,9 @@ select.select_f {
 }
 
 .checkbox_payment {
-    
+
     background-color: #f3f3f3;
-   
+
 }
 .checkbox_payment label {
     font-size: 18px;
@@ -2567,7 +2571,7 @@ h3.f_arrives {
 h3.f_km {
     font-size: 16px;
     color: #575757;
- 
+
     font-family: 'Montserrat-SemiBold';
     padding-top: 30px;
 }
@@ -2674,9 +2678,456 @@ section.flight_search {
     border: 1px solid #26245cc9 !important;
     color: #fff;
 }
-
+.f_forgot ul.nav>li>a{
+    margin-top: 0px;
+}
+.f_rooms_available .input-group-addon{
+    background-color: #fff;
+    border-right: 0px;
+    padding-right: 0px;
+}
+.form-control[readonly]{
+    background-color: #fff;
+    border-left: 0px;
+}
+.datepicker .datepicker-switch {
+  text-align: center;
+}
+.datepicker .prev {
+  text-align: right;
+}
+.datepicker.datepicker-dropdown.dropdown-menu.datepicker-orient-left.datepicker-orient-bottom {
+  padding: 6px;
+}
 @media (min-width: 992px){
     .col-md-1-5 {
         width: 11%;
     }
+}
+
+
+
+body{
+  top: 0px !important;
+}
+.skiptranslate{
+  display: none;
+}
+/* right to left Css */
+
+header[dir="rtl"] section.main_top {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+header[dir="rtl"] .top-header {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+header[dir="rtl"] ul.right_top {
+  float: left;
+}
+header[dir="rtl"] .navbar-header {
+  float: right;
+}
+header[dir="rtl"] .navbar-right {
+    float: left !important;
+}
+
+
+section[dir="rtl"] .container-fluid.f_padding {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"] .header-text h1, section[dir="rtl"] .header-text p {
+  text-align: right;
+}
+section[dir="rtl"] .flights-search-box .col-md-2 {
+  width: 19.666667%;
+}
+section[dir="rtl"] button.w3-button.w3-black.w3-display-left{
+  direction: ltr;
+}
+section[dir="rtl"] button.w3-button.w3-black.w3-display-right{
+  direction: ltr;
+}
+section[dir="rtl"] .f_benjamin:before{
+   right: 25px;
+}
+section[dir="rtl"] .s_row_ {
+  padding-left: 0px;
+  padding-right: 30px;
+}
+section[dir="rtl"] h3.f_reviews {
+  padding-right: 15px;
+}
+section[dir="rtl"].book_image {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].book_image .container-fluid.f_media_bg .col-md-7.col-sm-12.col-md-offset-5.col-sm-offset-0 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"] .f_booking {
+  padding-right: 14px;
+}
+
+
+section[dir="rtl"].forgot_password .panel-default>.panel-heading {
+  text-align: right;
+}
+section[dir="rtl"].forgot_password{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].forgot_password .col-md-6{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  text-align: right;
+}
+section[dir="rtl"].forgot_password .btn-facebook{
+  height: 40px;
+}
+section[dir="rtl"].forgot_password .btn-social p{
+  position: absolute;
+  width: 62px;
+  text-align: center;
+}
+section[dir="rtl"].forgot_password a.btn.btn-block.btn-social.btn-twitter.email_forgot{
+  height: 40px;
+}
+section[dir="rtl"].forgot_password .btn-social :first-child{
+  right: 0;
+   left: auto;
+}
+section[dir="rtl"].forgot_password .email_forgot {
+    margin-right: 15%;
+}
+section[dir="rtl"].forgot_password .btn_send {
+    margin-right: 15%;
+}
+
+
+
+section[dir="rtl"].hotel .col-md-12{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel .col-md-12 .f_confrm_content{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel .col-md-12 .list_right{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel .col-md-12 i.fa.fa-angle-right.f_iconright{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel .container.f_hotel_main{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel i.fa.fa-angle-up.f_angle{
+  float: left;
+}
+section[dir="rtl"].hotel .container .f_mainborder .col-md-6.border_search{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel .container .f_mainborder .col-md-3{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel .container .f_mainborder img.img-responsive.img_searchresp{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel .container .main_rating .checkbox{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  padding-right: 40px;
+}
+section[dir="rtl"].hotel .container .checkbox.f_check_box{
+  padding-right: 32px;
+}
+section[dir="rtl"].hotel .container .f_main_district form{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  padding-right: 32px;
+}
+section[dir="rtl"].hotel .container .checkbox input[type=checkbox]{
+  position: absolute;
+  margin-right: -20px;
+}
+
+
+
+section[dir="rtl"].flight_search .col-md-12{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].flight_search .col-md-12 .f_confrm_content{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].flight_search .col-md-12 .list_right{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].flight_search .col-md-12 i.fa.fa-angle-right.f_iconright{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].flight_search .container.f_search_padding{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].flight_search .container.f_search_padding .navbar-form.f_navform.form_border{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].flight_search i.fa.fa-angle-up.f_angle{
+  float: left;
+}
+section[dir="rtl"].flight_search .container.f_search_padding .f_search_border .paragraphs{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].flight_search .container.f_search_padding .f_search_border .col-md-3{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].flight_search .container.f_search_padding .f_main_district{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].flight_search .container.f_search_padding .f_left_icon {
+  padding-left: 15px;
+}
+section[dir="rtl"].flight_search .container.f_search_padding .f_main_district .f_check_box{
+  padding-right: 32px;
+}
+section[dir="rtl"].flight_search .container.f_search_padding .f_main_district .checkbox input[type=checkbox]{
+  margin-right: -20px;
+}
+section[dir="rtl"].flight_search .container.f_search_padding .f_main_district p.f_kinsha {
+  padding-right: 16px;
+}
+section[dir="rtl"].flight_search .container.f_search_padding .f_main_district p.f_star_rating {
+  padding-right: 15px;
+}
+
+
+section[dir="rtl"].activities{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].activities .col-md-9.col-sm-12.col-xs-12{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+section[dir="rtl"].about_team{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].about_team .col-md-9.col-sm-12.col-xs-12.f_padding_media{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+
+section[dir="rtl"].select_room .col-md-12{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].select_room .col-md-12 .f_confrm_content{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].select_room .col-md-12 .list_right{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].select_room .col-md-12 i.fa.fa-angle-right.f_iconright{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].select_room .f_box{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].select_room .f_well{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].select_room .product-slider{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].select_room .panel.panel-default{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].select_room iframe{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].select_room .list_f li:before {
+  right: -25px;
+  left: auto;
+}
+section[dir="rtl"].select_room .well.well-sm.bg-white.borderZero.f_well font {
+  font-size: 13px;
+}
+section[dir="rtl"].select_room .f_rooms_available .input-group-addon{
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-right: 12px;
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-left: 0;
+}
+section[dir="rtl"].select_room .form-control[readonly]{
+    border-left: 1px solid #ccc;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+}
+
+
+section[dir="rtl"].hotel_pay .s_dashboard_form .s_label{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel_pay .s_dashboard_form select, section[dir="rtl"].hotel_pay .s_dashboard_form input{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel_pay .checkbox_payment{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel_pay .right_left, section[dir="rtl"].hotel_pay .f_visa{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel_pay button.btn.btn-default.s_button{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel_pay button.btn.btn-default.s_button i.fa.fa-angle-right{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel_pay .col-md-4 .panel.panel-default{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].hotel_pay .checkbox{
+  padding-right: 32px;
+}
+
+
+section[dir="rtl"].traveller_pay .heading_a{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_pay .right_left{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_pay .right_left .s_label{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_pay .right_left input{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_pay .panel.panel-default{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_pay .text-right button.btn.btn-default.s_button, .s_label_tag{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_pay .text-right .s_button i.fa.fa-angle-right{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+section[dir="rtl"].traveller_details .s_heading_h3{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_details .panel.panel-default{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_details .s_dashboard_form label, section[dir="rtl"].traveller_details .s_dashboard_form input{
+  display: block;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_details .s_dashboard_form button.btn.s_sub_button.active.s_form_margin_top{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_details .s_sub_end_button .row,section[dir="rtl"].traveller_details .s_row_mainborder .row.alert_danger{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_details .width_50 {
+    display: inline !important;
+}
+section[dir="rtl"].traveller_details .label_right, section[dir="rtl"].traveller_details .abc {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+section[dir="rtl"].traveller_details .pt15 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+section[dir="rtl"].confirmation .col-md-12 i.fa.fa-angle-right.f_iconright {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+section[dir="rtl"].confirmation .col-md-12 .list_right {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+section[dir="rtl"].confirmation .col-md-12 .f_confrm_content {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+section[dir="rtl"].confirmation .f_thanku {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+section[dir="rtl"].confirmation>.container>.row>.col-md-12 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+section[dir="rtl"].confirmation>.container.f_confrm_padding>.row {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+section[dir="rtl"].confirmation>.container.f_confrm_padding>.row>.col-md-3 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+section[dir="rtl"].confirmation>.container.f_confrm_padding>.row>.col-md-9 {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }

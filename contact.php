@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="contact">
+<section class="contact" dir="rtl">
    <div class="container">
       <div class="row">
          <div class="col-md-8">
