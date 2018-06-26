@@ -21,11 +21,17 @@ class AuthenticationController extends Controller
     }
 
     public function login_post(Request $request){
+
         try{
-        if(Auth::attempt(['email' => $request->email, 'password' => $request->password ] )) {                   
-            return redirect()->route('dashboard');     
+        if(Auth::attempt(['email' => $request->email, 'password' => $request->password ] )) {
+            if (isset($request->flight_details) && $request->flight_details == 1) {                
+                $this->set_session('You Have Successfully Signed In', true);
+                return redirect()->back();
+            }else{
+                $this->set_session('You Have Successfully Signed In', true);
+                return redirect()->route('dashboard');
+            }
         }else{
-            $this->set_session('invalid username or password', false);
             return redirect()->route('signin');
         }
         }catch(\Exception $e){

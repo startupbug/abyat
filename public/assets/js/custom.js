@@ -225,6 +225,93 @@ $(document).ready(function () {
 	  $(this).closest('.dropdown').toggleClass('open');
 	});
 
+	$('.fa_angle_toggle').on('click', function() {
+		$(this).toggleClass('hidden');
+		$(this).siblings('.fa_angle_toggle').toggleClass('hidden');
+		$(this).closest('.row').find('.traveller_detail').toggleClass('hidden');
+	});
+	$('.add_adult').on('click', function() {
+
+		var colCount = 0;
+      	$('#adult_panel>.row').each(function () {
+	        colCount++;
+	    });
+
+      	colCount = parseInt(colCount)+1;
+	    console.log(colCount);
+
+		$('#adult_panel').append('<div class="row padd_0">'+
+              '<div class="col-md-12">'+
+                '<div class="row header_border_bottom">'+
+                  '<div class="col-md-9">'+
+                    '<h3>Adult '+ colCount +'</h3>'+
+                  '</div>'+
+                  '<div class="col-md-3">'+
+                    '<p>* REQUIRED FIELDS</p>'+
+                  '</div>'+
+                '</div>'+
+                '<div class="row">'+
+                  '<div class="col-md-12">'+
+                    '<div class="s_form_padding">'+
+                      '<div class="s_dashboard_form">'+
+                       '<div class="row">'+
+                        '<div class="col-md-3">'+
+                          '<div class="form-group">'+
+                            '<label class="width_50">Full Name *</label>'+
+                            '<select class="form-control s_form_field width_50" name="title[]" required>'+
+                              '<option value="Mr">Mr</option>'+
+                              '<option value="Mrs">Mr.s</option>'+
+                            '</select>'+
+                          '</div>'+
+                        '</div>'+
+                        '<div class="col-md-3">'+
+                          '<div class="form-group">'+
+                            '<input type="text" class="form-control s_form_field" placeholder="First" name="firstname[]">'+
+                          '</div>'+
+                        '</div>'+
+                        '<div class="col-md-3">'+
+                          '<div class="form-group">'+
+                            '<input type="text" class="form-control s_form_field" placeholder="Mid" name="middlename[]">'+
+                          '</div>'+
+                        '</div>'+
+                        '<div class="col-md-3">'+
+                          '<div class="form-group">'+
+                            '<input type="text" class="form-control s_form_field" placeholder="Last" name="lastname[]">'+
+                          '</div>'+
+                        '</div>'+
+                       '</div>'+
+                      '</div>'+
+                    '</div>'+
+                  '</div>'+
+                '</div>'+
+                '<div class="row">'+
+                  '<div class="col-md-8">'+
+                    '<div class="form-group">'+
+                      '<select class="form-control s_form_field" name="passport_option[]" required>'+
+                        '<option disable>Select</option>'+
+                        '<option value="Passport">Passport</option>'+
+                        '<option value="Saudi Muqeem ID">Saudi Muqeem ID</option>'+
+                        '<option value="Saudi Citizen ID">Saudi Citizen ID</option>'+
+                      '</select>'+
+                    '</div>'+
+                  '</div>'+
+                  '<div class="col-md-4">'+
+                    '<div class="form-group">'+
+                      '<input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="frequest_number[]">'+
+                    '</div>'+
+                  '</div>'+
+                '</div>'+
+                '<div class="row">'+
+                  '<div class="s_sub_end_button_bg">'+
+                    '<div class="col-md-12">'+
+                      '<p class="s_botton_subheading">We share the frequent flyer details with airline, though we cant guarantee point awards.</p>'+
+                    '</div>'+
+                  '</div>'+
+                '</div>'+
+              '</div>'+
+            '</div>');
+	});
+
 });
 
 

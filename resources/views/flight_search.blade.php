@@ -1,5 +1,6 @@
 @extends('layouts.public')
 @section('content')
+@include('partials.error_section')
 <section class="flight_search">
    <div class="container">
       <div class="row">
