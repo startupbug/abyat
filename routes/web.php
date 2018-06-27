@@ -15,6 +15,8 @@
 /* Public Routes */
 Route::get('/','External\PagesController@home')->name('public_index');
 Route::get('/contact','External\PagesController@contact')->name('contact');
+Route::Post('/contact_email','External\PagesController@contact_email')->name('contact_email');
+Route::get('/faq','External\PagesController@faq')->name('faq');
 Route::get('/about','External\PagesController@about')->name('about');
 Route::get('/select_room','External\PagesController@select_room')->name('select_room');
 Route::get('/hotels','External\PagesController@hotels')->name('hotels');

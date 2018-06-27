@@ -47,6 +47,9 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
 
 	Route::get('calender', 'Admin\GoogleCalender@all_events')->name('all_events');
 
+	Route::get('contact_email','Admin\ContactController@contact_email')->name('contact_email');
+	Route::post('admin_reply_email','Admin\ContactController@admin_reply_email')->name('admin_reply_email');
+
 });
 
 	//Admin Login Authentication

@@ -133,14 +133,17 @@
           <input type="hidden" name="tag_id" value="{{$data->TPA_Extensions->TagID}}">
             <p class="add_adult">+ Add Adult</p>
             <div id="adult_panel">  
-              <div class="row">
+
+              <div class="row adult_div_remove">
                 <div class="col-md-12">
                   <div class="row header_border_bottom">
-                    <div class="col-md-9">
-                      <h3>Adult 1</h3>
+                    <div class="col-md-8 col-xs-4">
+                       <h3>Adult 1</h3>
                     </div>
-                    <div class="col-md-3">
-                      <p>* REQUIRED FIELDS</p>
+                    <div class="col-md-4 col-xs-8">
+                      <p class="text_required">* REQUIRED FIELDS
+                        <i class="fa fa-close div_remove"></i>
+                      </p>
                     </div>
                   </div>
                   <div class="row">
@@ -159,17 +162,17 @@
                           </div>
                           <div class="col-md-3">
                             <div class="form-group">
-                              <input type="text" class="form-control s_form_field" placeholder="First" name="firstname[]">
+                              <input type="text" class="form-control s_form_field" placeholder="First" name="firstname[]" required>
                             </div>
                           </div>
                           <div class="col-md-3">
                             <div class="form-group">
-                              <input type="text" class="form-control s_form_field" placeholder="Mid" name="middlename[]">
+                              <input type="text" class="form-control s_form_field" placeholder="Mid" name="middlename[]" required>
                             </div>
                           </div>
                           <div class="col-md-3">
                             <div class="form-group">
-                              <input type="text" class="form-control s_form_field" placeholder="Last" name="lastname[]">
+                              <input type="text" class="form-control s_form_field" placeholder="Last" name="lastname[]" required>
                             </div>
                           </div>
                          </div>
@@ -186,81 +189,11 @@
                           </div>
                           <div class="col-md-4">
                             <div class="form-group">
-                              <input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="frequest_number[]">
+                              <input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="frequest_number[]" required>
                             </div>
                           </div>
                         </div>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row s_sub_end_button">
-                    <div class="col-md-12">
-                      <p>Frequent flyer, meal, seats and special assistance (optional)
-                        <i class="fa fa-angle-down"></i>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row padd_0">
-                <div class="col-md-12">
-                  <div class="row header_border_bottom">
-                    <div class="col-md-9">
-                      <h3>Adult 2</h3>
-                    </div>
-                    <div class="col-md-3">
-                      <p>* REQUIRED FIELDS</p>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="s_form_padding">
-                        <div class="s_dashboard_form" action="#">
-                         <div class="row">
-                          <div class="col-md-3">
-                            <div class="form-group">
-                              <label class="width_50">Full Name *</label>
-                              <select class="form-control s_form_field width_50" name="title[]" required>
-                                <option value="Mr">Mr</option>
-                                <option value="Mrs">Mr.s</option>
-                              </select>
-                            </div>
-                          </div>
-                          <div class="col-md-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control s_form_field" placeholder="First" name="firstname[]">
-                            </div>
-                          </div>
-                          <div class="col-md-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control s_form_field" placeholder="Mid" name="middlename[]">
-                            </div>
-                          </div>
-                          <div class="col-md-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control s_form_field" placeholder="Last" name="lastname[]">
-                            </div>
-                          </div>
-                         </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">               
-                    <div class="col-md-8">
-                      <div class="form-group">
-                        <select class="form-control s_form_field" name="passport_option[]" required>
-                          <option disabled="">Select</option>
-                          <option value="Passport">Passport</option>
-                          <option value="Saudi Muqeem ID">Saudi Muqeem ID</option>
-                          <option value="Saudi Citizen ID">Saudi Citizen ID</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-md-4">
-                      <div class="form-group">
-                        <input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="frequest_number[]">
                       </div>
                     </div>
                   </div>
@@ -271,8 +204,16 @@
                       </div>
                     </div>
                   </div>
+                  <!-- <div class="row s_sub_end_button">
+                    <div class="col-md-12">
+                      <p>Frequent flyer, meal, seats and special assistance (optional)
+                        <i class="fa fa-angle-down"></i>
+                      </p>
+                    </div>
+                  </div> -->
                 </div>
               </div>
+              
             </div>
             <div class="row">
               <div class="col-md-12">

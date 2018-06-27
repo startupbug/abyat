@@ -28,17 +28,17 @@ class PassengerController extends Controller
 	   			$store->save();
 	   		} 
 	   		$contact_person_store = new Purchaser_contact_detail;
-   			$contact_person_store->user_id =Auth::user()->id;
-   			$contact_person_store->tag_id =$request->tag_id;
-   			$contact_person_store->title =$request->contact_person_title;
+   			$contact_person_store->user_id = Auth::user()->id;
+   			$contact_person_store->tag_id = $request->tag_id;
+   			$contact_person_store->title = $request->contact_person_title;
    			$contact_person_store->first_name = $request->first;
    			$contact_person_store->middle_name = $request->middle;
    			$contact_person_store->email = $request->email;
    			$contact_person_store->mobile_number = $request->mobile;
-   			$contact_person_store->flyer_number =$request->contact_person_flyer_number;
-   			$contact_person_store->save(); 
-   			$this->set_session('Info Saved Successfully',true);     
-	   				return redirect()->back();
+   			$contact_person_store->flyer_number = $request->contact_person_flyer_number;
+   			$contact_person_store->save();
+   			$this->set_session('Info Saved Successfully',true);
+	   		return redirect()->back();
 		} catch (Exception $e) {
 			echo 'Caught exception: ', $e->getMessage(), "\n";
 		}  

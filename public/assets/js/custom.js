@@ -230,25 +230,27 @@ $(document).ready(function () {
 		$(this).siblings('.fa_angle_toggle').toggleClass('hidden');
 		$(this).closest('.row').find('.traveller_detail').toggleClass('hidden');
 	});
+
 	$('.add_adult').on('click', function() {
 
 		var colCount = 0;
-      	$('#adult_panel>.row').each(function () {
+      	$('#adult_panel>.adult_div_remove').each(function () {
 	        colCount++;
 	    });
 
       	colCount = parseInt(colCount)+1;
-	    console.log(colCount);
 
-		$('#adult_panel').append('<div class="row padd_0">'+
+		$('#adult_panel').append('<div class="row padd_0 adult_div_remove">'+
               '<div class="col-md-12">'+
                 '<div class="row header_border_bottom">'+
-                  '<div class="col-md-9">'+
-                    '<h3>Adult '+ colCount +'</h3>'+
-                  '</div>'+
-                  '<div class="col-md-3">'+
-                    '<p>* REQUIRED FIELDS</p>'+
-                  '</div>'+
+                    '<div class="col-md-8 col-xs-4">'+
+                       '<h3>Adult '+colCount+'</h3>'+
+                    '</div>'+
+                    '<div class="col-md-4 col-xs-8">'+
+                      '<p class="text_required">* REQUIRED FIELDS'+
+                        '<i class="fa fa-close div_remove"></i>'+
+                      '</p>'+
+                    '</div>'+
                 '</div>'+
                 '<div class="row">'+
                   '<div class="col-md-12">'+
@@ -266,17 +268,17 @@ $(document).ready(function () {
                         '</div>'+
                         '<div class="col-md-3">'+
                           '<div class="form-group">'+
-                            '<input type="text" class="form-control s_form_field" placeholder="First" name="firstname[]">'+
+                            '<input type="text" class="form-control s_form_field" placeholder="First" name="firstname[]" required>'+
                           '</div>'+
                         '</div>'+
                         '<div class="col-md-3">'+
                           '<div class="form-group">'+
-                            '<input type="text" class="form-control s_form_field" placeholder="Mid" name="middlename[]">'+
+                            '<input type="text" class="form-control s_form_field" placeholder="Mid" name="middlename[]" required>'+
                           '</div>'+
                         '</div>'+
                         '<div class="col-md-3">'+
                           '<div class="form-group">'+
-                            '<input type="text" class="form-control s_form_field" placeholder="Last" name="lastname[]">'+
+                            '<input type="text" class="form-control s_form_field" placeholder="Last" name="lastname[]" required>'+
                           '</div>'+
                         '</div>'+
                        '</div>'+
@@ -297,7 +299,7 @@ $(document).ready(function () {
                   '</div>'+
                   '<div class="col-md-4">'+
                     '<div class="form-group">'+
-                      '<input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="frequest_number[]">'+
+                      '<input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="frequest_number[]" required>'+
                     '</div>'+
                   '</div>'+
                 '</div>'+
@@ -311,7 +313,22 @@ $(document).ready(function () {
               '</div>'+
             '</div>');
 	});
-
+	
+	$('#adult_panel').on('click', '.div_remove', function() {
+		var count_row = 0;
+		$('#adult_panel>.row').each(function () {
+			count_row++;
+		});
+		if (count_row > 1) {
+			$(this).closest('.adult_div_remove').remove();
+			var colCount = 1;
+			$('#adult_panel>.row').each(function () {
+				$(this).find('h3').html('Adult '+ colCount);
+				colCount++;
+			});
+		}
+	});
+	
 });
 
 
@@ -328,3 +345,14 @@ $(function () {
         todayHighlight: true
   }).datepicker('update', new Date());
 });
+
+/*accordion*/
+function toggleIcon(e) {
+   $(e.target)
+       .prev('.panel-heading')
+       .find(".more-less")
+       .toggleClass('glyphicon-plus glyphicon-minus');
+}
+$('.panel-group').on('hidden.bs.collapse', toggleIcon);
+$('.panel-group').on('shown.bs.collapse', toggleIcon);
+/*accordion_end*/

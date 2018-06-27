@@ -14,6 +14,8 @@
       <link href="{{asset('public/assets/css/font-awesome.min.css')}}" rel="stylesheet">
       <!-- Animate -->
       <link href="{{asset('public/assets/css/animate.css')}}" rel="stylesheet">
+       <!-- Alertify -->
+      <link href="{{asset('public/assets/css/alertify.min.css')}}" rel="stylesheet">
       <!-- Animation CSS -->
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       <link rel="stylesheet" type="text/css" href="{{asset('public/assets/css/animate.css')}}" />
@@ -99,7 +101,7 @@
                               <li><a href="{{route('hotels')}}">HOTELS</a></li>
                               <li><a href="{{route('flight_search')}}">FLIGHTS</a></li>
                               <li><a href="{{route('about')}}">ABOUT US</a></li>
-                              <li><a href="#">FAQ</a></li>
+                              <li><a href="{{route('faq')}}">FAQ</a></li>
                               <li><a href="{{route('contact')}}">CONTACT US</a></li>
                               @if(Auth::check())
                               <li class="dropdown">
