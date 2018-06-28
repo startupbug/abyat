@@ -25,7 +25,7 @@ class PagesController extends Controller
         //return view('flight_search')->with($args);
         
       
-        return view('index')->with($args);
+        return view('index');//->with($args);
     }
 
     public function contact(){
