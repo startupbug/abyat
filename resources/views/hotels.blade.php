@@ -277,12 +277,15 @@
             </div>
          </div>
          <div class="col-md-9">
-            <div class="row f_mainborder">
+         
+           @foreach($hotels->HotelDescriptiveInfo as $hotel)
+
+           <div class="row f_mainborder">
                <div class="col-md-3">
                   <img src="{{asset('public/assets/images/hotel_image1.jpg')}}" class="img-responsive img_searchresp">
                </div>
                <div class="col-md-6 border_search">
-                  <h3 class="search_name">Friendly Venice Suites</h3>
+                  <h3 class="search_name">{{$hotel->HotelInfo->HotelName}}</h3>
                   <ul class="f_icon_star">
                      <li><i class="fa fa-star f_star"></i></li>
                      <li><i class="fa fa-star f_star"></i></li>
@@ -290,7 +293,7 @@
                      <li><i class="fa fa-star f_star"></i></li>
                      <li><i class="fa fa-star f_star"></i></li>
                   </ul>
-                  <p class="f_findcontent">San Marco, 2947 Campo Santo Stefano, San <br>Marco, 30124 Venice, Italy
+                  <p class="f_findcontent">{{$hotel->LocationInfo->Address->AddressLine1}}
                   </p>
                   <div class="row f_padding_top">
                      <div class="col-md-2">
@@ -309,6 +312,8 @@
                   <a href="#" class="f_selecthotel">SELECT HOTEL</a>
                </div>
             </div>
+           @endforeach
+
             <div class="row f_mainborder">
                <div class="col-md-3">
                   <img src="{{asset('public/assets/images/hotel_image1.jpg')}}" class="img-responsive img_searchresp">

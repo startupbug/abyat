@@ -9,12 +9,25 @@ use App\User;
 use Auth;
 use Mail;
 use DB;
+use GuzzleHttp\Client;
+use GuzzleHttp\Exception\RequestException;
 
 class PagesController extends Controller
 {
     public function home(){
-        return view('index');
-    } 
+
+        // $base_uri = 'lists/top/destinations?origincountry=us&topdestinations=8&lookbackweeks=2';
+        
+        // $args['data'] = $this->call_api_post($base_uri);
+        // $args['destinations'] = $args['data']->Destinations; 
+        //dd($args['destinations']);
+        //Popular Destinations
+        //return view('flight_search')->with($args);
+        
+      
+        return view('index')->with($args);
+    }
+
     public function contact(){
         return view('contact');
     } 
@@ -22,7 +35,12 @@ class PagesController extends Controller
         return view('aboutus');
     } 
     public function hotels(){
-        return view('hotels');
+        $base_uri = 'v1.0.0/shop/hotels/description?mode=description';
+        
+        $args['data'] = $this->call_api_post($base_uri);
+        $args['hotels'] = $args['data']->GetHotelDescriptiveInfoRS->HotelDescriptiveInfos; 
+        //dd($args['hotels']);
+        return view('hotels')->with($args);
     }
     public function select_room(){
         return view('selectroom');

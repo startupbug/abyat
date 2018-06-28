@@ -664,6 +664,7 @@
                   <div class="carousel-inner">
                      <div class="item active">
                         <div class="row">
+                        
                            <div class="col-xs-12 col-sm-3 col-md-3">
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
@@ -683,6 +684,7 @@
                                  </div>
                               </div>
                            </div>
+                          
                            <div class="col-xs-12 col-sm-3 col-md-3">
                               <div class="frontend-box">
                                  <div class="frontend-box-last">
