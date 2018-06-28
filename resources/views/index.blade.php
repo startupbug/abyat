@@ -116,15 +116,21 @@
                            </div>
                         </div>
                         <div id="one-way" class="search_flight">
-                           <form>
+                           <form action="{{route('flight_search')}}" method="get">
+                              <input type="hidden" name="limit" value="10">
+                              <input type="hidden" name="offset" value="1">
+                              <input type="hidden" name="sortby" value="totalfare">
+                              <input type="hidden" name="order" value="asc">
+                              <input type="hidden" name="enabletagging" value="true">
+                              
                               <div class="row">
                                  <div class="col-md-4">
                                     <div class="row">
                                        <div class="col-md-12">
                                           <div class="custom-input-text top-radius">
                                              <i class="fa fa-map-marker"></i>
-                                             <input type="text" class="flight-search-form-input" placeholder="Origin">
-                                             <label class="custom_container">Nearby Airports
+                                             <input type="text" class="flight-search-form-input" placeholder="Origin" name="origin">
+                                             <label class="custom_container">Departure Airport
                                              <input type="checkbox" checked="checked">
                                              <span class="custom_checkmark"></span>
                                              </label>
@@ -133,8 +139,8 @@
                                        <div class="col-md-12">
                                           <div class="custom-input-text bottom-radius">
                                              <i class="fa fa-map-marker"></i>
-                                             <input type="text" class="flight-search-form-input" placeholder="Origin">
-                                             <label class="custom_container">Nearby Airports
+                                             <input type="text" name="destination" class="flight-search-form-input" placeholder="Origin">
+                                             <label class="custom_container">Arrival&nbsp;&nbsp; Airport
                                              <input type="checkbox" checked="checked">
                                              <span class="custom_checkmark"></span>
                                              </label>
@@ -145,7 +151,7 @@
                                  <div class="col-md-3">
                                     <div class="row">
                                        <div class="col-md-12">
-                                          <input type="text" class="daterange oneway_daterange " name="daterange" />
+                                          <input type="text" class="daterange oneway_daterange " name="departure_arrival_date" format="Y-m-d"/>
                                           <div class="custom-input-text s_calendar right-radius start_date">
                                              <i class="fa fa-calendar-o"></i>
                                              <span class="month">March</span>
@@ -164,28 +170,39 @@
                                  <div class="col-md-3">
                                     <div class="row">
                                        <div class="col-md-12">
-                                          <div class="custom-input-text top-radius s_select">
-                                             <select class="form-control">
-                                                <option>Economy</option>
-                                                <option>Premium Economy</option>
-                                                <option>Business</option>
-                                                <option>First</option>
-                                             </select>
+                                          <div class="row padding_00">
+                                             <div class="col-md-6">
+                                                <div class="custom-input-text top-right-radius s_select">
+                                                   <input type="text" class="form-control" name="minfare" placeholder="Minimum Fare">
+                                                </div>
+                                             </div>
+                                             <div class="col-md-6">
+                                                <div class="custom-input-text top-left-radius s_select">
+                                                    <input type="text" class="form-control" name="maxfare" placeholder="Maximum Fare">
+                                                </div>
+                                             </div>
                                           </div>
                                        </div>
                                        <div class="col-md-12">
                                           <div class="custom-input-text bottom-radius s_select">
-                                             <select class="form-control">
-                                                <option>1 Passenger</option>
-                                                <option>2 Passengers</option>
-                                                <option>3 Passengers</option>
-                                                <option>4 Passengers</option>
-                                                <option>5 Passengers</option>
+                                             <select class="form-control" name="passengercount">
+                                                <option value="1">1 Passenger</option>
+                                                <option value="2">2 Passengers</option>
+                                                <option value="3">3 Passengers</option>
+                                                <option value="4">4 Passengers</option>
+                                                <option value="5">5 Passengers</option>
                                              </select>
                                           </div>
                                        </div>
+                                       <div class="col-md-12">
+                                          <select class="form-control" name="eticketsonly">
+                                             <option value="y">Yes</option>
+                                             <option value="n">No</option>
+                                          </select>
+                                       </div>
                                     </div>
                                  </div>
+                                
                                  <div class="col-md-2 button_search_col">
                                     <button type="submit" class="button_search">
                                     <i class="fa fa-search"></i>

@@ -43,4 +43,4 @@ Route::group(['middleware' => 'guest'], function () {
 	//Login Post
 	Route::post('/login', 'AuthenticationController@login_post')->name('login_post');
 });
-	Route::get('/logout_user', 'AuthenticationController@logout_user')->name('logout_user');
+Route::get('/logout_user', 'AuthenticationController@logout_user')->name('logout_user');

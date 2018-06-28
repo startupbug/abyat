@@ -1,6 +1,5 @@
 @extends('layouts.public')
 @section('content')
-
 <section class="faq_abyat">
    <div class="container">
       <div class="row">
@@ -10,8 +9,8 @@
                   <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" >
                      <h4 class="panel-title f_panel_abyat">
                         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        <i class="more-less glyphicon glyphicon-plus f_iconplus"></i>
-                        Collapsible Group Item #1
+                           <i class="more-less glyphicon glyphicon-plus f_iconplus"></i>
+                           Collapsible Group Item #1
                         </a>
                      </h4>
                   </div>
@@ -25,8 +24,8 @@
                   <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo">
                      <h4 class="panel-title f_panel_abyat">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        <i class="more-less glyphicon glyphicon-plus"></i>
-                        Collapsible Group Item #2
+                           <i class="more-less glyphicon glyphicon-plus"></i>
+                           Collapsible Group Item #2
                         </a>
                      </h4>
                   </div>
@@ -40,8 +39,8 @@
                   <div class="panel-heading" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree">
                      <h4 class="panel-title f_panel_abyat">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        <i class="more-less glyphicon glyphicon-plus"></i>
-                        Collapsible Group Item #3
+                           <i class="more-less glyphicon glyphicon-plus"></i>
+                           Collapsible Group Item #3
                         </a>
                      </h4>
                   </div>
@@ -55,8 +54,8 @@
                   <div class="panel-heading" role="tab" id="headingfour" data-toggle="collapse" data-parent="#accordion" data-target="#collapsefour">
                      <h4 class="panel-title f_panel_abyat">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
-                        <i class="more-less glyphicon glyphicon-plus"></i>
-                        Collapsible Group Item #4
+                           <i class="more-less glyphicon glyphicon-plus"></i>
+                           Collapsible Group Item #4
                         </a>
                      </h4>
                   </div>
@@ -70,8 +69,8 @@
                   <div class="panel-heading" role="tab" id="headingfive" data-toggle="collapse" data-parent="#accordion" data-target="#collapsefive">
                      <h4 class="panel-title f_panel_abyat">
                         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
-                        <i class="more-less glyphicon glyphicon-plus"></i>
-                        Collapsible Group Item #5
+                           <i class="more-less glyphicon glyphicon-plus"></i>
+                           Collapsible Group Item #5
                         </a>
                      </h4>
                   </div>

@@ -233,3 +233,28 @@ form label.s_label {
 #adult_panel .row:hover .div_remove{
  display: block;
 }
+.padding_00 .col-md-6:first-child {
+    padding-right: 0;
+}
+.padding_00 .col-md-6:last-child {
+    padding-left: 0;
+}
+.custom-input-text.top-right-radius.s_select {
+    background: #fff;
+    padding: 0px;
+    border-radius: 4px 0px 0px 0px;
+    margin-bottom: 1px;
+}
+.custom-input-text.top-left-radius.s_select {
+    background: #fff;
+    padding: 0px;
+    border-radius: 0px 4px 0px 0px;
+    margin-bottom: 1px;
+}
+.custom-input-text.top-left-radius.s_select .form-control{
+    border-left: 1px solid;
+    font-size: 12px;
+}
+.custom-input-text.top-right-radius.s_select .form-control{
+    font-size: 12px;
+}

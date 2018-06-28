@@ -140,9 +140,12 @@
             @endforeach
             <div class="clearfix"></div>
             <div class="col-md-12">
+               <form >
                <div class="row">
-                  <a href="{{$next_link}}">Next</a>                           
+                  <a href="{{$prev}}">Prev</a>
+                  <a href="{{$next}}">Next</a>
                </div>
+               </form>
             </div>
          </div>
       </div>

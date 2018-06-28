@@ -15,6 +15,7 @@ class PassengerController extends Controller
 {
     public function submit_passenger_info(Request $request){
     	try {   		
+    		if (Auth::check()) {    		
 	   		foreach ($request->firstname as $key => $value) {
 	   			$store = new Passenger_detail;
 	   			$store->user_id = Auth::user()->id;
@@ -39,6 +40,10 @@ class PassengerController extends Controller
    			$contact_person_store->save();
    			$this->set_session('Info Saved Successfully',true);
 	   		return redirect()->back();
+	   	}else{
+			$this->set_session('Please Log In To Continue',false);
+	   		return redirect()->back();
+	   	}
 		} catch (Exception $e) {
 			echo 'Caught exception: ', $e->getMessage(), "\n";
 		}  

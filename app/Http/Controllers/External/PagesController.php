@@ -24,29 +24,29 @@ class PagesController extends Controller
     }
     public function contact_email(Request $request){
         try {
-        if (Auth::check()) {
+            if (Auth::check()) {
                 if (isset($request->email)) {
-                $store = new Contact_email;
-                $store->full_name =$request->full_name;
-                $store->email =$request->email;
-                $store->phone =$request->phone;
-                $store->message_description =$request->message_description;
-                $store->subject_description =$request->subject_description;
-                if ($store->save()){
-                    if (isset($store)) {            
-                        Mail::send('emails.contact_email',['email_data'=>$store] , function ($message) use($store){
-                          $message->from($store['email'], 'Contact Email - Abyaat');
-                          $message->to(env('MAIL_USERNAME'))->subject('Abyaat - Contact Email');
-                        });
-                    }       
-                    return \Response()->Json([ 'status' => 200,'msg'=>'You Have Successfully Send The Email']);
+                    $store = new Contact_email;
+                    $store->full_name =$request->full_name;
+                    $store->email =$request->email;
+                    $store->phone =$request->phone;
+                    $store->message_description =$request->message_description;
+                    $store->subject_description =$request->subject_description;
+                    if ($store->save()){
+                        if (isset($store)) {            
+                            Mail::send('emails.contact_email',['email_data'=>$store] , function ($message) use($store){
+                              $message->from($store['email'], 'Contact Email - Abyaat');
+                              $message->to(env('MAIL_USERNAME'))->subject('Abyaat - Contact Email');
+                          });
+                        }       
+                        return \Response()->Json([ 'status' => 200,'msg'=>'You Have Successfully Send The Email']);
+                    }else{
+                        return \Response()->Json([ 'status' => 202, 'msg'=>'Something Went Wrong, Please Try Again!']);
+                    }
                 }else{
-                    return \Response()->Json([ 'status' => 202, 'msg'=>'Something Went Wrong, Please Try Again!']);
-                }
-            }else{
                     return \Response()->Json([ 'status' => 203, 'msg'=>'Please Provide The Email Address!']);
+                }
             }
-        }
         } catch (QueryException $e) {
             return \Response()->Json([ 'array' => $e]);
         }

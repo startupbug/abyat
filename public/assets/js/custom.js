@@ -16,8 +16,26 @@ $(document).ready(function () {
 	$('#myCarouse2').carousel({
 		interval: 1000000
 	});
+
+	// var dates = $("#from, #to").datepicker({
+	// 	defaultDate: "+1w",
+	// 	changeMonth: true,
+	// 	numberOfMonths: 3,
+	// 	minDate: dateToday,
+	// 	onSelect: function(selectedDate) {
+	// 	    var option = this.id == "from" ? "minDate" : "maxDate",
+	// 	        instance = $(this).data("datepicker"),
+	// 	        date = $.datepicker.parseDate(instance.settings.dateFormat || $.datepicker._defaults.dateFormat, selectedDate, instance.settings);
+	// 	    dates.not(this).datepicker("option", option, date);
+	// 	}
+	// });
+	var dateToday = new Date();
 	$('.oneway_daterange').daterangepicker({
-		opens: 'left'
+		opens: 'left',
+		defaultDate: "+1w",
+		changeMonth: true,
+		numberOfMonths: 3,
+		minDate: dateToday
 	}, function (start, end, label) {
 		console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
 		var locale = "en-us";
@@ -43,7 +61,11 @@ $(document).ready(function () {
 		$('.oneway_daterange').siblings('.end_date').find('.day').text(endday);
 	});
 	$('.roundtrip_daterange').daterangepicker({
-		opens: 'left'
+		opens: 'left',
+		defaultDate: "+1w",
+		changeMonth: true,
+		numberOfMonths: 3,
+		minDate: dateToday
 	}, function (start, end, label) {
 		console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
 		var locale = "en-us";
@@ -70,7 +92,11 @@ $(document).ready(function () {
 	});
 	$('.multicity_daterange').daterangepicker({
 		singleDatePicker: true,
-		showDropdowns: true
+		showDropdowns: true,
+		defaultDate: "+1w",
+		changeMonth: true,
+		numberOfMonths: 3,
+		minDate: dateToday
 	}, function (start, end, label) {
 		var years = moment().diff(start, 'years');
 		var locale = "en-us";
@@ -87,20 +113,24 @@ $(document).ready(function () {
 	});
 	$('.multicity_daterange_2').daterangepicker({
 		singleDatePicker: true,
-		showDropdowns: true
-		}, function (start, end, label) {
-			var years = moment().diff(start, 'years');
-			var locale = "en-us";
-			var startDate = new Date(start);
-			var startmonth = startDate.toLocaleString(locale, {
-				month: 'long'
-			});
-			var startday = startDate.toLocaleString(locale, {
-				weekday: 'long'
-			});
-			$('.multicity_daterange_2').siblings('.start_date').find('.date').text(start.format('DD'));
-			$('.multicity_daterange_2').siblings('.start_date').find('.month').text(startmonth);
-			$('.multicity_daterange_2').siblings('.start_date').find('.day').text(startday);
+		showDropdowns: true,
+		defaultDate: "+1w",
+		changeMonth: true,
+		numberOfMonths: 3,
+		minDate: dateToday
+	}, function (start, end, label) {
+		var years = moment().diff(start, 'years');
+		var locale = "en-us";
+		var startDate = new Date(start);
+		var startmonth = startDate.toLocaleString(locale, {
+			month: 'long'
+		});
+		var startday = startDate.toLocaleString(locale, {
+			weekday: 'long'
+		});
+		$('.multicity_daterange_2').siblings('.start_date').find('.date').text(start.format('DD'));
+		$('.multicity_daterange_2').siblings('.start_date').find('.month').text(startmonth);
+		$('.multicity_daterange_2').siblings('.start_date').find('.day').text(startday);
 	});
 	var locale = "en-us";
 	var start_Date = new Date();
@@ -194,164 +224,171 @@ $(document).ready(function () {
 			$(this).closest('#multi-city-flight').find('.flights_multi .add_flights').show();
 		}
 	});
-	$('#multi-city-flight').on('click', '.close-icon', function () {
-    var length = $('#multi-city-flight').find('.flights_multi').length;
-    if (length > 2) {
-      $(this).closest('.flights_multi').remove();
-    }
+$('#multi-city-flight').on('click', '.close-icon', function () {
+	var length = $('#multi-city-flight').find('.flights_multi').length;
+	if (length > 2) {
+		$(this).closest('.flights_multi').remove();
+	}
     // for (var i = 1; i < --length; i++) {
     //   $('#multi-city-flight').find('.flights_multi:nth-last-child('+ i +')').find('h3.www-srchf__multi__ttl').html('<i class="fa fa-plane"></i> Flight ' + i);
     // }
-		if (length >= 6) {
-			$('#multi-city-flight').find('.flights_multi .add_flights').hide();
-		} else if (length < 6) {
-			$('#multi-city-flight').find('.flights_multi .add_flights').show();
-		}
-	});
-
-
-	$('.checkin_date').daterangepicker({
-		singleDatePicker: true,
-		showDropdowns: true
-	});
-
-
-	$('.checkout_date').daterangepicker({
-		singleDatePicker: true,
-		showDropdowns: true
-	});
-
-	$('.dropdown-toggle').on('click', function() {
-	  $(this).closest('.dropdown').toggleClass('open');
-	});
-
-	$('.fa_angle_toggle').on('click', function() {
-		$(this).toggleClass('hidden');
-		$(this).siblings('.fa_angle_toggle').toggleClass('hidden');
-		$(this).closest('.row').find('.traveller_detail').toggleClass('hidden');
-	});
-
-	$('.add_adult').on('click', function() {
-
-		var colCount = 0;
-      	$('#adult_panel>.adult_div_remove').each(function () {
-	        colCount++;
-	    });
-
-      	colCount = parseInt(colCount)+1;
-
-		$('#adult_panel').append('<div class="row padd_0 adult_div_remove">'+
-              '<div class="col-md-12">'+
-                '<div class="row header_border_bottom">'+
-                    '<div class="col-md-8 col-xs-4">'+
-                       '<h3>Adult '+colCount+'</h3>'+
-                    '</div>'+
-                    '<div class="col-md-4 col-xs-8">'+
-                      '<p class="text_required">* REQUIRED FIELDS'+
-                        '<i class="fa fa-close div_remove"></i>'+
-                      '</p>'+
-                    '</div>'+
-                '</div>'+
-                '<div class="row">'+
-                  '<div class="col-md-12">'+
-                    '<div class="s_form_padding">'+
-                      '<div class="s_dashboard_form">'+
-                       '<div class="row">'+
-                        '<div class="col-md-3">'+
-                          '<div class="form-group">'+
-                            '<label class="width_50">Full Name *</label>'+
-                            '<select class="form-control s_form_field width_50" name="title[]" required>'+
-                              '<option value="Mr">Mr</option>'+
-                              '<option value="Mrs">Mr.s</option>'+
-                            '</select>'+
-                          '</div>'+
-                        '</div>'+
-                        '<div class="col-md-3">'+
-                          '<div class="form-group">'+
-                            '<input type="text" class="form-control s_form_field" placeholder="First" name="firstname[]" required>'+
-                          '</div>'+
-                        '</div>'+
-                        '<div class="col-md-3">'+
-                          '<div class="form-group">'+
-                            '<input type="text" class="form-control s_form_field" placeholder="Mid" name="middlename[]" required>'+
-                          '</div>'+
-                        '</div>'+
-                        '<div class="col-md-3">'+
-                          '<div class="form-group">'+
-                            '<input type="text" class="form-control s_form_field" placeholder="Last" name="lastname[]" required>'+
-                          '</div>'+
-                        '</div>'+
-                       '</div>'+
-                      '</div>'+
-                    '</div>'+
-                  '</div>'+
-                '</div>'+
-                '<div class="row">'+
-                  '<div class="col-md-8">'+
-                    '<div class="form-group">'+
-                      '<select class="form-control s_form_field" name="passport_option[]" required>'+
-                        '<option disable>Select</option>'+
-                        '<option value="Passport">Passport</option>'+
-                        '<option value="Saudi Muqeem ID">Saudi Muqeem ID</option>'+
-                        '<option value="Saudi Citizen ID">Saudi Citizen ID</option>'+
-                      '</select>'+
-                    '</div>'+
-                  '</div>'+
-                  '<div class="col-md-4">'+
-                    '<div class="form-group">'+
-                      '<input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="frequest_number[]" required>'+
-                    '</div>'+
-                  '</div>'+
-                '</div>'+
-                '<div class="row">'+
-                  '<div class="s_sub_end_button_bg">'+
-                    '<div class="col-md-12">'+
-                      '<p class="s_botton_subheading">We share the frequent flyer details with airline, though we cant guarantee point awards.</p>'+
-                    '</div>'+
-                  '</div>'+
-                '</div>'+
-              '</div>'+
-            '</div>');
-	});
-	
-	$('#adult_panel').on('click', '.div_remove', function() {
-		var count_row = 0;
-		$('#adult_panel>.row').each(function () {
-			count_row++;
-		});
-		if (count_row > 1) {
-			$(this).closest('.adult_div_remove').remove();
-			var colCount = 1;
-			$('#adult_panel>.row').each(function () {
-				$(this).find('h3').html('Adult '+ colCount);
-				colCount++;
-			});
-		}
-	});
-	
+    if (length >= 6) {
+    	$('#multi-city-flight').find('.flights_multi .add_flights').hide();
+    } else if (length < 6) {
+    	$('#multi-city-flight').find('.flights_multi .add_flights').show();
+    }
 });
 
 
-  $(function () {
-  $("#datepicker").datepicker({
-        autoclose: true,
-        todayHighlight: true
-  }).datepicker('update', new Date());
+$('.checkin_date').daterangepicker({
+	singleDatePicker: true,
+	showDropdowns: true,
+	defaultDate: "+1w",
+	changeMonth: true,
+	numberOfMonths: 3,
+	minDate: dateToday
+});
+
+$('.checkout_date').daterangepicker({
+	singleDatePicker: true,
+	showDropdowns: true,
+	defaultDate: "+1w",
+	changeMonth: true,
+	numberOfMonths: 3,
+	minDate: dateToday
+});
+
+$('.dropdown-toggle').on('click', function() {
+	$(this).closest('.dropdown').toggleClass('open');
+});
+
+$('.fa_angle_toggle').on('click', function() {
+	$(this).toggleClass('hidden');
+	$(this).siblings('.fa_angle_toggle').toggleClass('hidden');
+	$(this).closest('.row').find('.traveller_detail').toggleClass('hidden');
+});
+
+$('.add_adult').on('click', function() {
+
+	var colCount = 0;
+	$('#adult_panel>.adult_div_remove').each(function () {
+		colCount++;
+	});
+
+	colCount = parseInt(colCount)+1;
+
+	$('#adult_panel').append('<div class="row padd_0 adult_div_remove">'+
+		'<div class="col-md-12">'+
+		'<div class="row header_border_bottom">'+
+		'<div class="col-md-8 col-xs-4">'+
+		'<h3>Adult '+colCount+'</h3>'+
+		'</div>'+
+		'<div class="col-md-4 col-xs-8">'+
+		'<p class="text_required">* REQUIRED FIELDS'+
+		'<i class="fa fa-close div_remove"></i>'+
+		'</p>'+
+		'</div>'+
+		'</div>'+
+		'<div class="row">'+
+		'<div class="col-md-12">'+
+		'<div class="s_form_padding">'+
+		'<div class="s_dashboard_form">'+
+		'<div class="row">'+
+		'<div class="col-md-3">'+
+		'<div class="form-group">'+
+		'<label class="width_50">Full Name *</label>'+
+		'<select class="form-control s_form_field width_50" name="title[]" required>'+
+		'<option value="Mr">Mr</option>'+
+		'<option value="Mrs">Mr.s</option>'+
+		'</select>'+
+		'</div>'+
+		'</div>'+
+		'<div class="col-md-3">'+
+		'<div class="form-group">'+
+		'<input type="text" class="form-control s_form_field" placeholder="First" name="firstname[]" required>'+
+		'</div>'+
+		'</div>'+
+		'<div class="col-md-3">'+
+		'<div class="form-group">'+
+		'<input type="text" class="form-control s_form_field" placeholder="Mid" name="middlename[]" required>'+
+		'</div>'+
+		'</div>'+
+		'<div class="col-md-3">'+
+		'<div class="form-group">'+
+		'<input type="text" class="form-control s_form_field" placeholder="Last" name="lastname[]" required>'+
+		'</div>'+
+		'</div>'+
+		'</div>'+
+		'</div>'+
+		'</div>'+
+		'</div>'+
+		'</div>'+
+		'<div class="row">'+
+		'<div class="col-md-8">'+
+		'<div class="form-group">'+
+		'<select class="form-control s_form_field" name="passport_option[]" required>'+
+		'<option disable>Select</option>'+
+		'<option value="Passport">Passport</option>'+
+		'<option value="Saudi Muqeem ID">Saudi Muqeem ID</option>'+
+		'<option value="Saudi Citizen ID">Saudi Citizen ID</option>'+
+		'</select>'+
+		'</div>'+
+		'</div>'+
+		'<div class="col-md-4">'+
+		'<div class="form-group">'+
+		'<input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="frequest_number[]" required>'+
+		'</div>'+
+		'</div>'+
+		'</div>'+
+		'<div class="row">'+
+		'<div class="s_sub_end_button_bg">'+
+		'<div class="col-md-12">'+
+		'<p class="s_botton_subheading">We share the frequent flyer details with airline, though we cant guarantee point awards.</p>'+
+		'</div>'+
+		'</div>'+
+		'</div>'+
+		'</div>'+
+		'</div>');
+});
+
+$('#adult_panel').on('click', '.div_remove', function() {
+	var count_row = 0;
+	$('#adult_panel>.row').each(function () {
+		count_row++;
+	});
+	if (count_row > 1) {
+		$(this).closest('.adult_div_remove').remove();
+		var colCount = 1;
+		$('#adult_panel>.row').each(function () {
+			$(this).find('h3').html('Adult '+ colCount);
+			colCount++;
+		});
+	}
+});
+
+});
+
+
+$(function () {
+	$("#datepicker").datepicker({
+		autoclose: true,
+		todayHighlight: true
+	}).datepicker('update', new Date());
 });
 
 $(function () {
-  $("#datepicker1").datepicker({
-        autoclose: true,
-        todayHighlight: true
-  }).datepicker('update', new Date());
+	$("#datepicker1").datepicker({
+		autoclose: true,
+		todayHighlight: true
+	}).datepicker('update', new Date());
 });
 
 /*accordion*/
 function toggleIcon(e) {
-   $(e.target)
-       .prev('.panel-heading')
-       .find(".more-less")
-       .toggleClass('glyphicon-plus glyphicon-minus');
+	$(e.target)
+	.prev('.panel-heading')
+	.find(".more-less")
+	.toggleClass('glyphicon-plus glyphicon-minus');
 }
 $('.panel-group').on('hidden.bs.collapse', toggleIcon);
 $('.panel-group').on('shown.bs.collapse', toggleIcon);
