@@ -34,14 +34,16 @@
          <div class="col-md-3">
             <div class="f_main_district f_padding_bottom s_padding_15">
                <p class="f_star_rating">
-                  Departure Airport
+                  Arrival Airport
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
                </p>
                <div class="clearfix"></div>
                <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
-                        <input type="text" class="form-control" id="usr" name="origin">
+                        <select class="select-search form-control" name="origin">
+                           <option>SKJHJKS</option>
+                        </select>
                      </div>
                   </div>
                </div>
@@ -51,14 +53,16 @@
             </div>
             <div class="f_main_district f_padding_bottom s_padding_15">
                <p class="f_star_rating">
-                  Arrival Airport
+                  Departure Airport
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
                </p>
                <div class="clearfix"></div>
                <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
-                        <input type="text" class="form-control" id="usr" name="origin">
+                        <select class="select-search form-control" name="departure">
+                           <option>SKJHJKS</option>
+                        </select>
                      </div>
                   </div>
                </div>

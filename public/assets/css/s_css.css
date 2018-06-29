@@ -385,3 +385,10 @@ form label.s_label {
 .flight_search_search .custom-input-text.s_select .form-control{
   height: 38px;
 }
+.flight_search_search .select2-selection--single .select2-selection__rendered{
+     padding-left: 8px;
+     padding-top: 3px;
+}
+.flight_search_search .select2-selection--single .select2-selection__arrow:after{
+     right: 8px;
+}
