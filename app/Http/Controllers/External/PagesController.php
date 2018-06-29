@@ -13,10 +13,11 @@ use DB;
 
 class PagesController extends Controller
 {
-    public function home(){                
+    public function home(){    
         $iata = file_get_contents(storage_path().'\app\iata\iata.json');        
         
         $json = json_decode($iata, true);
+                
         // dd($json); 
         return view('index',['json' => $json]);
     } 
