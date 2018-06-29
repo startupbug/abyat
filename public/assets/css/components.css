@@ -33,8 +33,8 @@
   cursor: pointer;
   outline: 0;
   display: block;
-  height: 38px;
-  padding: 8px 0;
+  height: 32px;
+  padding: 1px 0;
   line-height: 1.5384616;
   position: relative;
   border: 1px solid transparent;
@@ -50,13 +50,13 @@
   border-right-width: 0;
 }
 .select2-selection--single:not([class*=bg-]):not([class*=border-]) {
-  border-bottom-color: #ddd;
+  border-bottom-color: #fff;
 }
 .select2-container--focus .select2-selection--single:not([class*=bg-]):not([class*=border-]),
 .select2-container--open .select2-selection--single:not([class*=bg-]):not([class*=border-]) {
-  border-bottom-color: #00c6ff;
-  -webkit-box-shadow: 0 1px 0 #00c6ff;
-  box-shadow: 0 1px 0 #00c6ff;
+  border-bottom-color: #ffffff;
+  -webkit-box-shadow: 0 1px 0 #ffffff;
+  box-shadow: 0 1px 0 #ffffff;
 }
 .select2-container--disabled .select2-selection--single:not([class*=bg-]) {
   color: #999999;

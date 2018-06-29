@@ -32,41 +32,44 @@
    <div class="container f_search_padding">
       <div class="row">
          <div class="col-md-3">
-            <div class="f_main_district f_padding_bottom">
+            <div class="f_main_district f_padding_bottom s_padding_15">
                <p class="f_star_rating">
                   Departure Airport
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
                </p>
                <div class="clearfix"></div>
-               <div class="col-md-12">
-                  <div class="custom-input-text top-right-radius s_select">
-                     <input type="text" class="form-control" id="usr" name="origin">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="custom-input-text top-right-radius s_select">
+                        <input type="text" class="form-control" id="usr" name="origin">
+                     </div>
                   </div>
                </div>
                <!--<input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
                <div class="left_rangeslider">Min</div>
                <div class="right_rangeslider">Max</div>-->
             </div>
-            <div class="f_main_district f_padding_bottom">
+            <div class="f_main_district f_padding_bottom s_padding_15">
                <p class="f_star_rating">
                   Arrival Airport
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
                </p>
                <div class="clearfix"></div>
-               <div class="col-md-12">
-                  <div class="custom-input-text top-right-radius s_select">
-                     <input type="text" class="form-control" id="usr" name="origin">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="custom-input-text top-right-radius s_select">
+                        <input type="text" class="form-control" id="usr" name="origin">
+                     </div>
                   </div>
                </div>
                <!--<div class="checkbox f_check_box">
                   <label><input type="checkbox" value="">2+ Stops</label>
                </div>-->
             </div>
-            <div class="navbar-form f_navform form_border">
-               <div class="input-group f_label_search" style="width: 100%;">
+            <div class="navbar-form f_navform form_border s_padding_15">
+               <div class="input-group f_label_search sf_label_search" style="width: 100%;">
                   <label>Departure Arrival Date</label>
                   <i class="fa fa-angle-up f_angle"></i>
-                  
                   <div class="col-md-12 f-custom-input">
                      <input type="text" class="daterange oneway_daterange " name="departure_arrival_date" format="Y-m-d"/>
                      <div class="custom-input-text s_calendar right-radius start_date">
@@ -82,48 +85,53 @@
                         <span class="day">Tuesday</span>
                      </div>
                   </div>
-
                </div>
             </div>
-            <div class="f_main_district f_padding_bottom">
+            <div class="f_main_district f_padding_bottom s_padding_15">
                <p class="f_star_rating">
                   Minimum Fare
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
                </p>
                <div class="clearfix"></div>
-               <div class="col-md-12">
-                  <div class="custom-input-text top-right-radius s_select">
-                     <input type="text" class="form-control" name="minfare" placeholder="Minimum Fare">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="custom-input-text top-right-radius s_select">
+                        <input type="text" class="form-control" name="minfare" placeholder="Minimum Fare">
+                     </div>
                   </div>
                </div>
             </div>
-            <div class="f_main_district f_padding_bottom">
+            <div class="f_main_district f_padding_bottom s_padding_15">
                <p class="f_star_rating">
                   Maximum Fare
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
                </p>
                <div class="clearfix"></div>
-               <div class="col-md-12">
-                  <div class="custom-input-text top-right-radius s_select">
-                     <input type="text" class="form-control" name="maxfare" placeholder="Maximum Fare">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="custom-input-text top-right-radius s_select">
+                        <input type="text" class="form-control" name="maxfare" placeholder="Maximum Fare">
+                     </div>
                   </div>
                </div>
             </div>
-            <div class="f_main_district f_padding_bottom">
+            <div class="f_main_district f_padding_bottom s_padding_15">
                <p class="f_star_rating">
                   Passenger Count
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
                </p>
                <div class="clearfix"></div>
-               <div class="col-md-12">
-                  <div class="custom-input-text bottom-radius s_select">
-                     <select class="form-control" name="passengercount">
-                        <option value="1">1 Passenger</option>
-                        <option value="2">2 Passengers</option>
-                        <option value="3">3 Passengers</option>
-                        <option value="4">4 Passengers</option>
-                        <option value="5">5 Passengers</option>
-                     </select>
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="custom-input-text bottom-radius s_select">
+                        <select class="form-control" name="passengercount">
+                           <option value="1">1 Passenger</option>
+                           <option value="2">2 Passengers</option>
+                           <option value="3">3 Passengers</option>
+                           <option value="4">4 Passengers</option>
+                           <option value="5">5 Passengers</option>
+                        </select>
+                     </div>
                   </div>
                </div>
                <!--<div class="checkbox f_check_box">

@@ -9,7 +9,9 @@ use GuzzleHttp\Exception\RequestException;
 class GuzzleController extends Controller
 {
 	 public function direct_flight_search(){
-        return view('direct_flight_search');
+	 	$iata = file_get_contents(storage_path().'\app\iata\iata.json');        
+        $json = json_decode($iata, true);
+        return view('direct_flight_search',['json'=>$json]);
     }
     
 	public function flight_search(LaraRequest $request){
