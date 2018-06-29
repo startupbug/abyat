@@ -1,5 +1,6 @@
 @extends('layouts/public')
 @section('content')
+@include('partials.error_section')
 <section class="triprite">
    <!-- Silder Images -->
    <div class="container-fluid f_padding">
@@ -129,7 +130,12 @@
                                        <div class="col-md-12">
                                           <div class="custom-input-text top-radius">
                                              <i class="fa fa-map-marker"></i>
-                                             <input type="text" class="flight-search-form-input" placeholder="Origin" name="origin">
+                                             <select class="flight-search-form-input" name="origin">
+                                                @foreach($json as $value)
+                                                <option value="{{$value['code']}}">{{$value['name']}}</option>
+                                                @endforeach
+                                             </select>
+                                         <!--     <input type="text" class="auto flight-search-form-input" placeholder="Origin" name="origin"> -->
                                              <label class="custom_container">ETickets
                                              <input type="checkbox" checked="checked" name="eticketsonly" value="y">
                                              <span class="custom_checkmark"></span>
@@ -139,7 +145,12 @@
                                        <div class="col-md-12">
                                           <div class="custom-input-text bottom-radius">
                                              <i class="fa fa-map-marker"></i>
-                                             <input type="text" name="destination" class="flight-search-form-input" placeholder="Origin">
+                                             <select class="flight-search-form-input" name="destination">
+                                                @foreach($json as $value)
+                                                <option value="{{$value['code']}}">{{$value['name']}}</option>
+                                                @endforeach
+                                             </select>
+                                              <!--     <input type="text" class="auto flight-search-form-input" placeholder="Origin" name="destination"> -->
                                             <!--  <label class="custom_container">Arrival&nbsp;&nbsp; Airport
                                              <input type="checkbox" checked="checked">
                                              <span class="custom_checkmark"></span>

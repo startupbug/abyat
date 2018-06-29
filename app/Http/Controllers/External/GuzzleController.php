@@ -8,19 +8,22 @@ use GuzzleHttp\Exception\RequestException;
 
 class GuzzleController extends Controller
 {
+	 public function direct_flight_search(){
+        return view('direct_flight_search');
+    }
+    
 	public function flight_search(LaraRequest $request){
-		// 	 "departure_airport" => "abc"
-	    //   "arrival_airport" => "abc"
-	    //   "departure_arrival_date" => "06/30/2018 - 07/20/2018"
-	    //   "minimum_fare" => "222"
-	    //   "maximum_fare" => "2222"
-	    //   "passenger_count" => "4"
-	    // dd($request->all());		
+		
 	    $pram = null;
 	    if($request->departure_arrival_date){
 		    $date = explode(" - ", $request->departure_arrival_date);
 		    $departure = !empty($date[0]) ? date('Y-m-d',strtotime($date[0])) : date('Y-m-d');
 		    $return = !empty($date[1]) ? date('Y-m-d', strtotime($date[1])) : date('Y-m-d', strtotime($departure . "+ 7days"));
+		    $difference = date('Y-m-d', strtotime($departure . "+ 15days"));
+		    if ($return > $difference) {
+		    $this->set_session('Please Select The Return Date Less Than Fifteen Days',False);
+	   		return redirect()->back();
+		    }
 	    	$pram .= "departuredate={$departure}&returndate={$return}";
 	    }
 	    foreach ($request->except("departure_arrival_date") as $key => $value) {

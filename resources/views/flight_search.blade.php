@@ -1,4 +1,4 @@
-@extends('layouts.public')
+   @extends('layouts.public')
 @section('content')
 @include('partials.error_section')
 <section class="flight_search flight_search_search">
