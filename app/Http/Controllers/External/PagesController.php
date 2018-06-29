@@ -13,8 +13,12 @@ use DB;
 
 class PagesController extends Controller
 {
-    public function home(){
-        return view('index');
+    public function home(){                
+        $iata = file_get_contents(storage_path().'\app\iata\iata.json');        
+        
+        $json = json_decode($iata, true);
+        // dd($json); 
+        return view('index',['json' => $json]);
     } 
     public function contact(){        
         return view('contact');
@@ -22,6 +26,7 @@ class PagesController extends Controller
     public function faq(){        
         return view('faq');
     }
+   
     public function contact_email(Request $request){
         try {
             if (Auth::check()) {

@@ -730,13 +730,13 @@ button.f_default{
 }
 .custom-input-text.top-radius{
     background:#fff;
-    padding:6px;
+    padding: 9px;
     border-radius:4px 4px 0px 0px;
     margin-bottom:1px;
 }
 .custom-input-text.bottom-radius{
     background:#fff;
-    padding:6px;
+    padding: 6px;
     border-radius:0px 0px 4px 4px;
     margin-top:1px;
 }
@@ -769,9 +769,9 @@ input.flight-search-form-input{
 }
 .custom_checkmark{
     position:absolute;
-    top:0;
+    top: -7px;
     right:0;
-    height:26px;
+    height: 26px;
     width:26px;
     background-color:#eee;
 }
