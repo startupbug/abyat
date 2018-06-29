@@ -15,7 +15,8 @@ class GuzzleController extends Controller
         return view('direct_flight_search',['json'=>$json]);
     }	
 	public function flight_search(LaraRequest $request){
-		
+		$iata = file_get_contents(storage_path().'\app\iata\iata.json');        
+        $json = json_decode($iata, true);
 	    $pram = null;
 	    if($request->departure_arrival_date){
 		    $date = explode(" - ", $request->departure_arrival_date);
@@ -55,7 +56,7 @@ class GuzzleController extends Controller
 			$args['prev'] = route('flight_search').'?'.$prev;
 			$args['data'] = $args['data']->PricedItineraries;
 			
-			return view('flight_search')->with($args);
+			return view('flight_search',['json'=>$json])->with($args);
 		} catch (RequestException $e) {
 			$this->set_session('Caught exception: Result Not found'.  "\n",false);
 	   		return redirect()->back();

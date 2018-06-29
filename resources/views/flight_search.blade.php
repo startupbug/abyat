@@ -42,14 +42,18 @@
          <div class="col-md-3">
             <div class="f_main_district f_padding_bottom s_padding_15">
                <p class="f_star_rating">
-                  Departure Airport
+                  Arrival Airport
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
                </p>
                <div class="clearfix"></div>
                <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
-                        <input type="text" class="form-control" id="usr" name="origin">
+                        <select class="select-search form-control" name="origin">
+                           @foreach($json as $value)
+                           <option value="{{$value['code']}}">{{$value['name']}}</option>
+                           @endforeach
+                        </select>
                      </div>
                   </div>
                   <!--<input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
@@ -59,14 +63,18 @@
             </div>
             <div class="f_main_district f_padding_bottom s_padding_15">
                <p class="f_star_rating">
-                  Arrival Airport
+                  Departure Airport
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
                </p>
                <div class="clearfix"></div>
                <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
-                        <input type="text" class="form-control" id="usr" name="origin">
+                        <select class="select-search form-control" name="destination">
+                            @foreach($json as $value)
+                           <option value="{{$value['code']}}">{{$value['name']}}</option>
+                           @endforeach
+                        </select>
                      </div>
                   </div>
                </div>
