@@ -258,3 +258,11 @@ form label.s_label {
 .custom-input-text.top-right-radius.s_select .form-control{
     font-size: 12px;
 }
+.f-custom-input {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.f_padding_bottom {
+    padding-bottom: 61px;
+}
