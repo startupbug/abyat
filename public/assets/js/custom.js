@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+	$('.flight_search_search').siblings('div.daterangepicker').css({"width": "264px"});
 	$('.forgot_pass_btn').on('click', function() {
 		$('.sign_up_div').addClass('hidden');
 		$('.forgot_password_div').removeClass('hidden');

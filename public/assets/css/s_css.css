@@ -258,6 +258,7 @@ form label.s_label {
 .custom-input-text.top-right-radius.s_select .form-control{
     font-size: 12px;
 }
+
 .s_silder_tab_center {
    border-top: 1px solid #acacac;
 }
@@ -353,4 +354,13 @@ form label.s_label {
    padding-top: 6px;
    padding-bottom: 20px;
  }
+
+.f-custom-input {
+    margin-top: 20px;
+    height: 100px;
+}
+
+.f_padding_bottom {
+    padding-bottom: 61px;
+
 }

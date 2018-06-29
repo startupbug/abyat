@@ -1,7 +1,7 @@
    @extends('layouts.public')
 @section('content')
 @include('partials.error_section')
-<section class="flight_search">
+<section class="flight_search flight_search_search">
    <div class="container">
       <div class="row">
          <div class="col-md-12">
@@ -32,68 +32,103 @@
    <div class="container f_search_padding">
       <div class="row">
          <div class="col-md-3">
+            <div class="f_main_district f_padding_bottom">
+               <p class="f_star_rating">
+                  Departure Airport
+                  <i class="fa fa-angle-up f_angle f_left_icon"></i>
+               </p>
+               <div class="clearfix"></div>
+               <div class="col-md-12">
+                  <div class="custom-input-text top-right-radius s_select">
+                     <input type="text" class="form-control" id="usr" name="origin">
+                  </div>
+               </div>
+               <!--<input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
+               <div class="left_rangeslider">Min</div>
+               <div class="right_rangeslider">Max</div>-->
+            </div>
+            <div class="f_main_district f_padding_bottom">
+               <p class="f_star_rating">
+                  Arrival Airport
+                  <i class="fa fa-angle-up f_angle f_left_icon"></i>
+               </p>
+               <div class="clearfix"></div>
+               <div class="col-md-12">
+                  <div class="custom-input-text top-right-radius s_select">
+                     <input type="text" class="form-control" id="usr" name="origin">
+                  </div>
+               </div>
+               <!--<div class="checkbox f_check_box">
+                  <label><input type="checkbox" value="">2+ Stops</label>
+               </div>-->
+            </div>
             <div class="navbar-form f_navform form_border">
                <div class="input-group f_label_search" style="width: 100%;">
-                  <label>Price</label>
+                  <label>Departure Arrival Date</label>
                   <i class="fa fa-angle-up f_angle"></i>
-                  <input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
-                  <div class="left_rangeslider">Min</div>
-                  <div class="right_rangeslider">Max</div>
+                  
+                  <div class="col-md-12 f-custom-input">
+                     <input type="text" class="daterange oneway_daterange " name="departure_arrival_date" format="Y-m-d"/>
+                     <div class="custom-input-text s_calendar right-radius start_date">
+                        <i class="fa fa-calendar-o"></i>
+                        <span class="month">March</span>
+                        <span class="date">12</span>
+                        <span class="day">Tuesday</span>
+                     </div>
+                     <div class="custom-input-text s_calendar left-radius end_date">
+                        <i class="fa fa-calendar-o"></i>
+                        <span class="month">March</span>
+                        <span class="date">12</span>
+                        <span class="day">Tuesday</span>
+                     </div>
+                  </div>
+
                </div>
             </div>
-            <form>
-               <div class="f_main_district">
-                  <p class="f_star_rating">Stops</p>
+            <div class="f_main_district f_padding_bottom">
+               <p class="f_star_rating">
+                  Minimum Fare
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
-                  <div class="clearfix"></div>
-                  <div class="checkbox f_check_box">
-                     <label><input type="checkbox" value="">2+ Stops</label>
+               </p>
+               <div class="clearfix"></div>
+               <div class="col-md-12">
+                  <div class="custom-input-text top-right-radius s_select">
+                     <input type="text" class="form-control" name="minfare" placeholder="Minimum Fare">
                   </div>
-            </form>
-            </div>
-            <div class="navbar-form f_navform form_border">
-               <div class="input-group f_label_search" style="width: 100%;">
-                  <label>Departure Time</label>
-                  <i class="fa fa-angle-up f_angle"></i>
-                  <p class="f_city">From City Name</p>
-                  <input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
-                  <div class="left_rangeslider">Thur 20-40</div>
-                  <div class="right_rangeslider">Sat 23-50</div>
                </div>
             </div>
-            <div class="navbar-form f_navform form_border">
-               <div class="input-group f_label_search" style="width: 100%;">
-                  <label>Arrival Time</label>
-                  <i class="fa fa-angle-up f_angle"></i>
-                  <input type="range" min="1" max="100" value="50" class="rangebar_slider" id="myRange">
-                  <div class="left_rangeslider">Thur 20-40</div>
-                  <div class="right_rangeslider">Sat 23-50</div>
+            <div class="f_main_district f_padding_bottom">
+               <p class="f_star_rating">
+                  Maximum Fare
+                  <i class="fa fa-angle-up f_angle f_left_icon"></i>
+               </p>
+               <div class="clearfix"></div>
+               <div class="col-md-12">
+                  <div class="custom-input-text top-right-radius s_select">
+                     <input type="text" class="form-control" name="maxfare" placeholder="Maximum Fare">
+                  </div>
                </div>
             </div>
-            <form>
-               <div class="f_main_district">
-                  <p class="f_star_rating">Airports</p>
+            <div class="f_main_district f_padding_bottom">
+               <p class="f_star_rating">
+                  Passenger Count
                   <i class="fa fa-angle-up f_angle f_left_icon"></i>
-                  <div class="clearfix"></div>
-                  <p class="f_city f_kinsha">Depart from kinshasa</p>
-                  <div class="checkbox f_check_box">
-                     <label><input type="checkbox" value="">FIH: N'djili Airport</label>
+               </p>
+               <div class="clearfix"></div>
+               <div class="col-md-12">
+                  <div class="custom-input-text bottom-radius s_select">
+                     <select class="form-control" name="passengercount">
+                        <option value="1">1 Passenger</option>
+                        <option value="2">2 Passengers</option>
+                        <option value="3">3 Passengers</option>
+                        <option value="4">4 Passengers</option>
+                        <option value="5">5 Passengers</option>
+                     </select>
                   </div>
-                  <p class="f_city f_kinsha">Arrive In Manila</p>
-                  <div class="checkbox f_check_box">
-                     <label><input type="checkbox" value="">MNL: Ninoy Aquino</label>
-                  </div>
-            </form>
-            </div>
-            <form>
-               <div class="f_main_district">
-                  <p class="f_star_rating">Airlines</p>
-                  <i class="fa fa-angle-up f_angle f_left_icon"></i>
-                  <div class="clearfix"></div>
-                  <div class="checkbox f_check_box">
-                     <label><input type="checkbox" value="">AF: Air France</label>
-                  </div>
-            </form>
+               </div>
+               <!--<div class="checkbox f_check_box">
+                  <label><input type="checkbox" value="">AF: Air France</label>
+               </div>-->
             </div>
          </div>
          <div class="col-md-9">
