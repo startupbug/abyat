@@ -31,19 +31,22 @@
    </div>
    <div class="container f_search_padding">
       <div class="row">
+
          <form action="{{route('flight_search')}}" method="get">
             <input type="hidden" name="limit" value="10">
             <input type="hidden" name="offset" value="1">
             <input type="hidden" name="sortby" value="totalfare">
             <input type="hidden" name="order" value="asc">
             <input type="hidden" name="enabletagging" value="true">
-            <div class="col-md-3">
-               <div class="f_main_district f_padding_bottom">
-                  <p class="f_star_rating">
-                     Departure Airport
-                     <i class="fa fa-angle-up f_angle f_left_icon"></i>
-                  </p>
-                  <div class="clearfix"></div>
+
+         <div class="col-md-3">
+            <div class="f_main_district f_padding_bottom s_padding_15">
+               <p class="f_star_rating">
+                  Departure Airport
+                  <i class="fa fa-angle-up f_angle f_left_icon"></i>
+               </p>
+               <div class="clearfix"></div>
+               <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
                         <input type="text" class="form-control" id="usr" name="origin">
@@ -53,74 +56,80 @@
                   <div class="left_rangeslider">Min</div>
                   <div class="right_rangeslider">Max</div>-->
                </div>
-               <div class="f_main_district f_padding_bottom">
-                  <p class="f_star_rating">
-                     Arrival Airport
-                     <i class="fa fa-angle-up f_angle f_left_icon"></i>
-                  </p>
-                  <div class="clearfix"></div>
+            </div>
+            <div class="f_main_district f_padding_bottom s_padding_15">
+               <p class="f_star_rating">
+                  Arrival Airport
+                  <i class="fa fa-angle-up f_angle f_left_icon"></i>
+               </p>
+               <div class="clearfix"></div>
+               <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
-                        <input type="text" class="form-control" id="usr" name="destination">
+                        <input type="text" class="form-control" id="usr" name="origin">
                      </div>
                   </div>
-                  <!--<div class="checkbox f_check_box">
-                     <label><input type="checkbox" value="">2+ Stops</label>
-                  </div>-->
                </div>
-               <div class="navbar-form f_navform form_border">
-                  <div class="input-group f_label_search" style="width: 100%;">
-                     <label>Departure Arrival Date</label>
-                     <i class="fa fa-angle-up f_angle"></i>
-                     
-                     <div class="col-md-12 f-custom-input">
-                        <input type="text" class="daterange oneway_daterange " name="departure_arrival_date" format="Y-m-d"/>
-                        <div class="custom-input-text s_calendar right-radius start_date">
-                           <i class="fa fa-calendar-o"></i>
-                           <span class="month">March</span>
-                           <span class="date">12</span>
-                           <span class="day">Tuesday</span>
-                        </div>
-                        <div class="custom-input-text s_calendar left-radius end_date">
-                           <i class="fa fa-calendar-o"></i>
-                           <span class="month">March</span>
-                           <span class="date">12</span>
-                           <span class="day">Tuesday</span>
-                        </div>
+               <!--<div class="checkbox f_check_box">
+                  <label><input type="checkbox" value="">2+ Stops</label>
+               </div>-->
+            </div>
+            <div class="navbar-form f_navform form_border s_padding_15">
+               <div class="input-group f_label_search sf_label_search" style="width: 100%;">
+                  <label>Departure Arrival Date</label>
+                  <i class="fa fa-angle-up f_angle"></i>
+                  <div class="col-md-12 f-custom-input">
+                     <input type="text" class="daterange oneway_daterange " name="departure_arrival_date" format="Y-m-d"/>
+                     <div class="custom-input-text s_calendar right-radius start_date">
+                        <i class="fa fa-calendar-o"></i>
+                        <span class="month">March</span>
+                        <span class="date">12</span>
+                        <span class="day">Tuesday</span>
                      </div>
-
+                     <div class="custom-input-text s_calendar left-radius end_date">
+                        <i class="fa fa-calendar-o"></i>
+                        <span class="month">March</span>
+                        <span class="date">12</span>
+                        <span class="day">Tuesday</span>
+                     </div>
                   </div>
                </div>
-               <div class="f_main_district f_padding_bottom">
-                  <p class="f_star_rating">
-                     Minimum Fare
-                     <i class="fa fa-angle-up f_angle f_left_icon"></i>
-                  </p>
-                  <div class="clearfix"></div>
+            </div>
+            <div class="f_main_district f_padding_bottom s_padding_15">
+               <p class="f_star_rating">
+                  Minimum Fare
+                  <i class="fa fa-angle-up f_angle f_left_icon"></i>
+               </p>
+               <div class="clearfix"></div>
+               <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
                         <input type="text" class="form-control" name="minfare" placeholder="Minimum Fare">
                      </div>
                   </div>
                </div>
-               <div class="f_main_district f_padding_bottom">
-                  <p class="f_star_rating">
-                     Maximum Fare
-                     <i class="fa fa-angle-up f_angle f_left_icon"></i>
-                  </p>
-                  <div class="clearfix"></div>
+            </div>
+            <div class="f_main_district f_padding_bottom s_padding_15">
+               <p class="f_star_rating">
+                  Maximum Fare
+                  <i class="fa fa-angle-up f_angle f_left_icon"></i>
+               </p>
+               <div class="clearfix"></div>
+               <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
                         <input type="text" class="form-control" name="maxfare" placeholder="Maximum Fare">
                      </div>
                   </div>
                </div>
-               <div class="f_main_district f_padding_bottom">
-                  <p class="f_star_rating">
-                     Passenger Count
-                     <i class="fa fa-angle-up f_angle f_left_icon"></i>
-                  </p>
-                  <div class="clearfix"></div>
+            </div>
+            <div class="f_main_district f_padding_bottom s_padding_15">
+               <p class="f_star_rating">
+                  Passenger Count
+                  <i class="fa fa-angle-up f_angle f_left_icon"></i>
+               </p>
+               <div class="clearfix"></div>
+               <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text bottom-radius s_select">
                         <select class="form-control" name="passengercount">
@@ -132,6 +141,8 @@
                         </select>
                      </div>
                   </div>
+               </div>
+               <br>
                    <button type="submit" class="button_search">
                                     <i class="fa fa-search"></i>
                                     <span>

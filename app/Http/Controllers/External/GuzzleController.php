@@ -9,26 +9,28 @@ use GuzzleHttp\Psr7;
 
 class GuzzleController extends Controller
 {
-	public function direct_flight_search(){
-		return view('direct_flight_search');
-	}
-
-	public function flight_search(LaraRequest $request){		
-		$pram = null;
-		if($request->departure_arrival_date){
-			$date = explode(" - ", $request->departure_arrival_date);
-			$departure = !empty($date[0]) ? date('Y-m-d',strtotime($date[0])) : date('Y-m-d');
-			$return = !empty($date[1]) ? date('Y-m-d', strtotime($date[1])) : date('Y-m-d', strtotime($departure . "+ 7days"));
-			$difference = date('Y-m-d', strtotime($departure . "+ 15days"));
-			if ($return > $difference) {
-				$this->set_session('Please Select The Return Date Less Than Fifteen Days',False);
-				return redirect()->back();
-			}
-			$pram .= "departuredate={$departure}&returndate={$return}";
-		}
-		foreach ($request->except("departure_arrival_date") as $key => $value) {
-			$pram .= $value ? "&".$key."=".$value : "";
-		}
+	 public function direct_flight_search(){
+	 	$iata = file_get_contents(storage_path().'\app\iata\iata.json');        
+        $json = json_decode($iata, true);
+        return view('direct_flight_search',['json'=>$json]);
+    }	
+	public function flight_search(LaraRequest $request){
+		
+	    $pram = null;
+	    if($request->departure_arrival_date){
+		    $date = explode(" - ", $request->departure_arrival_date);
+		    $departure = !empty($date[0]) ? date('Y-m-d',strtotime($date[0])) : date('Y-m-d');
+		    $return = !empty($date[1]) ? date('Y-m-d', strtotime($date[1])) : date('Y-m-d', strtotime($departure . "+ 7days"));
+		    $difference = date('Y-m-d', strtotime($departure . "+ 15days"));
+		    if ($return > $difference) {
+		    $this->set_session('Please Select The Return Date Less Than Fifteen Days',False);
+	   		return redirect()->back();
+		    }
+	    	$pram .= "departuredate={$departure}&returndate={$return}";
+	    }
+	    foreach ($request->except("departure_arrival_date") as $key => $value) {
+	    	$pram .= $value ? "&".$key."=".$value : "";
+	    }
 		try {
 			$client = new Client(
 				[ 
@@ -52,18 +54,11 @@ class GuzzleController extends Controller
 			$args['next'] = route('flight_search').'?'.$next;
 			$args['prev'] = route('flight_search').'?'.$prev;
 			$args['data'] = $args['data']->PricedItineraries;
-			// if (condition) {
-			// 	# code...
-			// }
+			
 			return view('flight_search')->with($args);
 		} catch (RequestException $e) {
 			$this->set_session('Caught exception: Result Not found'.  "\n",false);
 	   		return redirect()->back();
-			// $e = json_decode($e);
-			// $body = $e->getResponse();
-			// dd("result not found");
-			// dd($e);
-			// echo 'Caught exception: ', $e->getMessage(), "\n";
 		}
 	}
 
@@ -87,8 +82,7 @@ class GuzzleController extends Controller
 			return view('traveller_details')->with($args);
 		} catch (RequestException $e) {
 			$this->set_session('Caught exception: '. $e->getMessage() .  "\n",false);
-			return redirect()->back();
-			
+			return redirect()->back();			
 		}  
 	}
 }

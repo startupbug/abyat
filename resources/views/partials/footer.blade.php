@@ -118,6 +118,11 @@
     <script src="{{asset('public/assets/js/daterangepicker.min.js')}}"></script>
     <!-- script-js -->
     <script src="{{asset('public/assets/js/script.js')}}"></script>
+    
+    <!-- script-js -->
+    <script src="{{asset('public/assets/js/select2/select2.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/select2/form_select2.js')}}"></script>
+    
     <!-- Custom JS -->
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
     <script src="{{asset('public/assets/js/asif.js')}}"></script>

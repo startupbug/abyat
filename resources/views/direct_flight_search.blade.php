@@ -1,8 +1,9 @@
 @extends('layouts.public')
 @section('content')
-@include('partials.error_section')
+
 <section class="triprite">
    <div class="container-fluid s_silder_tab_center">
+      @include('partials.error_section')
      <section class="search-box-wrapper">
                   <div class="container">
                      <div class="flights-search-box">
@@ -41,18 +42,40 @@
                                     <div class="row">
                                        <div class="col-md-12">
                                           <div class="custom-input-text top-radius">
-                                             <i class="fa fa-map-marker"></i>
-                                             <input type="text" class="flight-search-form-input" placeholder="Origin" name="origin">
-                                             <label class="custom_container">ETickets
-                                             <input type="checkbox" checked="checked" name="eticketsonly" value="y">
-                                             <span class="custom_checkmark"></span>
-                                             </label>
+                                              <div class="row">
+                                                <div class="col-md-1">
+                                                   <i class="fa fa-map-marker"></i> 
+                                                </div>
+                                                <div class="col-md-8">
+                                                   <select class="select-search form-control" name="origin">
+                                                      @foreach($json as $value)
+                                                      <option value="{{$value['code']}}">{{$value['name']}}</option>
+                                                      @endforeach
+                                                   </select>
+                                                </div>
+                                                <div class="col-md-2" style="padding-left: 0px;">
+                                                   <label class="custom_container etickets">ETickets
+                                                   <input type="checkbox" checked="checked" name="eticketsonly" value="y">
+                                                   <span class="custom_checkmark"></span>
+                                                   </label>
+                                                </div>
+                                             </div>
                                           </div>
                                        </div>
                                        <div class="col-md-12">
                                           <div class="custom-input-text bottom-radius">
-                                             <i class="fa fa-map-marker"></i>
-                                             <input type="text" name="destination" class="flight-search-form-input" placeholder="Origin">
+                                              <div class="row">
+                                                <div class="col-md-1">
+                                                   <i class="fa fa-map-marker"></i> 
+                                                </div>
+                                                <div class="col-md-8">
+                                                   <select class="select-search form-control" name="destination">
+                                                      @foreach($json as $value)
+                                                      <option value="{{$value['code']}}">{{$value['name']}}</option>
+                                                      @endforeach
+                                                   </select>
+                                                </div>
+                                             </div>
                                             <!--  <label class="custom_container">Arrival&nbsp;&nbsp; Airport
                                              <input type="checkbox" checked="checked">
                                              <span class="custom_checkmark"></span>

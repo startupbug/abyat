@@ -22,6 +22,9 @@
   <link rel="stylesheet" type="text/css" href="{{asset('public/assets/css/component.css')}}" />
   <!-- Date Picker -->
   <link rel="stylesheet" type="text/css" href="{{asset('public/assets/css/daterangepicker.css')}}" />
+
+  <link href="{{asset('public/assets/css/components.css')}}" rel="stylesheet">
+  
   <!-- style.css -->
   <link href="{{asset('public/assets/css/style.css')}}" rel="stylesheet">
   <link href="{{asset('public/assets/css/s_css.css')}}" rel="stylesheet">
