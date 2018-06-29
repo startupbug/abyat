@@ -108,12 +108,12 @@
                               </span>
                               </label>
                            </div>
-                           <div class="col-md-4">
+                          <!--  <div class="col-md-4">
                               <label class="checkbox-white">
                               <input id="flights-search-direct" type="checkbox" class="js-input">
                               <span class="f_direct">Direct flights only</span>
                               </label>
-                           </div>
+                           </div> -->
                         </div>
                         <div id="one-way" class="search_flight">
                            <form action="{{route('flight_search')}}" method="get">
@@ -130,8 +130,8 @@
                                           <div class="custom-input-text top-radius">
                                              <i class="fa fa-map-marker"></i>
                                              <input type="text" class="flight-search-form-input" placeholder="Origin" name="origin">
-                                             <label class="custom_container">Departure Airport
-                                             <input type="checkbox" checked="checked">
+                                             <label class="custom_container">ETickets
+                                             <input type="checkbox" checked="checked" name="eticketsonly" value="y">
                                              <span class="custom_checkmark"></span>
                                              </label>
                                           </div>
@@ -140,10 +140,10 @@
                                           <div class="custom-input-text bottom-radius">
                                              <i class="fa fa-map-marker"></i>
                                              <input type="text" name="destination" class="flight-search-form-input" placeholder="Origin">
-                                             <label class="custom_container">Arrival&nbsp;&nbsp; Airport
+                                            <!--  <label class="custom_container">Arrival&nbsp;&nbsp; Airport
                                              <input type="checkbox" checked="checked">
                                              <span class="custom_checkmark"></span>
-                                             </label>
+                                             </label> -->
                                           </div>
                                        </div>
                                     </div>
@@ -194,12 +194,12 @@
                                              </select>
                                           </div>
                                        </div>
-                                       <div class="col-md-12">
+                                     <!--   <div class="col-md-12">
                                           <select class="form-control" name="eticketsonly">
                                              <option value="y">Yes</option>
                                              <option value="n">No</option>
                                           </select>
-                                       </div>
+                                       </div> -->
                                     </div>
                                  </div>
                                 
