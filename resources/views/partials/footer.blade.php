@@ -111,9 +111,18 @@
     <script src="{{asset('public/assets/js/alertify.min.js')}}"></script>
     <!-- daterangepicker js -->
     <script src="{{asset('public/assets/js/moment.min.js')}}"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="{{asset('public/assets/js/auto_search.js')}}"></script>
+  
     <script src="{{asset('public/assets/js/daterangepicker.min.js')}}"></script>
     <!-- script-js -->
     <script src="{{asset('public/assets/js/script.js')}}"></script>
+    
+    <!-- script-js -->
+    <script src="{{asset('public/assets/js/select2/select2.min.js')}}"></script>
+    <script src="{{asset('public/assets/js/select2/form_select2.js')}}"></script>
+    
     <!-- Custom JS -->
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
     <script src="{{asset('public/assets/js/asif.js')}}"></script>

@@ -15,6 +15,7 @@ use GuzzleHttp\Exception\RequestException;
 
 class PagesController extends Controller
 {
+<<<<<<< HEAD
     public function home(){
         // $base_uri = 'lists/top/destinations?origincountry=us&topdestinations=8&lookbackweeks=2';
         
@@ -29,37 +30,48 @@ class PagesController extends Controller
     }
 
 
+=======
+    public function home(){    
+        $iata = file_get_contents(storage_path().'\app\iata\iata.json');        
+        
+        $json = json_decode($iata, true);
+                
+        // dd($json); 
+        return view('index',['json' => $json]);
+    } 
+>>>>>>> 139dc99c5ba4e34f7b06a78fe6211378dbb71bf2
     public function contact(){        
         return view('contact');
     }
     public function faq(){        
         return view('faq');
     }
+   
     public function contact_email(Request $request){
         try {
-        if (Auth::check()) {
+            if (Auth::check()) {
                 if (isset($request->email)) {
-                $store = new Contact_email;
-                $store->full_name =$request->full_name;
-                $store->email =$request->email;
-                $store->phone =$request->phone;
-                $store->message_description =$request->message_description;
-                $store->subject_description =$request->subject_description;
-                if ($store->save()){
-                    if (isset($store)) {            
-                        Mail::send('emails.contact_email',['email_data'=>$store] , function ($message) use($store){
-                          $message->from($store['email'], 'Contact Email - Abyaat');
-                          $message->to(env('MAIL_USERNAME'))->subject('Abyaat - Contact Email');
-                        });
-                    }       
-                    return \Response()->Json([ 'status' => 200,'msg'=>'You Have Successfully Send The Email']);
+                    $store = new Contact_email;
+                    $store->full_name =$request->full_name;
+                    $store->email =$request->email;
+                    $store->phone =$request->phone;
+                    $store->message_description =$request->message_description;
+                    $store->subject_description =$request->subject_description;
+                    if ($store->save()){
+                        if (isset($store)) {            
+                            Mail::send('emails.contact_email',['email_data'=>$store] , function ($message) use($store){
+                              $message->from($store['email'], 'Contact Email - Abyaat');
+                              $message->to(env('MAIL_USERNAME'))->subject('Abyaat - Contact Email');
+                          });
+                        }       
+                        return \Response()->Json([ 'status' => 200,'msg'=>'You Have Successfully Send The Email']);
+                    }else{
+                        return \Response()->Json([ 'status' => 202, 'msg'=>'Something Went Wrong, Please Try Again!']);
+                    }
                 }else{
-                    return \Response()->Json([ 'status' => 202, 'msg'=>'Something Went Wrong, Please Try Again!']);
-                }
-            }else{
                     return \Response()->Json([ 'status' => 203, 'msg'=>'Please Provide The Email Address!']);
+                }
             }
-        }
         } catch (QueryException $e) {
             return \Response()->Json([ 'array' => $e]);
         }

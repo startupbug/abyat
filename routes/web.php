@@ -25,6 +25,7 @@ Route::get('/confirmation','External\PagesController@confirmation')->name('confi
 
 Route::get('/privacy','External\PagesController@privacy')->name('privacy');
 Route::get('/flight_search','External\GuzzleController@flight_search')->name('flight_search');
+Route::get('/direct_flight_search','External\GuzzleController@direct_flight_search')->name('direct_flight_search');
 Route::get('/flight_detail/{tagID}','External\GuzzleController@flight_detail')->name('flight_detail');
 Route::post('submit_passenger_info/{id}', 'External\PassengerController@submit_passenger_info')->name('submit_passenger_info');
 
@@ -43,4 +44,4 @@ Route::group(['middleware' => 'guest'], function () {
 	//Login Post
 	Route::post('/login', 'AuthenticationController@login_post')->name('login_post');
 });
-	Route::get('/logout_user', 'AuthenticationController@logout_user')->name('logout_user');
+Route::get('/logout_user', 'AuthenticationController@logout_user')->name('logout_user');
