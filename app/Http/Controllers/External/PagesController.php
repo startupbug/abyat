@@ -15,22 +15,7 @@ use GuzzleHttp\Exception\RequestException;
 
 class PagesController extends Controller
 {
-<<<<<<< HEAD
-    public function home(){
-        // $base_uri = 'lists/top/destinations?origincountry=us&topdestinations=8&lookbackweeks=2';
-        
-        // $args['data'] = $this->call_api_post($base_uri);
-        // $args['destinations'] = $args['data']->Destinations; 
-        //dd($args['destinations']);
-        //Popular Destinations
-        //return view('flight_search')->with($args);
-        
-      
-        return view('index');//->with($args);
-    }
 
-
-=======
     public function home(){    
         $iata = file_get_contents(storage_path().'\app\iata\iata.json');        
         
@@ -39,7 +24,7 @@ class PagesController extends Controller
         // dd($json); 
         return view('index',['json' => $json]);
     } 
->>>>>>> 139dc99c5ba4e34f7b06a78fe6211378dbb71bf2
+    
     public function contact(){        
         return view('contact');
     }

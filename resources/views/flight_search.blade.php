@@ -5,14 +5,14 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h3 class="about_text f_confrm_content">Select flight</h3>
+            <h3 class="about_text f_confrm_content">Select flight</h3>             
             <ul class="list_right">
                <li>
                   <a href="flight_search.php">Search</a>
                   <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li>
-                  <a href="#">Select flight</a>
+                  <a href="#">Select flightz</a>
                   <i class="fa fa-angle-right f_iconright"></i>
                </li>
                <li class="li_active">
@@ -29,7 +29,8 @@
          </div>
       </div>
    </div>
-   <div class="container f_search_padding">
+
+   <div class="container f_search_padding" >
       <div class="row">
 
          <form action="{{route('flight_search')}}" method="get">
@@ -49,9 +50,14 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
-                        <select class="select-search form-control" name="origin">
+                        <select class="select-search form-control" name="origin" id="origin">
+   
+
                            @foreach($json as $value)
-                           <option value="{{$value['code']}}">{{$value['name']}}</option>
+                               @if($value['code'] == $request_params['origin']) 
+                                 <option value="{{$value['code']}}" selected>{{$value['name']}}</option>
+                               @endif                         
+                           <option value="{{$value['code']}}" >{{$value['name']}}</option>
                            @endforeach
                         </select>
                      </div>
@@ -72,7 +78,10 @@
                      <div class="custom-input-text top-right-radius s_select">
                         <select class="select-search form-control" name="destination">
                             @foreach($json as $value)
-                           <option value="{{$value['code']}}">{{$value['name']}}</option>
+                               @if($value['code'] == $request_params['destination'] ) 
+                                    <option value="{{$value['code']}}" selected>{{$value['name']}}</option>
+                               @endif
+                                 <option value="{{$value['code']}}">{{$value['name']}}</option>
                            @endforeach
                         </select>
                      </div>
@@ -112,7 +121,9 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
-                        <input type="text" class="form-control" name="minfare" placeholder="Minimum Fare">
+                        <input type="text" class="form-control" name="minfare"
+                           value=" @if(isset($request_params['minfare'])) request_params['minfare']@endif"
+                         placeholder="Minimum Fare">
                      </div>
                   </div>
                </div>
@@ -126,7 +137,9 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text top-right-radius s_select">
-                        <input type="text" class="form-control" name="maxfare" placeholder="Maximum Fare">
+                        <input type="text" class="form-control" name="maxfare"
+                         value=" @if(isset($request_params['maxfare'])) request_params['maxfare']@endif"
+                         placeholder="Maximum Fare">
                      </div>
                   </div>
                </div>
@@ -140,12 +153,11 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="custom-input-text bottom-radius s_select">
-                        <select class="form-control" name="passengercount">
-                           <option value="1">1 Passenger</option>
-                           <option value="2">2 Passengers</option>
-                           <option value="3">3 Passengers</option>
-                           <option value="4">4 Passengers</option>
-                           <option value="5">5 Passengers</option>
+                        <select class="form-control" name="passengercount"> 
+                         @for($i=1; $i<=5; $i++)
+                           <option value="{{$i}}" 
+                           @if(isset($request_params['passengercount']) && $i==$request_params['passengercount']) selected @endif>{{$i}} Passenger</option>
+                         @endfor
                         </select>
                      </div>
                   </div>
@@ -218,4 +230,6 @@
       </div>
    </div>
 </section>
+
 @endsection
+
