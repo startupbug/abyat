@@ -122,6 +122,12 @@
             <li><a href="{{route('pages.index')}}"><i class="fa fa-circle-o"></i> Calendar </a></li>
           </ul>
         </li> 
+        <!-- Contact Emails -->
+        <li class="treeview">
+          <a href="{{route('contact_email')}}">
+            <i class="fa fa-share"></i> <span>Contact Emails</span>
+          </a>
+        </li> 
 
     @endif
 

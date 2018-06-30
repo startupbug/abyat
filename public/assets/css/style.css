@@ -2659,3 +2659,22 @@ section.flight_search {
         width: 11%;
     }
 }
+
+
+/*CSS OF FAQ*/
+h4.f_panel_abyat {
+   color: #26245c;
+   font-size: 18px;
+   font-family: 'Montserrat-Medium';
+   font-weight: 600;
+}
+
+.f_iconplus {
+   font-size: 20px;
+   font-weight: 600;
+}
+.f_paneldefault {
+   margin-bottom: 15px !important;
+}
+
+/*CSS OF FAQ_end*/

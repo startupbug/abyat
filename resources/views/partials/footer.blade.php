@@ -116,6 +116,7 @@
     <script src="{{asset('public/assets/js/script.js')}}"></script>
     <!-- Custom JS -->
     <script src="{{asset('public/assets/js/custom.js')}}"></script>
+    <script src="{{asset('public/assets/js/asif.js')}}"></script>
 
 
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

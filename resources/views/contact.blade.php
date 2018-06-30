@@ -6,36 +6,37 @@
          <div class="col-md-8">
             <h3 class="about_text">Contact Us</h3>
             <p class="f_contact">Please fill in the information below and we'll get back as soon as possible.</p>
-            <form class="main_form">
+            <form class="main_form" id="send_contact_email" action="{{route('contact_email')}}" method="POST">
+               {{csrf_field()}}
                <div class="row">
                   <div class="col-xs-6">
                      <div class="form-group f_contact_group">
                         <label>Full Name</label>
-                        <input type="type" class="form-control f_control_contact" placeholder="(required)">
+                        <input type="type" name="full_name" class="form-control f_control_contact" placeholder="(required)">
                      </div>
                   </div>
                   <div class="col-xs-6">
                      <div class="form-group f_contact_group">
                         <label>Email</label>
-                        <input type="email" class="form-control f_control_contact" placeholder="(required)">
+                        <input type="email" name="email" class="form-control f_control_contact" placeholder="(required)">
                      </div>
                   </div>
                   <div class="col-xs-6">
                      <div class="form-group f_contact_group">
                         <label>Phone</label>
-                        <input type="text" class="form-control f_control_contact" placeholder="(required)">
+                        <input type="text" name="phone" class="form-control f_control_contact" placeholder="(required)">
                      </div>
                   </div>
                   <div class="col-xs-6">
                      <div class="form-group f_contact_group">
                         <label>Subject</label>
-                        <input type="type" class="form-control f_control_contact" placeholder="(required)">
+                        <input type="type" name="subject_description" class="form-control f_control_contact" placeholder="(required)">
                      </div>
                   </div>
                   <div class="col-xs-12">
                      <div class="form-group f_contact_group">
                         <label>Your Message</label>
-                        <textarea class="form-control f_control_contact" rows="6"></textarea>
+                        <textarea name="message_description" class="form-control f_control_contact" rows="6"></textarea>
                      </div>
                   </div>
                   <div class="col-xs-12">

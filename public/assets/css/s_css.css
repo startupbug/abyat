@@ -187,3 +187,49 @@ form label.s_label {
     font-size: 14px;
     color: #26245c;
 }
+
+.padding_right_0{
+  padding-right: 0px;
+}
+.padding_left_0{
+  padding-left: 0px;
+}
+.padding_right_0 .custom-input-text{
+  border-radius: 0px 0px 0px 4px !important;
+}
+.padding_left_0 .custom-input-text{
+  border-radius: 0px 0px 4px 0px !important;
+}
+.s_row_mainborder>#adult_panel>.row {
+    border: 1px solid #e0e0e0;
+    padding-top: 15px;
+    margin-bottom: 12px;
+    background-color: #f3f3f3;
+}
+.fa_angle_toggle{
+    cursor: pointer;
+}
+.add_adult {
+    cursor: pointer;
+    font-weight: 600;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.text_required{
+ padding-top: 12px;
+ text-align: right;
+}
+.text_required .fa{
+ position: absolute;
+ padding-left: 10px;
+ color: red;
+ font-size: 20px;
+ top: -18px;
+ right: 10px;
+ display: none;
+ cursor: pointer;
+}
+#adult_panel .row:hover .div_remove{
+ display: block;
+}

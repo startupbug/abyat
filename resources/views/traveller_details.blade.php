@@ -1,4 +1,6 @@
-<?php include('header.php'); ?>
+@extends('layouts.public')
+@section('content')
+@include('partials.error_section')
 <section class="hotel">
    <div class="container">
       <div class="row">
@@ -27,7 +29,6 @@
          </div>
       </div>
    </div>
-
    <div class="container f_hotel_main">
       <div class="row">
         <div class="col-md-8 s_row_mainborder">
@@ -55,7 +56,7 @@
                  <div class="col-md-12">
                    <p class="s_label_tag">
                      <i class="fa fa-arrow-circle-right"></i>
-                     Flight on Thursday 07 June 2018 from Manila to Kinshasa
+                     Flight on {!! date('D d-M-Y', strtotime( $data->AirItinerary->OriginDestinationOptions->OriginDestinationOption[0]->FlightSegment[0]->DepartureDateTime)) !!} from  {!! $data->AirItinerary->OriginDestinationOptions->OriginDestinationOption[0]->FlightSegment[0]->DepartureAirport->LocationCode!!} to {!! $data->AirItinerary->OriginDestinationOptions->OriginDestinationOption[0]->FlightSegment[0]->ArrivalAirport->LocationCode!!}
                    </p>
                  </div>
                </div>
@@ -89,25 +90,27 @@
                      <i class="fa fa-angle-right f_iconright"></i> Manage your bookings
                    </p>
                    <div class="s_form_padding">
-                     <form class="s_dashboard_form" action="#">
-                    <div class="row">
-                     <div class="col-md-5">
-                       <div class="form-group">
-                         <label for="email">Please enter your email <span>*</span> </label>
-                         <input type="text" class="form-control s_form_field" id="email" placeholder="(required)" name="email">
+                      <form method="post" class="s_dashboard_form" action="{{route('login_post')}}">
+                              {{csrf_field()}}
+                      <div class="row">
+                       <div class="col-md-5">
+                         <div class="form-group">
+                           <label for="email">Please enter your email <span>*</span> </label>
+                           <input type="text" class="form-control s_form_field" id="email" placeholder="(required)" name="email">
+                         </div>
                        </div>
-                     </div>
-                     <div class="col-md-5">
-                       <div class="form-group">
-                         <label for="password">Please enter your password <span>*</span> </label>
-                         <input type="password" class="form-control s_form_field" id="password" placeholder="(required)" name="password">
+                       <div class="col-md-5">
+                         <div class="form-group">
+                           <label for="password">Please enter your password <span>*</span> </label>
+                           <input type="password" class="form-control s_form_field" id="password" placeholder="(required)" name="password">
+                         </div>
                        </div>
-                     </div>
-                     <div class="col-md-2">
-                       <button type="submit" class="btn s_sub_button active s_form_margin_top">SIGN IN</button>
-                     </div>
-                    </div>
-                   </form>
+                       <input type="hidden" name="flight_details" value="1">
+                       <div class="col-md-2">
+                         <button type="submit" class="btn s_sub_button active s_form_margin_top">SIGN IN</button>
+                       </div>
+                      </div>
+                    </form>
                    </div>
                  </div>
                </div>
@@ -126,231 +129,165 @@
               <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="row header_border_bottom">
-                <div class="col-md-9">
-                  <h3>Adult 1</h3>
-                </div>
-                <div class="col-md-3">
-                  <p>* REQUIRED FIELDS</p>
-                </div>
-              </div>
-              <div class="row">
+         <form action="{{route('submit_passenger_info',['id' => Auth::user()->id])}}" class="s_row_mainborder" method="post"> {{csrf_field()}}
+          <input type="hidden" name="tag_id" value="{{$data->TPA_Extensions->TagID}}">
+            <p class="add_adult">+ Add Adult</p>
+            <div id="adult_panel">  
+
+              <div class="row adult_div_remove">
                 <div class="col-md-12">
-                  <div class="s_form_padding">
-                    <form class="s_dashboard_form" action="#">
-                     <div class="row">
-                      <div class="col-md-3">
-                        <div class="form-group">
-                          <label class="width_50">Full Name *</label>
-                          <select class="form-control s_form_field width_50" name="" required>
-                            <option value="title">Title</option>
-                            <option value="title">Title</option>
-                            <option value="title">Title</option>
-                            <option value="title">Title</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="First" name="first">
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="Mid" name="middle">
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="Last" name="last">
-                        </div>
-                      </div>
-                     </div>
-                    </form>
+                  <div class="row header_border_bottom">
+                    <div class="col-md-8 col-xs-4">
+                       <h3>Adult 1</h3>
+                    </div>
+                    <div class="col-md-4 col-xs-8">
+                      <p class="text_required">* REQUIRED FIELDS
+                        <i class="fa fa-close div_remove"></i>
+                      </p>
+                    </div>
                   </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="s_form_padding">
+                        <div class="s_dashboard_form">
+                         <div class="row">
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <label class="width_50">Full Name *</label>
+                              <select class="form-control s_form_field width_50" name="title[]" required>
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mr.s</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control s_form_field" placeholder="First" name="firstname[]" required>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control s_form_field" placeholder="Mid" name="middlename[]" required>
+                            </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control s_form_field" placeholder="Last" name="lastname[]" required>
+                            </div>
+                          </div>
+                         </div>
+                        <div class="row">               
+                          <div class="col-md-8">
+                            <div class="form-group">
+                              <select class="form-control s_form_field" name="passport_option[]" required>
+                                <option disabled="">Select</option>
+                                <option value="Passport">Passport</option>
+                                <option value="Saudi Muqeem ID">Saudi Muqeem ID</option>
+                                <option value="Saudi Citizen ID">Saudi Citizen ID</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                              <input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="frequest_number[]" required>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="s_sub_end_button_bg">
+                      <div class="col-md-12">
+                        <p class="s_botton_subheading">We share the frequent flyer details with airline, though we can't guarantee point awards.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="row s_sub_end_button">
+                    <div class="col-md-12">
+                      <p>Frequent flyer, meal, seats and special assistance (optional)
+                        <i class="fa fa-angle-down"></i>
+                      </p>
+                    </div>
+                  </div> -->
                 </div>
               </div>
-              <div class="row s_sub_end_button">
-                <div class="col-md-12">
-                  <p>Frequent flyer, meal, seats and special assistance (optional)
-                    <i class="fa fa-angle-down"></i>
-                  </p>
-                </div>
-              </div>
+              
             </div>
-          </div>
-          <div class="row padd_0">
-            <div class="col-md-12">
-              <div class="row header_border_bottom">
-                <div class="col-md-9">
-                  <h3>Adult 2</h3>
-                </div>
-                <div class="col-md-3">
-                  <p>* REQUIRED FIELDS</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="s_form_padding">
-                    <form class="s_dashboard_form" action="#">
-                     <div class="row">
-                      <div class="col-md-3">
-                        <div class="form-group">
-                          <label class="width_50">Full Name *</label>
-                          <select class="form-control s_form_field width_50" name="" required>
-                            <option value="title">Title</option>
-                            <option value="title">Title</option>
-                            <option value="title">Title</option>
-                            <option value="title">Title</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="First" name="first">
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="Mid" name="middle">
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="Last" name="last">
-                        </div>
-                      </div>
-                     </div>
-                    </form>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row header_border_bottom">
+                  <div class="col-md-9">
+                    <h3>Contact Details</h3>
+                  </div>
+                  <div class="col-md-3">
+                    <p>* REQUIRED FIELDS</p>
                   </div>
                 </div>
-              </div>
-              <div class="row">
-                <!-- <div class="col-md-12">
-                 <p>Frequent flyer, meal, seats and special assistance (optional)
-                    <i class="fa fa-angle-up"></i>
-                  </p>
-                </div> -->
-                <!-- <div class="col-md-12">
-                  <label class="s_container">Frequent flyer
-                    <input type="radio" name="frequent" checked="checked">
-                    <span class="s_checkmark"></span>
-                  </label>
-                  <label class="s_container">Meal
-                    <input type="radio" name="meal">
-                    <span class="s_checkmark"></span>
-                  </label>
-                  <label class="s_container">Seats
-                    <input type="radio" name="seats">
-                    <span class="s_checkmark"></span>
-                  </label>
-                  <label class="s_container">Special Assitance
-                    <input type="radio" name="special_assitance">
-                    <span class="s_checkmark"></span>
-                  </label>
-                </div> -->
-                <div class="col-md-8">
-                  <div class="form-group">
-                    <select class="form-control s_form_field" name="" required>
-                      <option value="Select">Select</option>
-                      <option value="Select">Passport</option>
-                      <option value="Select">Saudi Muqeem ID</option>
-                      <option value="Select">Saudi Citizen ID</option>
-                     
-                    </select>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="form-group">
-                    <input type="text" class="form-control s_form_field" placeholder="Frequest flyer number" name="">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="s_sub_end_button_bg">
+                <div class="row">
                   <div class="col-md-12">
-                    <p class="s_botton_subheading">We share the frequent flyer details with airline, though we can't guarantee point awards.</p>
+                    <div class="s_form_padding">
+                      <div class="s_dashboard_form without_padding">
+                       <div class="row">
+                        <div class="col-md-2 detail">
+                          <div class="form-group">
+                            <label>Full Name *</label>
+                          </div>
+                        </div>
+                        <div class="col-md-2 detail">
+                          <div class="form-group">
+                            <select class="form-control s_form_field" name="contact_person_title" required>
+                              <option value="Mr">Mr.</option>
+                              <option value="Mrs">Mrs.</option>
+                         
+                            </select>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <input type="text" class="form-control s_form_field" placeholder="First" name="first">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <input type="text" class="form-control s_form_field" placeholder="Last" name="middle">
+                          </div>
+                        </div>
+                       </div>
+                       <div class="row">
+                        <div class="col-md-2 pt15">
+                          <label class="width_50">Email *</label>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" class="form-control s_form_field" placeholder="Email" name="email">
+                          </div>
+                        </div>
+                       </div>
+                       <div class="row">
+                        <div class="col-md-2 pt15">
+                          <label class="width_50">Mobile no *</label>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                            <input type="text" name="mobile">
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="form-group">
+                            <input type="text" class="form-control s_form_field" placeholder="Frequent flyer number" name="contact_person_flyer_number" value="">
+                          </div>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="row header_border_bottom">
-                <div class="col-md-9">
-                  <h3>Contact Details</h3>
-                </div>
-                <div class="col-md-3">
-                  <p>* REQUIRED FIELDS</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="s_form_padding">
-                    <form class="s_dashboard_form without_padding" action="#">
-                     <div class="row">
-                      <div class="col-md-2 detail">
-                        <div class="form-group">
-                          <label>Full Name *</label>
-                        </div>
-                      </div>
-                      <div class="col-md-2 detail">
-                        <div class="form-group">
-                          <select class="form-control s_form_field" name="" required>
-                            <option value="title">Title</option>
-                            <option value="title">Title</option>
-                            <option value="title">Title</option>
-                            <option value="title">Title</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="First" name="first">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="Last" name="middle">
-                        </div>
-                      </div>
-                     </div>
-                     <div class="row">
-                      <div class="col-md-2 pt15">
-                        <label class="width_50">Email *</label>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="Email" name="first">
-                        </div>
-                      </div>
-                     </div>
-                     <div class="row">
-                      <div class="col-md-2 pt15">
-                        <label class="width_50">Mobile no *</label>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <select class="form-control s_form_field" name="" required>
-                            <option value="title">Select</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group">
-                          <input type="text" class="form-control s_form_field" placeholder="Frequent flyer number" name="" value="">
-                        </div>
-                      </div>
-                     </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            <button class="btn s_sub_button active s_form_margin_top " type="submit"> Submit </button>
+          </form>  
         </div>
         <div class="col-md-4">
           <div class="row">
@@ -365,34 +302,50 @@
                   <h3 class="s_heading_h3">
                     Traveller 1 (Adult)
                     <span class="pull-right">
-                      <i class="fa fa-angle-up s_heading_h3"></i>
+                      <i class="fa fa-angle-down s_heading_h3 fa_angle_toggle hidden"></i>
+                      <i class="fa fa-angle-up s_heading_h3 fa_angle_toggle"></i>
                     </span>
                   </h3>
                 </div>
+
                 <div class="traveller_detail">
                   <div class="col-md-6 padding_top_bottom_5">
-                    <p>Fare SAR 2.979.00</p>
+                    <p>Fare {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->CurrencyCode!!} {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->Amount!!}</p>
                   </div>
                   <div class="col-md-6 padding_top_bottom_5">
-                    <p class="text-right">SAR 2,979.00</p>
+                    <p class="text-right">{!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->CurrencyCode!!} {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->Amount!!}</p>
                   </div>
                   <div class="col-md-6 padding_top_bottom_5">
                     <p>Taxes and Fee</p>
                   </div>
                   <div class="col-md-6 padding_top_bottom_5">
-                    <p class="text-right">Taxes and Fees SAR 58.00</p>
+                    <p class="text-right">Taxes and Fees {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->CurrencyCode!!} {!! $data->AirItineraryPricingInfo->ItinTotalFare->Taxes->Tax[0]->Amount!!}</p>
                   </div>
                 </div>
               </div><hr>
-
               <div class="row">
                 <div class="col-md-12">
                   <h3 class="s_heading_h3">
                     Traveller 2 (Adult)
                     <span class="pull-right">
-                      <i class="fa fa-angle-down s_heading_h3"></i>
+                      <i class="fa fa-angle-down s_heading_h3 fa_angle_toggle "></i>
+                      <i class="fa fa-angle-up s_heading_h3 fa_angle_toggle hidden"></i>
                     </span>
                   </h3>
+                </div>
+                <div class="traveller_detail hidden">
+                  <div class="col-md-6 padding_top_bottom_5">
+                    <p>Fare {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->CurrencyCode!!} {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->Amount!!}</p>
+                  </div>
+                  <div class="col-md-6 padding_top_bottom_5">
+                    <p class="text-right">{!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->CurrencyCode!!} {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->Amount!!}</p>
+                  </div>
+                  <div class="col-md-6 padding_top_bottom_5">
+                    <p>Taxes and Fee</p>
+                  </div>
+                  <div class="col-md-6 padding_top_bottom_5">
+                    <p class="text-right">Taxes and Fees {!! $data->AirItineraryPricingInfo->ItinTotalFare->TotalFare->CurrencyCode!!} {!! $data->AirItineraryPricingInfo->ItinTotalFare->Taxes->Tax[0]->Amount!!}</p>
+                  </div>
                 </div>
               </div><hr>
 
@@ -561,5 +514,4 @@
               </div>
            </div>
          </div>-->
-
-<?php include('footer.php'); ?>
+@endsection

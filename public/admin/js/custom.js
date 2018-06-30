@@ -1,10 +1,24 @@
 
 
-    $('#userTable').DataTable();
-     $('#activityTable').DataTable({
-        "order": [[ 3, "desc" ]]
-});
+	$( document ).ready(function() {
+		CKEDITOR.replace( 'editor1' );
+		CKEDITOR.replace( 'editor2' );	
+	});
+	
+	$('#userTable').on('click','.email_model', function() {
+		var fullname_get = $(this).closest('tr').find('.fullname_get').text();
+		var email_get = $(this).closest('tr').find('.email_get').text();
+		var subject_get = $(this).closest('tr').find('.subject_get').text();
+		
+		$('.fullname_set').val(fullname_get);
+		$('.email_set').val(email_get);
+		$('.subject_set').val(subject_get);
+	});
 
+    $('#userTable').DataTable();
+    $('#activityTable').DataTable({
+        "order": [[ 3, "desc" ]]
+	});
 
 	//Permission Addition to Role Ajax request
 	$(".permission").on("change", function(e){
@@ -160,7 +174,6 @@
 		  	toastr.error("Something went wrong, Please Try again.");
 		  }
 		});
-
 	});
 
 	/* Delete Todo */
@@ -196,7 +209,6 @@
 		  	toastr.error("Something went wrong, Please Try again.");
 		  }
 		});
-
 	});
 
 
@@ -240,11 +252,4 @@
 		  	toastr.error("Something went wrong, Please Try again.");
 		  }
 		});
-
-
 	});
-
-$( document ).ready(function() {
-	CKEDITOR.replace( 'editor1' );
-	CKEDITOR.replace( 'editor2' );	
-});

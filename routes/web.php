@@ -15,6 +15,8 @@
 /* Public Routes */
 Route::get('/','External\PagesController@home')->name('public_index');
 Route::get('/contact','External\PagesController@contact')->name('contact');
+Route::Post('/contact_email','External\PagesController@contact_email')->name('contact_email');
+Route::get('/faq','External\PagesController@faq')->name('faq');
 Route::get('/about','External\PagesController@about')->name('about');
 Route::get('/select_room','External\PagesController@select_room')->name('select_room');
 Route::get('/hotels','External\PagesController@hotels')->name('hotels');
@@ -23,6 +25,8 @@ Route::get('/confirmation','External\PagesController@confirmation')->name('confi
 
 Route::get('/privacy','External\PagesController@privacy')->name('privacy');
 Route::get('/flight_search','External\GuzzleController@flight_search')->name('flight_search');
+Route::get('/flight_detail/{tagID}','External\GuzzleController@flight_detail')->name('flight_detail');
+Route::post('submit_passenger_info/{id}', 'External\PassengerController@submit_passenger_info')->name('submit_passenger_info');
 
 
 Route::get('/dashboard','Dashboard\DashboardController@dashboard')->name('dashboard');
