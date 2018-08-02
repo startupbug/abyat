@@ -180,7 +180,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
+        Laravel\Socialite\SocialiteServiceProvider::class,        
     ],
 
     /*
@@ -235,7 +235,7 @@ return [
         'Analytics' => Spatie\Analytics\AnalyticsFacade::class,
 
         'GoogleCalendar' => Spatie\GoogleCalendar\GoogleCalendarFacade::class,
-
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
     ],
 
 ];

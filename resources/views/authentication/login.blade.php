@@ -18,7 +18,7 @@
                         <div class="tab-pane fade in active" id="tab1primary">
                            <form role="form" method="post" action="{{route('login_post')}}">
                               {{csrf_field()}}
-                              <a class="btn btn-block btn-social btn-facebook email_forgot">
+                              <a class="btn btn-block btn-social btn-facebook email_forgot" href="{{route('login_facebook')}}">
                               <i class="fa fa-facebook"></i> Sign In with facebook
                               </a>
                               <a class="btn btn-block btn-social btn-twitter email_forgot">
@@ -48,11 +48,11 @@
                         <div class="tab-pane fade" id="tab2primary">
                            <form role="form" method="post" action="{{route('register_post')}}">
                               {{csrf_field()}}
-                              <a class="btn btn-block btn-social btn-facebook email_forgot">
-                              <i class="fa fa-facebook"></i> Sign In with facebook
+                              <a class="btn btn-block btn-social btn-facebook email_forgot" href="{{route('login_facebook')}}">
+                              <i class="fa fa-facebook"></i> Sign up with facebook
                               </a>
                               <a class="btn btn-block btn-social btn-twitter email_forgot">
-                              <i class="fa fa-twitter f_twitter"></i> Sign in with Twitter
+                              <i class="fa fa-twitter f_twitter"></i> Sign up with Twitter
                               </a>
                               <h1 class="line-title">or</h1>
                               <div class="form-group email_forgot">

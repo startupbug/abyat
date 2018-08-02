@@ -45,3 +45,12 @@ Route::group(['middleware' => 'guest'], function () {
 	Route::post('/login', 'AuthenticationController@login_post')->name('login_post');
 });
 Route::get('/logout_user', 'AuthenticationController@logout_user')->name('logout_user');
+
+/* Facebook Socialite Routes */
+
+Route::get('login/facebook', 'AuthenticationController@redirectToProvider')->name('login_facebook');
+Route::get('login/facebook/callback', 'AuthenticationController@handleProviderCallback')->name('facebook_callback');
+
+/* Twitter Socialite Routes */
+// Route::get('login/twitter', 'AuthenticationController@redirectToProvider')->name('twitter_facebook');
+// Route::get('login/twitter/callback', 'AuthenticationController@handleProviderCallback')->name('twitter_callback');
